@@ -11,7 +11,9 @@ Alla sua morte, nel 1998, Zeri donò all’Accademia Carrara la sua collezione d
 
 <div class="memooria">
 
-Prova Classe aggiuntiva
+<script type='javascript'>
+alert('ciao')
+</script>
 
 </div>
 
