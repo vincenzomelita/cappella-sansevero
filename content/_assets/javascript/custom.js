@@ -10,7 +10,7 @@ export class CustomBox {
   }
 
   init() {
-    console.log('Start Custom js');
+    // console.log('Start Custom js');
     this.addLogoToNavigation();
   }
 
