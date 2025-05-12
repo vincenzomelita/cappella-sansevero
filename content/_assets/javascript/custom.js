@@ -32,8 +32,8 @@ export class CustomBox {
 
 
     const img = document.createElement('img');
-    img.src = '/_assets/images/logo-accademia-carrara.png';
-    img.alt = 'logo Accademia Carrara';
+    img.src = '/_assets/images/logo-cappella-san-severo.png';
+    img.alt = 'logo Cappella San Severo';
     logoContainer.appendChild(img);
 
   }
