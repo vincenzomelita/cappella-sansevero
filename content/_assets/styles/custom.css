@@ -45,7 +45,8 @@ h4 {
     background: #FFFFFF!important;
 }
 
-.quire main {
+.quire main,
+.quire-cover .quire-page__content .container.is-fluid .content {
     background-color: #F4F1EA!important;
 }
 
