@@ -1,5 +1,5 @@
 ---
-title: Cover
+title: Index
 layout: cover
 order: 1
 menu: false
