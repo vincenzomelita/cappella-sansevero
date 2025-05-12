@@ -190,3 +190,9 @@ $assets-dir: "/_assets/" !default;
   font-weight: 400;
   font-style: normal;
 }
+@font-face {
+  font-family: "Almarai";
+  src: font("Almarai/Almarai-Bold.ttf");
+  font-weight: 700;
+  font-style: normal;
+}
