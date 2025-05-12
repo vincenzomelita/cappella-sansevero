@@ -187,7 +187,11 @@
     "file": "_assets/35.jpg",
     "src": "_assets/images/figures/35.jpg"
   },
-  "_index-849a910f.js": {
+  "_assets/images/logo-cappella-san-severo.png": {
+    "file": "_assets/logo-cappella-san-severo.png",
+    "src": "_assets/images/logo-cappella-san-severo.png"
+  },
+  "_index-e89f4f5a.js": {
     "assets": [
       "_assets/ibmplexsanscondensed-regular.eot",
       "_assets/ibmplexsanscondensed-regular.woff2",
@@ -235,7 +239,7 @@
     "css": [
       "_assets/index.css"
     ],
-    "file": "_assets/index-849a910f.js"
+    "file": "_assets/index-e89f4f5a.js"
   },
   "index.css": {
     "file": "_assets/index.css",
