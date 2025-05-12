@@ -9091,7 +9091,7 @@ html {
 .accordion-section__copy-link-button {
   cursor: pointer;
   color: #000000;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   display: flex;
   align-items: center;
   justify-content: right;
@@ -9179,7 +9179,7 @@ html {
 .accordion-tooltip {
   position: absolute;
   z-index: 1;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 1em;
   display: none;
   background: black;
@@ -9278,7 +9278,7 @@ html {
   outline: inherit;
   color: #8c741d;
   text-decoration: underline;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 0.875em;
   margin-top: 20px;
 }
@@ -9295,7 +9295,7 @@ html {
 }
 
 .quire-navbar {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-size: 0.875em;
   position: sticky;
@@ -9345,7 +9345,7 @@ html {
   height: 2px;
   -webkit-transition: all 0.25s ease;
   transition: all 0.25s ease;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 0.75rem;
   background-color: #e2dbc9;
   border-bottom: none;
@@ -9603,7 +9603,7 @@ html {
 }
 
 .quire-menu {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   line-height: 1.25;
   /* "Cite this Page" Section */
 }
@@ -9624,7 +9624,7 @@ html {
   font-weight: 700;
   line-height: 1.2em;
   color: #ffffff;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 .quire-menu__header__contributors {
   margin: 0.25em 0 1.5em;
@@ -9632,10 +9632,10 @@ html {
 }
 .quire-menu__header h1, .quire-menu__header h2, .quire-menu__header h3, .quire-menu__header h4, .quire-menu__header h5, .quire-menu__header h6 {
   color: #ffffff;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 .quire-menu h6 {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   letter-spacing: 0.25px;
   color: #333333;
   font-size: 0.875rem;
@@ -9688,7 +9688,7 @@ html {
   background-color: inherit;
 }
 .quire-menu .page-item a, .quire-menu .section-item a {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 .quire-menu .page-item a.active, .quire-menu .section-item a.active {
   margin-left: -1.25em;
@@ -9805,7 +9805,7 @@ html {
   border-radius: 0;
 }
 .quire-search__inner__list-item {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   margin: 1.5rem 0;
 }
 .quire-search__inner__list-item a {
@@ -9826,7 +9826,7 @@ html {
 }
 .quire-search__inner__list-item .title {
   font-size: 1.25rem;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   text-transform: none;
   margin-bottom: 0.1em;
 }
@@ -9909,7 +9909,7 @@ html div {
 .quire-page h6 {
   margin-bottom: 1rem;
   color: #333333;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 @media print {
   .quire-page h1,
@@ -9956,7 +9956,7 @@ html div {
   line-height: 1.25;
 }
 .quire-page__header__contributor {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-weight: 400;
   font-style: italic;
   margin-top: 3rem;
@@ -9986,7 +9986,7 @@ html div {
   line-height: 1.4;
 }
 .quire-page__content {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 1em;
   line-height: 1.78;
   font-weight: 400;
@@ -10167,7 +10167,7 @@ html div {
   left: -0.75em;
 }
 .quire-page__content .container .content .backmatter {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 0.875rem;
   line-height: 1.6;
   padding-top: 0;
@@ -10175,7 +10175,7 @@ html div {
 .quire-page__content .container .content .backmatter h2,
 .quire-page__content .container .content .backmatter h3,
 .quire-page__content .container .content .backmatter h4 {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   letter-spacing: 0.25px;
   color: #333333;
   font-size: 1em;
@@ -10230,7 +10230,7 @@ html div {
 }
 .quire-page__content .container .content .footnotes {
   font-size: 0.875em;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 .quire-page__content .container .content .footnotes hr {
   display: none;
@@ -10266,7 +10266,7 @@ html div {
 .quire-page__abstract h2 {
   font-weight: 400;
   font-size: 1.625em;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 .quire-page__abstract .container {
   background-color: #ffffff;
@@ -10699,7 +10699,7 @@ html div {
   }
 }
 .quire-cover__hero .title {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-size: calc(2rem * 1);
   font-weight: 700;
   line-height: 1.07;
@@ -10731,7 +10731,7 @@ html div {
   }
 }
 .quire-cover__hero .reading-line {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-style: italic;
   font-size: calc(1.25rem * 1);
   line-height: 1.2;
@@ -10744,7 +10744,7 @@ html div {
   }
 }
 .quire-cover__hero .contributor {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-size: calc(1em * 1);
   margin-top: calc(0.5rem * 1);
   color: #ffffff;
@@ -10796,7 +10796,7 @@ html div {
   color: #fff;
   border-width: 0px;
   border-radius: 2px;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 1rem !important;
   padding: 0 !important;
   width: 140px;
@@ -10823,7 +10823,7 @@ html div {
 }
 .quire-cover .quire-page__content .container.is-fluid .content p {
   line-height: 2em;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 @media screen and (min-width: 1028px) {
   .quire-cover .quire-page__content .container.is-fluid {
@@ -10992,7 +10992,7 @@ html div {
 .quire-contents-list .menu-list .page-item.no-landing,
 .quire-contents-list .menu-list .section-item.no-landing {
   font-size: 1.375em;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   color: #333333;
 }
 @media print {
@@ -11060,11 +11060,11 @@ html div {
   }
 }
 .quire-contents-list.list, .quire-contents-list.brief {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 @media print {
   .quire-contents-list.list, .quire-contents-list.brief {
-    font-family: "Cormorant", sans-serif;
+    font-family: "Almarai", sans-serif;
   }
 }
 .quire-contents-list.list li > ol, .quire-contents-list.brief li > ol {
@@ -11089,7 +11089,7 @@ html div {
   font-weight: 400;
   line-height: 1.35;
   margin-bottom: 0;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 .quire-contents-list.abstract .abstract-text {
   font-size: 0.875em;
@@ -11129,7 +11129,7 @@ html div {
   padding-right: 2.25em;
   padding-left: 2.25em;
   font-size: 0.75em;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
 }
 @media screen and (min-width: 500px) {
   .quire-contents-list.grid {
@@ -11161,7 +11161,7 @@ html div {
   font-size: inherit;
   font-weight: inherit;
   line-height: inherit;
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   color: #8c741d;
 }
 @media print {
@@ -11690,7 +11690,7 @@ html div {
   position: relative;
 }
 .q-figure__media-fallback h5.header {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 0.85em;
   color: #000000;
   font-weight: 400;
@@ -12479,7 +12479,7 @@ q-modal[data-modal-active=true] {
   display: block;
   padding: 6px 10px;
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-size: 0.875rem;
   font-weight: bold;
 }
@@ -12625,7 +12625,7 @@ q-modal[data-modal-active=true] {
   }
 }
 .quire-entry__tombstone {
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 .quire-entry__tombstone a {
   color: #8c741d;
@@ -13222,7 +13222,7 @@ q-modal[data-modal-active=true] {
   overflow: auto;
   background: #ffffff;
   color: #333333;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
 }
 .quire-deepzoom .leaflet-table table {
   table-layout: auto;
@@ -13367,7 +13367,7 @@ div.quire-counter-container {
   z-index: 1046;
 }
 div.quire-counter-container > span {
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-size: 1rem;
   font-weight: bold;
 }
@@ -13385,7 +13385,7 @@ div.quire-caption-container > .caption {
   display: block;
   padding: 6px 10px;
   background: rgba(0, 0, 0, 0.5);
-  font-family: "Almarai", sans-serif;
+  font-family: "Cormorant", sans-serif;
   font-size: 0.875rem;
 }
 div.quire-caption-container > .caption a {
@@ -13563,7 +13563,7 @@ body > div.mfp-bg.mfp-ready {
   height: 3.25em;
   margin-top: 0;
   padding-top: 0.6em;
-  font-family: "Cormorant", sans-serif;
+  font-family: "Almarai", sans-serif;
   font-size: 1rem;
 }
 .quire-contents-buttons li.quire-nav-button.prev {
@@ -13619,7 +13619,7 @@ body > div.mfp-bg.mfp-ready {
     marks: crop;
     margin-top: 0.75in;
     margin-bottom: 0.875in;
-    font-family: "Almarai", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-size: 8pt;
     color: #000000;
   }
@@ -13902,7 +13902,7 @@ body > div.mfp-bg.mfp-ready {
   .quire-contents-list.grid .menu-list ol .page-item .card.image .card-content {
     padding: 0.1875in 0;
     font-size: 1.25rem;
-    font-family: "Cormorant", sans-serif;
+    font-family: "Almarai", sans-serif;
   }
   .quire-contents-list.grid .menu-list ol .page-item .card.image img {
     max-height: 1.25in;
@@ -14000,7 +14000,7 @@ body > div.mfp-bg.mfp-ready {
     justify-content: space-around;
     align-items: flex-end;
     text-align: right;
-    font-family: "Almarai", sans-serif;
+    font-family: "Cormorant", sans-serif;
   }
   .title-page * {
     max-width: 5.5in;
@@ -14026,7 +14026,7 @@ body > div.mfp-bg.mfp-ready {
     flex-direction: column;
     justify-content: center;
     align-items: flex-end;
-    font-family: "Almarai", sans-serif;
+    font-family: "Cormorant", sans-serif;
     font-size: 1.5em;
     color: #8c741d;
     text-align: right;
@@ -14102,6 +14102,10 @@ h4 {
 .quire-navbar button,
 .quire-navbar .button {
   background: #FFFFFF !important;
+}
+
+.quire-navbar-controls__left a:hover, .quire-navbar-controls__left button:hover, .quire-navbar-controls__left .button:hover, .quire-navbar-controls__right a:hover, .quire-navbar-controls__right button:hover, .quire-navbar-controls__right .button:hover, .quire-navbar-controls .quire-navbar-page-controls__item a:hover, .quire-navbar-controls .quire-navbar-page-controls__item button:hover, .quire-navbar-controls .quire-navbar-page-controls__item .button:hover {
+  color: #5f4e13 !important;
 }
 
 /*******************************/
