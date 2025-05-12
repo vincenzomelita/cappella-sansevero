@@ -183,11 +183,7 @@
     "file": "_assets/35.jpg",
     "src": "_assets/images/figures/35.jpg"
   },
-  "_assets/images/logo-accademia-carrara.png": {
-    "file": "_assets/logo-accademia-carrara.png",
-    "src": "_assets/images/logo-accademia-carrara.png"
-  },
-  "_index-849a910f.js": {
+  "_index-14213fb1.js": {
     "assets": [
       "_assets/ibmplexsanscondensed-regular.eot",
       "_assets/ibmplexsanscondensed-regular.woff2",
@@ -234,7 +230,7 @@
     "css": [
       "_assets/index.css"
     ],
-    "file": "_assets/index-849a910f.js"
+    "file": "_assets/index-14213fb1.js"
   },
   "index.css": {
     "file": "_assets/index.css",
