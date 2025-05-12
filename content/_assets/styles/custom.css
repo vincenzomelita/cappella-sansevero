@@ -38,9 +38,13 @@ h4 {
     display: none;
 }
 
-.quire-navbar {
+.quire-navbar,
+.quire-navbar a,
+.quire-navbar button,
+.quire-navbar .button {
     background: #FFFFFF!important;
 }
+
 .quire main {
     background-color: #F4F1EA!important;
 }

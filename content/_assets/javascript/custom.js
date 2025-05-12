@@ -10,12 +10,12 @@ export class CustomBox {
   }
 
   init() {
-    console.log('Start Custom js')
+    console.log('Start Custom js');
     this.addLogoToNavigation();
   }
 
   addLogoToNavigation() {
-    const quireNavbarControlsLeft = document.querySelector('nav .quire-navbar-controls__left');
+    const quireNavbarControlsLeft = document.querySelector('nav z.quire-navbar-controls__left');
     quireNavbarControlsLeft?.classList.add('cb-d-flex');
     const buttonSearch = quireNavbarControlsLeft?.querySelector('.quire-navbar-button.search-button');
     //language=html
