@@ -38,6 +38,11 @@ h4 {
 .quire-cover__hero-body .quire-contributor {
     display: none;
 }
+
+.quire-navbar {
+    background: #FFFFFF;
+}
+
 /*******************************/
 /* ACCORDION                   */
 /*******************************/
