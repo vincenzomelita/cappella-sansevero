@@ -14067,7 +14067,8 @@ h4 {
 }
 
 #logo-container {
-  width: 11rem;
+  width: 13rem;
+  padding-left: 0.5rem;
 }
 
 .cb-d-flex {
@@ -14106,6 +14107,10 @@ h4 {
 
 .quire-navbar-controls__left a:hover, .quire-navbar-controls__left button:hover, .quire-navbar-controls__left .button:hover, .quire-navbar-controls__right a:hover, .quire-navbar-controls__right button:hover, .quire-navbar-controls__right .button:hover, .quire-navbar-controls .quire-navbar-page-controls__item a:hover, .quire-navbar-controls .quire-navbar-page-controls__item button:hover, .quire-navbar-controls .quire-navbar-page-controls__item .button:hover {
   color: #5f4e13 !important;
+}
+
+.quire-navbar-controls__left a:hover svg, .quire-navbar-controls__left button:hover svg, .quire-navbar-controls__left .button:hover svg, .quire-navbar-controls__right a:hover svg, .quire-navbar-controls__right button:hover svg, .quire-navbar-controls__right .button:hover svg, .quire-navbar-controls .quire-navbar-page-controls__item a:hover svg, .quire-navbar-controls .quire-navbar-page-controls__item button:hover svg, .quire-navbar-controls .quire-navbar-page-controls__item .button:hover svg {
+  fill: #5f4e13 !important;
 }
 
 /*******************************/
