@@ -156,41 +156,43 @@ $assets-dir: "/_assets/" !default;
 
 
 
-// Fira_Sans Regular
 @font-face {
-  font-family: "Fira Sans";
-  src: font("Fira_Sans/FiraSans-Regular.ttf");
+  font-family: "Cormorant";
+  src: font("Cormorant/static/Cormorant-Regular.ttf");
   font-weight: 400;
   font-style: normal;
 }
-// Fira_Sans Regular Italic
 @font-face {
-  font-family: "Fira Sans";
-  src: font("Fira_Sans/FiraSans-Italic.ttf");
+  font-family: "Cormorant";
+  src: font("Cormorant/static/Cormorant-Italic.ttf");
   font-weight: 400;
   font-style: italic;
 }
 
-// Fira_Sans Bold
 @font-face {
-  font-family: "Fira Sans";
-  src: font("Fira_Sans/FiraSans-SemiBold.ttf");
+  font-family: "Cormorant";
+  src: font("Cormorant/static/Cormorant-SemiBold.ttf");
   font-weight: 700;
   font-style: normal;
 }
-// Fira_Sans Bold Italic
 @font-face {
-  font-family: "Fira Sans";
-  src: font("Fira_Sans/FiraSans-SemiBoldItalic.ttf");
+  font-family: "Cormorant";
+  src: font("Cormorant/static/Cormorant-BoldItalic.ttf");
   font-weight: 700;
   font-style: italic;
 }
 
 
-// Bebas_Neue Regular
+
 @font-face {
-  font-family: "Bebas Neue";
-  src: font("Bebas_Neue/BebasNeue-Regular.ttf");
+  font-family: "Almarai";
+  src: font("Almarai/Almarai-Regular.ttf");
   font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Almarai";
+  src: font("Almarai/Almarai-Bold.ttf");
+  font-weight: 700;
   font-style: normal;
 }
