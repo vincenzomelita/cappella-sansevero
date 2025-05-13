@@ -10,7 +10,7 @@ export class CustomBox {
   }
 
   init() {
-    console.log('Start Custom js')
+    // console.log('Start Custom js');
     this.addLogoToNavigation();
   }
 
@@ -21,7 +21,7 @@ export class CustomBox {
     //language=html
     const html = `
         <div id="logo-container" class="cb-d-flex ">
-            <img src="/_assets/images/logo-accademia-carrara.png" alt="logo Accademia Carrara">
+            <img src="/_assets/images/logo-cappella-san-severo.png" alt="logo Cappella San Severo">
         </div>
     `;
 
@@ -32,8 +32,8 @@ export class CustomBox {
 
 
     const img = document.createElement('img');
-    img.src = '/_assets/images/logo-accademia-carrara.png';
-    img.alt = 'logo Accademia Carrara';
+    img.src = '/_assets/images/logo-cappella-san-severo.png';
+    img.alt = 'logo Cappella San Severo';
     logoContainer.appendChild(img);
 
   }

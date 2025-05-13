@@ -1,23 +1,27 @@
 {
-  "_assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf": {
-    "file": "_assets/BebasNeue-Regular.ttf",
-    "src": "_assets/fonts/Bebas_Neue/BebasNeue-Regular.ttf"
+  "_assets/fonts/Almarai/Almarai-Bold.ttf": {
+    "file": "_assets/Almarai-Bold.ttf",
+    "src": "_assets/fonts/Almarai/Almarai-Bold.ttf"
   },
-  "_assets/fonts/Fira_Sans/FiraSans-Italic.ttf": {
-    "file": "_assets/FiraSans-Italic.ttf",
-    "src": "_assets/fonts/Fira_Sans/FiraSans-Italic.ttf"
+  "_assets/fonts/Almarai/Almarai-Regular.ttf": {
+    "file": "_assets/Almarai-Regular.ttf",
+    "src": "_assets/fonts/Almarai/Almarai-Regular.ttf"
   },
-  "_assets/fonts/Fira_Sans/FiraSans-Regular.ttf": {
-    "file": "_assets/FiraSans-Regular.ttf",
-    "src": "_assets/fonts/Fira_Sans/FiraSans-Regular.ttf"
+  "_assets/fonts/Cormorant/static/Cormorant-BoldItalic.ttf": {
+    "file": "_assets/Cormorant-BoldItalic.ttf",
+    "src": "_assets/fonts/Cormorant/static/Cormorant-BoldItalic.ttf"
   },
-  "_assets/fonts/Fira_Sans/FiraSans-SemiBold.ttf": {
-    "file": "_assets/FiraSans-SemiBold.ttf",
-    "src": "_assets/fonts/Fira_Sans/FiraSans-SemiBold.ttf"
+  "_assets/fonts/Cormorant/static/Cormorant-Italic.ttf": {
+    "file": "_assets/Cormorant-Italic.ttf",
+    "src": "_assets/fonts/Cormorant/static/Cormorant-Italic.ttf"
   },
-  "_assets/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf": {
-    "file": "_assets/FiraSans-SemiBoldItalic.ttf",
-    "src": "_assets/fonts/Fira_Sans/FiraSans-SemiBoldItalic.ttf"
+  "_assets/fonts/Cormorant/static/Cormorant-Regular.ttf": {
+    "file": "_assets/Cormorant-Regular.ttf",
+    "src": "_assets/fonts/Cormorant/static/Cormorant-Regular.ttf"
+  },
+  "_assets/fonts/Cormorant/static/Cormorant-SemiBold.ttf": {
+    "file": "_assets/Cormorant-SemiBold.ttf",
+    "src": "_assets/fonts/Cormorant/static/Cormorant-SemiBold.ttf"
   },
   "_assets/fonts/ibm-plex-sans-condensed/ibmplexsanscondensed-bold.eot": {
     "file": "_assets/ibmplexsanscondensed-bold.eot",
@@ -163,9 +167,11 @@
     "file": "_assets/notoserif-regular.woff2",
     "src": "_assets/fonts/noto-serif/notoserif-regular.woff2"
   },
+
   "_assets/images/Cover_Accademia_Carrara.jpg": {
     "file": "_assets/Cover_Accademia_Carrara.jpg",
     "src": "_assets/images/Cover_Accademia_Carrara.jpg"
+
   },
   "_assets/images/contributors/martinabagnoli.jpg": {
     "file": "_assets/martinabagnoli.jpg",
@@ -179,11 +185,11 @@
     "file": "_assets/35.jpg",
     "src": "_assets/images/figures/35.jpg"
   },
-  "_assets/images/logo-accademia-carrara.png": {
-    "file": "_assets/logo-accademia-carrara.png",
-    "src": "_assets/images/logo-accademia-carrara.png"
+  "_assets/images/logo-cappella-san-severo.png": {
+    "file": "_assets/logo-cappella-san-severo.png",
+    "src": "_assets/images/logo-cappella-san-severo.png"
   },
-  "_index-849a910f.js": {
+  "_index-e89f4f5a.js": {
     "assets": [
       "_assets/ibmplexsanscondensed-regular.eot",
       "_assets/ibmplexsanscondensed-regular.woff2",
@@ -221,16 +227,17 @@
       "_assets/notosans-bolditalic.eot",
       "_assets/notosans-bolditalic.woff2",
       "_assets/notosans-bolditalic.woff",
-      "_assets/FiraSans-Regular.ttf",
-      "_assets/FiraSans-Italic.ttf",
-      "_assets/FiraSans-SemiBold.ttf",
-      "_assets/FiraSans-SemiBoldItalic.ttf",
-      "_assets/BebasNeue-Regular.ttf"
+      "_assets/Cormorant-Regular.ttf",
+      "_assets/Cormorant-Italic.ttf",
+      "_assets/Cormorant-SemiBold.ttf",
+      "_assets/Cormorant-BoldItalic.ttf",
+      "_assets/Almarai-Regular.ttf",
+      "_assets/Almarai-Bold.ttf"
     ],
     "css": [
       "_assets/index.css"
     ],
-    "file": "_assets/index-849a910f.js"
+    "file": "_assets/index-e89f4f5a.js"
   },
   "index.css": {
     "file": "_assets/index.css",
