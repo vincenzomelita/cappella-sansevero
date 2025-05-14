@@ -196,7 +196,9 @@
               <li class="page-item">
                 <a href="/introduzione/" class="">Introduzione</a>
               </li>
-              <li class="page-item"><a href="/indice/" class="">Indice</a></li>
+              <li class="page-item">
+                <a href="/indice/" class="">Indice del contenuti</a>
+              </li>
               <li class="page-item">
                 <a href="/mappa/" class="active">Mappa del complesso</a>
               </li>
@@ -341,7 +343,7 @@
                         <use xlink:href="#left-arrow-icon"></use>
                       </switch>
                     </svg>
-                    Indice
+                    Indice del contenuti
                   </a>
                 </li>
 
@@ -390,12 +392,7 @@
         </div>
 
         <main class="quire-page quire-splash" data-output-path="_site/mappa/index.html" data-page-id="page-mappa">
-          <section class="quire-page__header hero hero-image" style="
-              background-image: url(&quot;/_assets/Mappa-mcss-quire.png&quot;);
-            ">
-            <!-- This ensures background image asset gets copied into epub package -->
-            <img class="visually-hidden" src="/_assets/Mappa-mcss-quire.png">
-
+          <section class="quire-page__header hero">
             <div class="hero-body">
               <h1 class="quire-page__header__title" id="page-header-mappa">
                 Mappa del complesso
@@ -405,7 +402,10 @@
 
           <section class="section quire-page__content">
             <div class="container">
-              <div class="content">
+              <div class="content no-image-above">
+                <p>
+                  <img src="/assets/images/Mappa-mcss-quire.png" alt="Mappa del complesso" class="full">
+                </p>
                 <h1 id="navata" tabindex="-1">Navata</h1>
                 <ol>
                   <li>
@@ -443,6 +443,15 @@
                   <li>Volta - Paradiso dei di Sangro</li>
                   <li>Pavimento labirintico</li>
                   <li>Monumento di Raimondo di Sangro</li>
+                </ol>
+                <h2>Cavea</h2>
+                <ol start="29">
+                  <li>Macchine anatomiche</li>
+                </ol>
+                <h2>Sagrestia</h2>
+                <ol start="30">
+                  <li>Ritratto di Raimondo di Sangro</li>
+                  <li>Madonna col Bambino</li>
                 </ol>
               </div>
               <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
