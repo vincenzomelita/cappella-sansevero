@@ -2,6 +2,7 @@
 title: Indice
 layout: splash
 order: 7
+image: Mappa-mcss-quire.png
 search: false
 ---
 
