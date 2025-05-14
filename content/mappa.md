@@ -5,6 +5,7 @@ order: 7
 search: true
 hide-hero: true
 ---
+
 ![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
 
 # Navata
@@ -31,11 +32,11 @@ hide-hero: true
 21. Pavimento labirintico
 22. Monumento di Raimondo di Sangro
 
-## Cavea
+# Cavea
 
 29. Macchine anatomiche
 
-## Sagrestia
+# Sagrestia
 
 30. Ritratto di Raimondo di Sangro  
 31. Madonna col Bambino
