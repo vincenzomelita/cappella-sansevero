@@ -328,10 +328,35 @@
             </div>
             <div class="quire-navbar-controls__center">
               <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
+                <li class="quire-navbar-page-controls__item quire-previous-page">
+                  <a href="/introduzione/" rel="previous">
+                    <span class="visually-hidden">Previous Page: </span>
+                    <svg class="left-icon" data-outputs-exclude="epub,pdf">
+                      <switch>
+                        <use xlink:href="#left-arrow-icon"></use>
+                      </switch>
+                    </svg>
+                    Introduzione
+                  </a>
+                </li>
+
+                <li class="quire-navbar-page-controls__item quire-home-page">
+                  <a href="/" rel="home">
+                    <span class="visually-hidden">Home Page: </span>
+                    <span class="quire-navbar-button home-button">
+                      <svg data-outputs-exclude="epub,pdf">
+                        <switch>
+                          <use xlink:href="#home-icon"></use>
+                        </switch>
+                      </svg>
+                    </span>
+                  </a>
+                </li>
+
                 <li class="quire-navbar-page-controls__item quire-next-page">
-                  <a href="/_hidden/test/" rel="next">
+                  <a href="/mappa/" rel="next">
                     <span class="visually-hidden">Next Page: </span>
-                    test.
+                    Mappa del complesso
                     <svg data-outputs-exclude="epub,pdf">
                       <switch>
                         <use xlink:href="#right-arrow-icon"></use>
@@ -353,8 +378,8 @@
             </div>
           </nav>
           <div class="quire-progress-bar">
-            <div style="width: 9.090909090909092%">
-              <span>1/11</span>
+            <div style="width: 30%">
+              <span>3/10</span>
             </div>
           </div>
         </div>
@@ -402,8 +427,19 @@
               </div>
               <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
                 <ul>
+                  <li class="quire-nav-button prev">
+                    <a href="/introduzione/"><svg data-outputs-exclude="epub,pdf">
+                        <switch>
+                          <use xlink:href="#left-arrow-icon"></use>
+                        </switch>
+                      </svg>
+                      <span class="visually-hidden" data-outputs-exclude="epub,pdf">Go back a page</span>
+                      <span class="nav-title">Indietro</span></a>
+                    <span class="visually-hidden">Previous Page (left keyboard arrow or swipe)</span>
+                  </li>
+
                   <li class="quire-nav-button next">
-                    <a href="/_hidden/test/"><span class="nav-title">Avanti</span>
+                    <a href="/mappa/"><span class="nav-title">Avanti</span>
                       <svg data-outputs-exclude="epub,pdf">
                         <switch>
                           <use xlink:href="#right-arrow-icon"></use>
