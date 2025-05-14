@@ -2,7 +2,7 @@
 title: Introduzione
 subtitle: Museo Cappella San Severo 
 layout: page
-order: 10
+order: 2
 image: 
 ---
 
