@@ -1,44 +1,32 @@
 object_display_order:
-  - autore
-  - dati anagrafici autore
-  - titolo
-  - datazione
-  - materia e tecnica
-  - misure
-  - iscrizioni, etichette, cartellini, timbri
-  - acquisizione
-  - numero di inventario
-  - numeri di inventario precedenti
-  - collocazione
+  - Artista
+  - Titolo dell’opera
+  - Tecnica
+  - Materia
+  - Datazione
+  - Dimensioni
+  - Collocazione
 
 object_list:
 
-  - id: 1
-    autore: Scultore dell’Italia settentrionale / Bartolomeo Bellano (?) 
-    dati anagrafici autore: 
-    titolo: San Girolamo in un paesaggio
-    datazione: 1460 circa 
-    materia e tecnica: Marmo
-    misure: 54,5 × 39,5 × 7 cm
-    iscrizioni, etichette, cartellini, timbri: Nessuna
-    acquisizione: Legato Federico Zeri, 1998
-    numero di inventario: Inv. n. 98 ZR 00001
-    numeri di inventario precedenti: Sc. 127 (1998-2007); Sc. 130; Sc. 115; 1998 AC Sculture 00001 (2011-2012); 98 SC ZR001 (2012-2015)
-    collocazione: Non esposto 
+  - id: 4
+Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+Titolo dell’opera: Pietà
+Tecnica: rilievo
+Materia: marmo
+Datazione: 1766-1767 circa
+Dimensioni: ***
+Collocazione: Cappella Sansevero, altare maggiore
     figure:
-      - id: "cat-35"
+      - id: "cat-4"
 
-  - id: 2
-    autore: Scultore emiliano 
-    dati anagrafici autore: 
-    titolo: Ritratto d’uomo
-    datazione: Ultimo quarto del XV secolo
-    materia e tecnica: Marmo
-    misure: 49,5 × 38 × 8 cm
-    iscrizioni, etichette, cartellini, timbri: Nessuna
-    acquisizione: Legato Federico Zeri, 1998
-    numero di inventario: Inv. n. 98 ZR 00002
-    numeri di inventario precedenti: Sc. 128 (1998-2007); Sc. 129; Sc. 114; 1998 AC Sculture 00002 (2011-2012); 98 SC ZR002 (2012-2015)
-    collocazione: Non esposto 
+  - id: 26
+Artista: Giulio Mencaglia (scultore); Berardino Landini (marmoraio)
+Titolo dell’opera: Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
+Tecnica: rilievo
+Materia: marmo
+Datazione: 1642
+Dimensioni: ***
+Collocazione: Cappella Sansevero, navata
     figure:
-      - id: "cat-35"
+      - id: "cat-26"
