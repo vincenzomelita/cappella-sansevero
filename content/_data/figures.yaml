@@ -7,7 +7,7 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
     zoom: true
 
-     - id: "cat-2"
+  - id: "cat-2"
     src: figures/2.jpg
     caption: "Il Disinganno, *Francesco Maria Queirolo, Giuseppe Sanmartino*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest
