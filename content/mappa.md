@@ -2,9 +2,10 @@
 title: Mappa del complesso
 layout: splash
 order: 7
-image: Mappa-mcss-quire.png
 search: true
+hide-hero: true
 ---
+![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
 
 # Navata
 
@@ -29,3 +30,12 @@ search: true
 20. Volta - Paradiso dei di Sangro
 21. Pavimento labirintico
 22. Monumento di Raimondo di Sangro
+
+## Cavea
+
+29. Macchine anatomiche
+
+## Sagrestia
+
+30. Ritratto di Raimondo di Sangro  
+31. Madonna col Bambino
