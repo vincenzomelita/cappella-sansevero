@@ -4,5 +4,5 @@ layout: cover
 order: 1
 menu: false
 toc: false
-image: Cover_Accademia_Carrara.jpg
+image: Cover_San_Severo.jpg
 ---
