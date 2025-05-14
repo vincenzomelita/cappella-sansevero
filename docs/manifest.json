@@ -167,6 +167,10 @@
     "file": "_assets/notoserif-regular.woff2",
     "src": "_assets/fonts/noto-serif/notoserif-regular.woff2"
   },
+  "_assets/images/Cover_San_Severo.jpg": {
+    "file": "_assets/Cover_San_Severo.jpg",
+    "src": "_assets/images/Cover_San_Severo.jpg"
+  },
   "_assets/images/contributors/martinabagnoli.jpg": {
     "file": "_assets/martinabagnoli.jpg",
     "src": "_assets/images/contributors/martinabagnoli.jpg"
