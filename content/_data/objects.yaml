@@ -10,23 +10,23 @@ object_display_order:
 object_list:
 
   - id: 4
-Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
-Titolo dell’opera: Pietà
-Tecnica: rilievo
-Materia: marmo
-Datazione: 1766-1767 circa
-Dimensioni: ***
-Collocazione: Cappella Sansevero, altare maggiore
+    Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+    Titolo dell’opera: Pietà
+    Tecnica: rilievo
+    Materia: marmo
+    Datazione: 1766-1767 circa
+    Dimensioni: 
+    Collocazione: Cappella Sansevero, altare maggiore
     figure:
       - id: "cat-4"
 
   - id: 26
-Artista: Giulio Mencaglia (scultore); Berardino Landini (marmoraio)
-Titolo dell’opera: Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
-Tecnica: rilievo
-Materia: marmo
-Datazione: 1642
-Dimensioni: ***
-Collocazione: Cappella Sansevero, navata
+    Artista: Giulio Mencaglia (scultore); Berardino Landini (marmoraio)
+    Titolo dell’opera: Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
+    Tecnica: rilievo
+    Materia: marmo
+    Datazione: 1642
+    Dimensioni: 
+    Collocazione: Cappella Sansevero, navata
     figure:
       - id: "cat-26"
