@@ -1,9 +1,9 @@
 ---
-title: Indice
+title: Mappa del complesso
 layout: splash
 order: 7
 image: Mappa-mcss-quire.png
-search: false
+search: true
 ---
 
 # Navata
