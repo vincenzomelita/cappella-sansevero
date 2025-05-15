@@ -6,7 +6,8 @@ search: true
 hide-hero: true
 ---
 
-![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
+![Mappa del complesso](/static/assets/images/Mappa-mcss-quire.png){.full}
+
 
 # Navata
 
