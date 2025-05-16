@@ -3,10 +3,9 @@ title: Mappa del complesso
 layout: splash
 order: 7
 search: true
-hide-hero: true
+image: Mappa-mcss-quire.png
+hide-title: true
 ---
-
-![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
 
 
 # Navata
