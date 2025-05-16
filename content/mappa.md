@@ -8,19 +8,18 @@ hide-title: true
 ---
 
 <style>
+  .hero {
+    min-height: 90vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
   .quire-page__header__title {
     display: none;
   }
-
-  .hero img {
-    max-height: 90vh;
-    width: auto;
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-    object-fit: contain;
-  }
 </style>
+
 
 # Navata
 
