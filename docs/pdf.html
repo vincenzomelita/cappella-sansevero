@@ -345,7 +345,10 @@
             </div>
           </section>
         </section><section class="quire-page quire-splash" data-footer-page-title="Mappa del complesso" id="page-mappa">
-          <section class="quire-page__header hero">
+          <section class="quire-page__header hero hero-image" style="background-image: url(_assets/images/Mappa-mcss-quire.png);">
+            <!-- This ensures background image asset gets copied into epub package -->
+            <img class="visually-hidden" src="_assets/images/Mappa-mcss-quire.png">
+
             <div class="hero-body">
               <h1 class="quire-page__header__title" id="page-header-mappa">
                 Mappa del complesso
@@ -355,10 +358,7 @@
 
           <section class="section quire-page__content">
             <div class="container">
-              <div class="content no-image-above">
-                <p>
-                  <img src="assets/images/Mappa-mcss-quire.png" alt="Mappa del complesso" class="full">
-                </p>
+              <div class="content">
                 <h1 id="navata" tabindex="-1">Navata</h1>
                 <ol>
                   <li>
