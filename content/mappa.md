@@ -13,6 +13,7 @@ hide-title: true
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
+    background-color: #171717;
   }
 
   .quire-page__header__title {
