@@ -345,6 +345,21 @@
             </div>
           </section>
         </section><section class="quire-page quire-splash" data-footer-page-title="Mappa del complesso" id="page-mappa">
+          <style>
+            body.mappa .quire-page__header__title {
+              display: none;
+            }
+
+            body.mappa .hero img {
+              max-height: 90vh;
+              width: auto;
+              max-width: 100%;
+              display: block;
+              margin: 0 auto;
+              object-fit: contain;
+            }
+          </style>
+
           <section class="quire-page__header hero hero-image" style="background-image: url(_assets/images/Mappa-mcss-quire.png);">
             <!-- This ensures background image asset gets copied into epub package -->
             <img class="visually-hidden" src="_assets/images/Mappa-mcss-quire.png">
