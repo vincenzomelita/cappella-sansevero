@@ -1,5 +1,5 @@
 ---
-title: Mappa del complesso
+title: MAPPA DEL COMPLESSO
 layout: splash
 order: 7
 search: true
