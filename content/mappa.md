@@ -7,6 +7,7 @@ image: Mappa-mcss-quire.png
 hide-title: true
 ---
 
+![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
 
 # Navata
 
