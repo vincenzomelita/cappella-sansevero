@@ -7,7 +7,20 @@ image: Mappa-mcss-quire.png
 hide-title: true
 ---
 
-![Mappa del complesso](/assets/images/Mappa-mcss-quire.png){.full}
+<style>
+  .quire-page__header__title {
+    display: none;
+  }
+
+  .hero img {
+    max-height: 90vh;
+    width: auto;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+    object-fit: contain;
+  }
+</style>
 
 # Navata
 
