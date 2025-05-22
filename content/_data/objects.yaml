@@ -21,24 +21,12 @@ object_list:
       - id: "cat-1"
 
   - id: 2
-    Artista:
-      - "Paolo Persico"
-      - "Ignoto pittore meridionale della seconda metà del XVI secolo"
-    Titolo dell’opera:
-      - "Gloria angelica"
-      - "Pietà"
-    Tecnica:
-      - "rilievo"
-      - "dipinto murale (affresco?)"
-    Materia:
-      - "stucco"
-      - "marmo"
-    Datazione:
-      - "1769"
-      - "fine XVI secolo"
-    Dimensioni:
-      - "-"
-      - "cm 169 x 121"
+    Artista: "Paolo Persico, Ignoto pittore meridionale della seconda metà del XVI secolo"
+    Titolo dell’opera: "Gloria angelica, Pietà"
+    Tecnica: "rilievo, dipinto murale (affresco?)"
+    Materia: "stucco, marmo"
+    Datazione: "1769; fine XVI secolo"
+    Dimensioni: "cm 169 x 121"
     Collocazione: "Cappella Sansevero, altare maggiore"
     figure:
       - id: "cat-2"
