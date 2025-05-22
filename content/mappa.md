@@ -24,27 +24,34 @@ hide-title: true
 
 # Navata
 
-1. Monumento di Cecco di Sangro 2. Monumento di Giovan Francesco di Sangro, terzo principe di Sansevero
-3. Decoro 4. Monumento di Paolo di Sangro, quarto principe di Sansevero 5. Liberalità 6. Monumento di Giovan Francesco di Sangro, primo principe di Sansevero 7. Zelo della religione 8. Monumento di Vincenzo di Sangro 9. Soavità del giogo coniugale
-4. Santa Rosalia e Sant’Oderisio
-5. Pudicizia
-6. Monumento di Alessandro di Sangro, patriarca di Alessandria
-7.Compianto - altare maggiore
-8. Gloria angelica e Pietà
-9. Angeli e putti con i simboli della Passione
-10. Disinganno
-11. Sincerità
-12. Dominio di se stessi
-13. Monumento di Paolo di Sangro, sesto principe
-14. Educazione
-15. Monumento di Paolo di Sangro, secondo principe
-16. Amor divino
-17. Monumento di Giovan Francesco di Sangro, quinto principe
-18. Medaglioni con i cardinali di casa Di Sangro
-19. Cristo velato
-20. Volta - Paradiso dei di Sangro
-21. Pavimento labirintico
-22. Monumento di Raimondo di Sangro
+1.	Compianto sul Cristo morto
+2.	Gloria angelica e Pietà
+3.	Angeli e putti con i simboli della Passione
+4.	Monumento funebre di Alessandro di Sangro, patriarca di Alessandria
+5.	Cristo velato
+6.	Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona
+7.	Santa Rosalia; Sant'Oderisio
+8.	Soavità del giogo coniugale – Monumento funerario di Gaetana Mirelli
+9.	Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero
+10.	Zelo della Religione – Monumento funerario di Ippolita del Carretto e Adriana Carafa
+11.	Monumento funebre di Giovan Francesco di Sangro, primo principe di Sansevero
+12.	Liberalità – Monumento funerario di Giulia Gaetani dell’Aquila d’Aragona
+13.	Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
+14.	Decoro – Monumento funerario di Isabella della Tolfa e Laudomia Milano
+15.	Monumento funerario di Giovan Francesco di Sangro, terzo principe di Sansevero
+16.	Monumento funerario di Cecco di Sangro
+17.	Monumento funerario di Giovan Francesco di Sangro, quinto principe di Sansevero
+18.	Amor divino – Monumento funerario di Giovanna di Sangro
+19.	Monumento funerario di Paolo di Sangro, secondo principe di Sansevero
+20.	Educazione – Monumento funerario di Girolama Caracciolo e Clarice Carafa
+21.	Monumento di Paolo di Sangro, sesto principe di Sansevero
+22.	Dominio di sé stessi – Monumento funerario di Geronima Loffredo
+23.	Pavimento labirintico
+24.	Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero
+25.	Sincerità – Monumento funerario di Carlotta Gaetani
+26.	Disinganno – Monumento funerario di Antonio di Sangro
+27.	Sei medaglioni con ritratti di cardinali di casa Di Sangro
+28.	Gloria del Paradiso (Paradiso dei Di Sangro)
 
 # Cavea
 
@@ -52,5 +59,5 @@ hide-title: true
 
 # Sagrestia
 
-30. Ritratto di Raimondo di Sangro  
+30. Ritratto di Raimondo di Sangro, settimo principe di Sansevero
 31. Madonna col Bambino
