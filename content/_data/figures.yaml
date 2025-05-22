@@ -17,15 +17,15 @@ figure_list:
   - id: "cat-4"
     src: figures/4.jpg
     caption: "Pietà, *Francesco Celebrano*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/6ab4be45-5631-4be0-b05b-9165e118cd2c/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/6ab4be45-5631-4be0-b05b-9165e118cd2c/canvas/ca3f040d-f18c-4368-bea0-32c873667b05
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/canvas/df16ebcd-6457-4cc8-8b76-b7338b6b2ba5
     zoom: true
 
   - id: "cat-26"
     src: figures/26.jpg
     caption: "Monumento funerario di Paolo di Sangro, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/50c7c71d-68de-419d-bbf9-0aef6e0882f2/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/50c7c71d-68de-419d-bbf9-0aef6e0882f2/canvas/97be4b59-6c2e-44fc-898e-78f4e89658f1
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
 
 
