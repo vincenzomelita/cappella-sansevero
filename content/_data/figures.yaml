@@ -1,7 +1,7 @@
 figure_list:
 
-  - id: "cat-1"
-    src: figures/1.jpg
+  - id: "cat-6"
+    src: figures/6.jpg
     caption: "La Pudicizia, *Antonio Corradini*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
@@ -14,15 +14,15 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908
     zoom: true
   
-  - id: "cat-4"
-    src: figures/4.jpg
-    caption: "Pietà, *Francesco Celebrano*"
+  - id: "cat-1"
+    src: figures/1.jpg
+    caption: "Compianto sul Cristo morto, *Francesco Celebrano*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/canvas/df16ebcd-6457-4cc8-8b76-b7338b6b2ba5
     zoom: true
 
-  - id: "cat-26"
-    src: figures/26.jpg
+  - id: "cat-13"
+    src: figures/13.jpg
     caption: "Monumento funerario di Paolo di Sangro, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
