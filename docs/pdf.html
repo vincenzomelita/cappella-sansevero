@@ -1,0 +1,1522 @@
+<!DOCTYPE html><html><head>
+    <!--
+    <meta charset="utf-8" />
+    <meta name="description" content="${description}">
+    <meta name="keywords" content="${keywords}">
+    <title>${pageTitle}</title>
+    <link rel="canonical" href="${canonicalURL}">
+    <link rel="version-history" href="${publication.repositoryUrl}">
+    -->
+    <link rel="stylesheet" href="pdf.css">
+  </head>
+  <body>
+  
+
+<svg style="display: none">
+      <symbol id="left-arrow-icon" viewBox="0 0 18 32">
+        <path d="M23.1,11.1L21,9l-9,9l9,9l2.1-2.1L16.2,18L23.1,11.1z"></path>
+      </symbol>
+      <symbol id="right-arrow-icon" viewBox="0 0 18 32">
+        <path d="M12.9,11.1L15,9l9,9l-9,9l-2.1-2.1l6.9-6.9L12.9,11.1z"></path>
+      </symbol>
+      <symbol id="search-icon" viewBox="0 0 32 32">
+        <path d="M18.6,16.4h-1.2L17,16c1.5-1.7,2.3-3.9,2.3-6.3C19.3,4.3,15,0,9.7,0S0,4.3,0,9.7s4.3,9.7,9.7,9.7c2.4,0,4.6-0.9,6.3-2.3
+      l0.4,0.4v1.2l7.4,7.4l2.2-2.2L18.6,16.4z M9.7,16.4C6,16.4,3,13.4,3,9.7S6,3,9.7,3s6.7,3,6.7,6.7S13.4,16.4,9.7,16.4z"></path>
+      </symbol>
+      <symbol id="nav-icon" viewBox="0 0 32 32">
+        <path d="M0,6.7h24.9V3.1H0V6.7z M0,13.8h24.9v-3.6H0V13.8z M0,20.9h24.9v-3.6H0V20.9z M28.4,20.9H32v-3.6h-3.6V20.9z M28.4,3.1v3.6
+      H32V3.1H28.4z M28.4,13.8H32v-3.6h-3.6V13.8z"></path>
+      </symbol>
+      <symbol id="arrow-forward-icon" viewBox="0 0 32 32">
+        <path d="M16,5.3l-1.9,1.9l7.4,7.5H5.3v2.7h16.2l-7.4,7.5l1.9,1.9L26.7,16L16,5.3z"></path>
+      </symbol>
+      <symbol id="home-icon" viewBox="0 0 32 32">
+        <path d="M11,18V6l-8.5,6L11,18z M11.5,12l8.5,6V6L11.5,12z"></path>
+      </symbol>
+      <symbol id="start-icon" viewBox="0 0 32 32">
+        <path d="M8,5v14l11-7L8,5z"></path>
+      </symbol>
+      <symbol id="down-arrow-icon" viewBox="0 0 32 32">
+        <path d="M16.6,8.6L12,13.2L7.4,8.6L6,10l6,6l6-6L16.6,8.6z"></path>
+      </symbol>
+      <symbol id="link-icon" viewBox="0 0 20 20">
+        <path d="M3.3,16.7c-1.4-1.4-1.4-3.7,0-5.1l3.3-3.3L5,6.7L1.7,10c-2.3,2.3-2.3,6,0,8.3s6,2.3,8.3,0l3.3-3.3l-1.6-1.6l-3.3,3.3
+          C7,18.1,4.7,18.1,3.3,16.7z M7.5,14.1l6.6-6.6l-1.7-1.7l-6.6,6.6L7.5,14.1z M10,1.7L6.7,5l1.6,1.6l3.3-3.3c1.4-1.4,3.7-1.4,5.1,0
+          s1.4,3.7,0,5.1l-3.3,3.3l1.6,1.6l3.3-3.3c2.3-2.3,2.3-6,0-8.3S12.3-0.6,10,1.7z"></path>
+      </symbol>
+      <symbol id="close-icon" viewBox="0 0 48 48">
+        <path d="M38 12.83L35.17 10 24 21.17 12.83 10 10 12.83 21.17 24 10 35.17 12.83 38 24 26.83 35.17 38 38 35.17 26.83 24z"></path>
+      </symbol>
+      <symbol id="download-icon" viewBox="0 0 32 32">
+        <path d="M28.4,16v12.4H3.6V16H0v12.4c0,2,1.6,3.6,3.6,3.6h24.9c2,0,3.6-1.6,3.6-3.6V16H28.4z M17.8,17.2l4.6-4.6l2.5,2.5L16,24
+          l-8.9-8.9l2.5-2.5l4.6,4.6V0h3.6V17.2z"></path>
+      </symbol>
+      <symbol id="plus-icon" viewBox="0 0 16 16">
+        <path d="M26 0C11.664 0 0 11.663 0 26s11.664 26 26 26 26-11.663 26-26S40.336 0 26 0zm0 50C12.767 50 2 39.233 2 26S12.767 2 26 2s24 10.767 24 24-10.767 24-24 24z"></path>
+        <path d="M38.5 25H27V14c0-.553-.448-1-1-1s-1 .447-1 1v11H13.5c-.552 0-1 .447-1 1s.448 1 1 1H25v12c0 .553.448 1 1 1s1-.447 1-1V27h11.5c.552 0 1-.447 1-1s-.448-1-1-1z"></path>
+      </symbol>
+      <symbol id="fullscreen-icon" viewBox="0 0 24 24">
+        <path d="M0 0h24v24H0z" fill="none"></path>
+        <path d="M7 14H5v5h5v-2H7v-3zm-2-4h2V7h3V5H5v5zm12 7h-3v2h5v-5h-2v3zM14 5v2h3v3h2V5h-5z"></path>
+      </symbol>
+      <symbol id="add-circle-icon" viewBox="0 0 20 20">
+        <path d="M9.25 14h1.5v-3.25H14v-1.5h-3.25V6h-1.5v3.25H6v1.5h3.25Zm.75 4q-1.646 0-3.104-.625-1.458-.625-2.552-1.719t-1.719-2.552Q2 11.646 2 10q0-1.667.625-3.115.625-1.447 1.719-2.541Q5.438 3.25 6.896 2.625T10 2q1.667 0 3.115.625 1.447.625 2.541 1.719 1.094 1.094 1.719 2.541Q18 8.333 18 10q0 1.646-.625 3.104-.625 1.458-1.719 2.552t-2.541 1.719Q11.667 18 10 18Zm0-1.5q2.708 0 4.604-1.896T16.5 10q0-2.708-1.896-4.604T10 3.5q-2.708 0-4.604 1.896T3.5 10q0 2.708 1.896 4.604T10 16.5Zm0-6.5Z"></path>
+      </symbol>
+      <symbol id="rotation-icon" viewBox="0 0 24 24">
+        <path d="M8.76918 19.1836L7.77593 18.1904L9.67785 16.2779C7.68107 16.0073 6.01922 15.4801 4.6923 14.6961C3.36537 13.9121 2.7019 13.0201 2.7019 12.0202C2.7019 10.8314 3.60117 9.80777 5.3997 8.9493C7.19822 8.09082 9.39805 7.66158 11.9992 7.66158C14.6003 7.66158 16.8004 8.09082 18.5995 8.9493C20.3985 9.80777 21.298 10.8314 21.298 12.0202C21.298 12.8584 20.8103 13.633 19.835 14.344C18.8597 15.055 17.5679 15.5936 15.9596 15.9596V14.5298C17.2211 14.1965 18.1931 13.7907 18.8754 13.3125C19.5578 12.8343 19.899 12.4035 19.899 12.0202C19.899 11.4676 19.197 10.8362 17.7929 10.126C16.3888 9.4157 14.4582 9.06057 12.001 9.06057C9.5439 9.06057 7.61293 9.4157 6.20813 10.126C4.80331 10.8362 4.1009 11.4676 4.1009 12.0202C4.1009 12.4587 4.59338 12.9806 5.57833 13.5861C6.56328 14.1915 7.89133 14.6154 9.56248 14.8577L7.77593 13.0711L8.76918 12.0779L12.322 15.6308L8.76918 19.1836Z"></path>
+      </symbol>
+    </svg><svg style="display: none" data-outputs-exclude="epub,pdf">
+      <symbol id="by" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.9 0C38.3 0 45.4 2.9 51.2 8.7C57 14.5 59.9 21.6 59.9 30C59.9 38.4 57 45.4 51.3 51.1C45.2 57.1 38.1 60 29.8 60C21.7 60 14.7 57.1 8.7 51.2C2.9 45.3 0 38.2 0 30C0 21.8 2.9 14.7 8.8 8.7C14.6 2.9 21.7 0 29.9 0ZM30.1 5.4C23.3 5.4 17.5 7.8 12.8 12.6C7.9 17.6 5.5 23.4 5.5 30C5.5 36.6 7.9 42.4 12.8 47.2C17.7 52.1 23.4 54.5 30.2 54.5C36.9 54.5 42.7 52.1 47.7 47.2C52.4 42.7 54.8 36.9 54.8 30C54.8 23.2 52.4 17.4 47.6 12.6C42.6 7.8 36.8 5.4 30.1 5.4ZM38.1 22.6V34.9H34.7V49.5H25.4V34.8H22V22.6C22 22.1 22.2 21.6 22.6 21.2C23 20.8 23.4 20.6 24 20.6H36.3C36.8 20.6 37.2 20.8 37.6 21.2C37.9 21.6 38.1 22 38.1 22.6ZM25.8 14.8C25.8 12 27.2 10.6 30 10.6C32.8 10.6 34.2 12 34.2 14.8C34.2 17.6 32.8 19 30 19C27.2 19 25.8 17.6 25.8 14.8Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="cc" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M29.9 0C38.3 0 45.4 2.90484 51.3 8.81469C54.1 11.6194 56.3 14.8247 57.7 18.5309C59.3 22.1369 60 25.9432 60 30.0501C60 34.1569 59.3 38.0634 57.8 41.5693C56.4 45.1753 54.2 48.3806 51.4 51.0851C48.5 53.99 45.2 56.1937 41.4 57.6962C37.7 59.1987 33.8 60 29.9 60C26 60 22.1 59.1987 18.5 57.6962C14.9 56.1937 11.6 53.99 8.7 51.0851C5.8 48.1803 3.6 44.975 2.1 41.3689C0.6 37.7629 0 34.0568 0 30.0501C0 26.0434 0.8 22.2371 2.3 18.6311C3.8 15.025 6 11.6194 8.9 8.71452C14.6 2.90484 21.6 0 29.9 0ZM30.1 5.40901C23.2 5.40901 17.5 7.81302 12.8 12.621C10.4 15.025 8.6 17.7295 7.4 20.7346C6.1 23.7396 5.5 26.8447 5.5 30.0501C5.5 33.2554 6.1 36.3606 7.4 39.3656C8.7 42.3706 10.5 44.975 12.8 47.379C15.2 49.6828 17.8 51.4858 20.8 52.788C23.8 53.99 26.9 54.591 30.1 54.591C33.3 54.591 36.4 53.99 39.4 52.6878C42.4 51.3856 45.1 49.5826 47.6 47.2788C52.3 42.6711 54.6 36.9616 54.6 30.0501C54.6 26.7446 54 23.5392 52.8 20.6344C51.6 17.6294 49.8 15.025 47.5 12.7212C42.6 7.81302 36.8 5.40901 30.1 5.40901ZM29.7 25.0417L25.7 27.1452C25.3 26.2437 24.7 25.6427 24.1 25.2421C23.5 24.8414 22.9 24.7412 22.4 24.7412C19.7 24.7412 18.4 26.5442 18.4 30.0501C18.4 31.6528 18.7 32.9549 19.4 33.9566C20.1 34.9583 21.1 35.3589 22.4 35.3589C24.2 35.3589 25.4 34.4574 26.1 32.7546L29.8 34.6578C29 36.1603 27.9 37.2621 26.5 38.1636C25.1 38.9649 23.6 39.4658 21.9 39.4658C19.2 39.4658 17.1 38.6644 15.4 36.9616C13.8 35.3589 12.9 33.0551 12.9 30.0501C12.9 27.1452 13.7 24.9416 15.4 23.2387C17.1 21.5359 19.2 20.7346 21.7 20.7346C25.4 20.7346 28.1 22.1369 29.7 25.0417ZM47 25.0417L43 27.1452C42.6 26.2437 42 25.6427 41.4 25.2421C40.8 24.8414 40.2 24.7412 39.6 24.7412C36.9 24.7412 35.6 26.5442 35.6 30.0501C35.6 31.6528 35.9 32.9549 36.6 33.9566C37.3 34.9583 38.3 35.3589 39.6 35.3589C41.3 35.3589 42.6 34.4574 43.3 32.7546L47.1 34.6578C46.3 36.1603 45.2 37.2621 43.8 38.1636C42.4 38.9649 40.9 39.4658 39.2 39.4658C36.5 39.4658 34.3 38.6644 32.7 36.9616C31.1 35.3589 30.3 33.0551 30.3 30.0501C30.3 27.1452 31.1 24.9416 32.8 23.2387C34.5 21.5359 36.6 20.7346 39.1 20.7346C42.8 20.7346 45.4 22.1369 47 25.0417Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="nc" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 0C38.4 0 45.5 2.9 51.3 8.7C57.1 14.5 60 21.6 60 30C60 38.4 57.1 45.4 51.4 51.1C45.3 57.1 38.2 60 29.9 60C21.8 60 14.7 57 8.80001 51.1C2.90001 45.2 0 38.2 0 30C0 21.8 2.90001 14.7 8.80001 8.7C14.7 2.9 21.8 0 30 0ZM6.90001 21.9C6.00001 24.4 5.60001 27.1 5.60001 30C5.60001 36.6 8.00001 42.4 12.9 47.3C17.8 52.1 23.6 54.5 30.3 54.5C37.1 54.5 42.9 52.1 47.8 47.2C49.6 45.5 50.9 43.8 51.9 41.9L40.6 36.9C40.2 38.8 39.3 40.3 37.7 41.5C36.2 42.7 34.4 43.4 32.3 43.6V48.2H28.8V43.6C25.5 43.6 22.4 42.4 19.7 40L23.8 35.8C25.8 37.6 28 38.5 30.5 38.5C31.5 38.5 32.4 38.3 33.2 37.8C33.9 37.3 34.3 36.6 34.3 35.5C34.3 34.7 34 34.1 33.5 33.7L30.6 32.5L27.1 30.9L22.3 28.8L6.90001 21.9ZM30.2 5.4C23.4 5.4 17.6 7.8 12.9 12.6C11.7 13.8 10.6 15.1 9.60001 16.6L21.1 21.7C21.6 20.1 22.5 18.9 23.9 17.9C25.3 17 26.9 16.4 28.8 16.3V11.7H32.3V16.3C35.1 16.4 37.5 17.4 39.8 19.1L35.9 23.1C34.2 21.9 32.5 21.3 30.8 21.3C29.9 21.3 29 21.5 28.3 21.8C27.6 22.2 27.2 22.8 27.2 23.6C27.2 23.9 27.3 24.1 27.5 24.4L31.3 26.1L33.9 27.3L38.7 29.4L54.1 36.3C54.6 34.2 54.9 32.1 54.9 29.9C54.9 23 52.5 17.2 47.7 12.5C42.8 7.8 37 5.4 30.2 5.4Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="nd" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 0C38.4 0 45.5 2.9 51.3 8.7C57.1 14.5 60 21.6 60 30C60 38.4 57.1 45.4 51.4 51.1C45.4 57 38.2 60 29.9 60C21.8 60 14.8 57.1 8.8 51.2C2.90001 45.3 0 38.3 0 30C0 21.8 2.90001 14.7 8.8 8.7C14.8 2.9 21.8 0 30 0ZM30.2 5.4C23.4 5.4 17.6 7.8 12.9 12.6C8.00001 17.6 5.60001 23.4 5.60001 30C5.60001 36.7 8.00001 42.4 12.9 47.3C17.8 52.2 23.5 54.6 30.3 54.6C37 54.6 42.8 52.2 47.8 47.3C52.5 42.7 54.9 37 54.9 30.1C54.9 23.2 52.5 17.5 47.7 12.7C42.8 7.8 37 5.4 30.2 5.4ZM41.5 22.9V28H19.7V22.9H41.5ZM41.5 32.6V37.7H19.7V32.6H41.5Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="sa" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 0C38.4 0 45.5 2.9 51.3 8.7C57.1 14.5 60 21.6 60 30C60 38.4 57.1 45.4 51.4 51.1C45.4 57 38.2 60 29.9 60C21.8 60 14.8 57.1 8.8 51.2C2.9 45.3 0 38.3 0 30C0 21.8 2.9 14.7 8.8 8.7C14.8 2.9 21.8 0 30 0ZM30.2 5.4C23.4 5.4 17.6 7.8 12.9 12.6C8.00001 17.6 5.60001 23.4 5.60001 30C5.60001 36.7 8.00001 42.4 12.9 47.2C17.8 52.1 23.5 54.5 30.3 54.5C37 54.5 42.8 52.1 47.8 47.2C52.5 42.6 54.9 36.9 54.9 30C54.9 23.1 52.5 17.4 47.7 12.6C42.8 7.8 37 5.4 30.2 5.4ZM16.8 25.8C17.4 22.1 18.9 19.3 21.2 17.3C23.6 15.3 26.5 14.3 29.9 14.3C34.6 14.3 38.4 15.8 41.1 18.9C43.9 21.9 45.3 25.8 45.3 30.6C45.3 35.2 43.9 39 41 42.1C38.1 45.2 34.4 46.7 29.7 46.7C26.3 46.7 23.4 45.7 20.9 43.6C18.4 41.6 17 38.7 16.5 34.9H24.1C24.3 38.5 26.5 40.4 30.7 40.4C32.8 40.4 34.5 39.5 35.8 37.7C37.1 35.9 37.7 33.4 37.7 30.4C37.7 27.2 37.1 24.8 35.9 23.1C34.7 21.4 33 20.6 30.8 20.6C26.8 20.6 24.5 22.4 24 25.9H26.2L20.3 31.8L14.4 25.9L16.8 25.8Z" fill="currentColor"></path>
+      </symbol>
+      <symbol id="zero" viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+        <path d="M30 12.7C20.1 12.7 17.6 22 17.6 30C17.6 37.9 20.1 47.3 30 47.3C39.9 47.3 42.4 38 42.4 30C42.4 22.1 39.9 12.7 30 12.7ZM30 19.2C30.4 19.2 30.8 19.3 31.1 19.3C31.8 19.9 32.2 20.8 31.5 21.9L24.9 34C24.7 32.5 24.7 31 24.7 29.8C24.7 26.5 24.9 19.2 30 19.2ZM34.9 24.8C35.2 26.7 35.3 28.6 35.3 30C35.3 33.5 35.1 40.8 30 40.8C29.6 40.8 29.2 40.8 28.9 40.7C28.8 40.7 28.8 40.7 28.7 40.6C28.6 40.6 28.5 40.5 28.4 40.5C27.3 40 26.6 39.1 27.6 37.6L34.9 24.8Z" fill="currentColor"></path>
+        <path d="M29.9 0C21.6 0 14.6 2.9 8.8 8.7C5.9 11.6 3.7 14.9 2.2 18.6C0.699997 22.2 0 26 0 30C0 34 0.699997 37.8 2.2 41.4C3.7 45 5.9 48.3 8.7 51.1C11.6 54 14.8 56.2 18.4 57.7C22.2 59.3 26 60 29.9 60C33.9 60 37.7 59.2 41.4 57.7C45.1 56.2 48.4 54 51.4 51.1C54.2 48.4 56.4 45.2 57.8 41.6C59.3 38 60 34.1 60 30C60 25.9 59.3 22.1 57.8 18.5C56.3 14.9 54.2 11.6 51.4 8.8C45.5 2.9 38.3 0 29.9 0ZM30.1 5.4C36.9 5.4 42.7 7.8 47.5 12.6C49.8 14.9 51.6 17.6 52.8 20.5C54 23.5 54.6 26.6 54.6 29.9C54.6 36.8 52.2 42.5 47.6 47.1C45.2 49.5 42.4 51.3 39.4 52.5C36.4 53.8 33.3 54.4 30.1 54.4C26.8 54.4 23.7 53.8 20.8 52.6C17.8 51.3 15.2 49.6 12.8 47.2C10.4 44.8 8.6 42.2 7.3 39.2C6.1 36.2 5.4 33.1 5.4 29.9C5.4 26.6 6 23.5 7.3 20.6C8.6 17.6 10.4 14.9 12.8 12.5C17.4 7.8 23.2 5.4 30.1 5.4Z" fill="currentColor"></path>
+      </symbol>
+    </svg><section class="quire-page quire-cover" data-footer-page-title="COPERTINA" id="page-index">
+          <section class="quire-cover__hero hero is-fullheight">
+            <div class="quire-cover__overlay" style="background-image: url(_assets/images/Cover_San_Severo.jpg);">
+              <!-- This ensures background image asset gets copied into epub package -->
+              <img class="visually-hidden" src="_assets/images/Cover_San_Severo.jpg">
+            </div>
+            <div class="quire-cover__hero-body hero-body">
+              <div class="container is-fluid">
+                <h1 class="title" id="page-header-index">
+                  MUSEO CAPPELLA SAN SEVERO - Catalogo Scientifico Digitale
+                </h1>
+                <p class="reading-line"></p>
+                <div class="contributor">
+                  <span class="visually-hidden">Contributors: </span>
+
+                  <em><span class="quire-contributor">Mario Rossi</span></em>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="quire-cover__more">
+            <div class="quire-cover__more-body hero-more next-page">
+              <a href="#page-indice">
+                
+                
+              </a>
+            </div>
+          </section>
+        </section><section class="quire-page half-title-page" data-footer-page-title="" id="page-pdf-epub-half-title">
+          <section class="half-title">
+            <p>MUSEO CAPPELLA SAN SEVERO - Catalogo Scientifico Digitale</p>
+          </section>
+        </section><section class="quire-page title-page" data-footer-page-title="" id="page-pdf-epub-title">
+          <section class="title-block">
+            <h1 class="title">
+              MUSEO CAPPELLA SAN SEVERO - Catalogo Scientifico Digitale
+            </h1>
+            <p class="contributor">
+              <span class="quire-contributor">Mario Rossi</span>
+            </p>
+          </section>
+          <section class="publisher-block">
+            <p class="publisher">Haltadefinizione, Modena</p>
+          </section>
+        </section><section class="quire-page quire-contents" data-footer-page-title="INDICE DEI CONTENUTI" id="page-indice">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="indice-dei-contenuti">
+                INDICE DEI CONTENUTI
+              </h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="quire-contents-list brief">
+                
+                
+                <nav class="table-of-contents menu-list" data-outputs-include="pdf">
+                  <ol class="table-of-contents-list">
+                    <li class="level-0 page-item">
+                      <a href="#page-introduzione">INTRODUZIONE</a>
+                    </li>
+                    <li class="level-0 page-item">
+                      <a href="#page-mappa">MAPPA DEL COMPLESSO</a>
+                    </li>
+                    <li class="level-0 page-item">
+                      <a href="#page-catalogue">CATALOGO</a>
+                    </li>
+                  </ol>
+                </nav>
+                <div class="content"></div>
+              </div>
+              
+            </div>
+          </section>
+        </section><section class="quire-page copyright-page" data-footer-page-title="" id="page-pdf-epub-copyright">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="undefined"></h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="content">
+                <div class="quire-copyright">
+                  <img src="_assets/images/logo-cappella-san-severo.png" class="copyright__publisher-logo" alt="Haltadefinizione">
+                  <p>
+                    © 2025 Museo Cappella San Severo - Ministero della Cultura
+                  </p>
+                  <a class="quire-copyright__icon__link" href="#page-https-creativecommons-org-licenses-by-4-0" rel="license" target="_blank">
+                    <svg class="quire-copyright__icon">
+                      <use xlink:href="#cc"></use>
+                    </svg>
+                    <svg class="quire-copyright__icon">
+                      <use xlink:href="#by"></use>
+                    </svg>
+                  </a>
+                  <div class="is-screen-only">
+                    This work is licensed under a
+                    <a rel="license" href="#page-https-creativecommons-org-licenses-by-4-0" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+                    <span class="is-print-only">
+                      To view a copy of this license visit
+                      https://creativecommons.org/licenses/by/4.0/.
+                    </span>
+                  </div>
+                  <div class="is-print-only">
+                    This work is licensed under a
+                    <a rel="license" href="#page-https-creativecommons-org-licenses-by-4-0" target="_blank">Creative Commons Attribution 4.0 International License</a>.
+                    <span class="is-print-only">
+                      To view a copy of this license visit
+                      https://creativecommons.org/licenses/by/4.0/.
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              
+            </div>
+          </section>
+        </section><section class="quire-page" data-footer-page-title="INTRODUZIONE" id="page-introduzione">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="introduzione">
+                INTRODUZIONE
+              </h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="content">
+                <p>
+                  Il Museo Cappella Sansevero, situata nel cuore di Napoli, è un
+                  gioiello del barocco italiano che incanta visitatori da tutto
+                  il mondo con la sua straordinaria fusione di arte, mistero e
+                  scienza. Fondata nel 1590 da Giovan Francesco di Sangro come
+                  cappella privata della famiglia, nel corso dei secoli è stata
+                  trasformata in un mausoleo familiare e arricchita con opere
+                  d’arte di inestimabile valore<br>
+                  La cappella deve gran parte della sua attuale magnificenza a
+                  Raimondo di Sangro, settimo principe di Sansevero, una figura
+                  poliedrica del XVIII secolo nota per le sue inclinazioni
+                  scientifiche, artistiche e alchemiche. Sotto la sua direzione,
+                  la cappella divenne un luogo dove l’arte e l’esoterismo si
+                  intrecciano, creando un ambiente carico di simbolismi e
+                  significati nascosti.
+                </p>
+                <p>
+                  Tra le opere più celebri custodite nella cappella spicca il
+                  “Cristo velato” di Giuseppe Sanmartino, realizzato nel 1753.
+                  Questa scultura in marmo raffigura il Cristo morto coperto da
+                  un velo trasparente anch’esso scolpito nel marmo, che aderisce
+                  al corpo in modo così realistico da suscitare meraviglia e
+                  ammirazione. La maestria di Sanmartino nel rendere la
+                  trasparenza del velo ha alimentato leggende secondo cui il
+                  principe Raimondo avrebbe utilizzato conoscenze alchemiche per
+                  trasformare un vero velo in marmo, ma analisi approfondite
+                  confermano che l’intera opera è stata scolpita da un unico
+                  blocco di marmo.
+                </p>
+                <p>
+                  Un’altra opera di grande rilievo è la “Pudicizia” di Antonio
+                  Corradini, completata nel 1752. Questa scultura rappresenta
+                  una figura femminile velata, simbolo della purezza e della
+                  virtù, ed è dedicata a Cecilia Gaetani dell’Aquila d’Aragona,
+                  madre di Raimondo di Sangro. Il velo che avvolge la figura,
+                  scolpito con straordinaria finezza, esalta le forme
+                  sottostanti, creando un effetto di trasparenza e leggerezza
+                  che testimonia l’abilità tecnica di Corradini. ​<br>
+                  La cappella ospita anche il “Disinganno” di Francesco
+                  Queirolo, completato nel 1754. Questa scultura raffigura un
+                  uomo che si libera da una rete, simbolo del peccato, con
+                  l’aiuto di un angelo. La complessità della rete scolpita e la
+                  dinamica composizione rendono quest’opera un capolavoro di
+                  virtuosismo tecnico e profondità simbolica. ​<br>
+                  Oltre alle sculture, la volta della cappella è adornata
+                  dall’affresco “Gloria del Paradiso” di Francesco Maria Russo,
+                  realizzato nel 1749. Questo affresco raffigura una visione
+                  celestiale con una moltitudine di figure angeliche, creando un
+                  effetto di profondità e luminosità che eleva lo spirito del
+                  visitatore
+                </p>
+                <p>
+                  Un elemento peculiare della Cappella Sansevero sono le
+                  cosiddette “macchine anatomiche”, due scheletri umani con il
+                  sistema circolatorio perfettamente conservato. Per lungo tempo
+                  si è creduto che fossero il risultato di esperimenti alchemici
+                  del principe Raimondo, ma studi recenti hanno rivelato che le
+                  vene e le arterie sono state riprodotte utilizzando fili di
+                  metallo e cera colorata, dimostrando l’interesse del principe
+                  per l’anatomia e le scienze. ​
+                </p>
+                <p>
+                  La Cappella Sansevero non è solo un luogo di straordinaria
+                  bellezza artistica, ma anche un enigma storico che riflette la
+                  personalità eclettica di Raimondo di Sangro. Ogni dettaglio,
+                  ogni opera d’arte è intrisa di simbolismi che invitano il
+                  visitatore a un viaggio tra arte, scienza e mistero, rendendo
+                  la cappella un luogo unico nel suo genere e una tappa
+                  imprescindibile per chi desidera immergersi nel fascino
+                  esoterico di Napoli.​
+                </p>
+                <p>
+                  Tra capolavori come il celebre Cristo velato, la cui immagine
+                  ha fatto il giro del mondo per la prodigiosa “tessitura” del
+                  velo marmoreo, meraviglie del virtuosismo come il Disinganno
+                  ed enigmatiche presenze come le Macchine anatomiche, la
+                  Cappella Sansevero rappresenta uno dei più singolari monumenti
+                  che l’ingegno umano abbia mai concepito. Un mausoleo
+                  nobiliare, un tempio iniziatico in cui è mirabilmente trasfusa
+                  la poliedrica personalità del suo geniale ideatore: Raimondo
+                  di Sangro, settimo principe di Sansevero.
+                </p>
+                <p>
+                  Nel cuore del centro storico di Napoli, la Cappella Sansevero
+                  rappresenta un gioiello del patrimonio artistico e spirituale
+                  italiano. Questo scrigno di meraviglie barocche fu voluto da
+                  Raimondo di Sangro, settimo Principe di Sansevero, figura
+                  enigmatica e geniale del Settecento, che trasformò l’antica
+                  cappella di famiglia in un tempio della bellezza, della
+                  scienza e del simbolismo.
+                </p>
+                <p>
+                  Tra le sue opere più celebri spicca il Cristo Velato,
+                  realizzato da Giuseppe Sanmartino nel 1753, capolavoro
+                  scultoreo che lascia senza fiato per la delicatezza del velo
+                  marmoreo che avvolge il corpo di Cristo morto. Accanto a
+                  questa icona mondiale dell’arte, la cappella ospita altre
+                  sculture allegoriche di rara suggestione, come la Pudicizia di
+                  Antonio Corradini e il Disinganno di Francesco Queirolo,
+                  ognuna carica di significati esoterici e morali.<br>
+                  Le opere presenti in questo luogo non sono semplici esempi di
+                  maestria artistica, ma parte di un percorso iniziatico voluto
+                  dal Principe, un itinerario visivo e spirituale che intreccia
+                  religione, filosofia, alchimia e scienza. Ogni scultura, ogni
+                  affresco e ogni dettaglio architettonico è parte di una
+                  narrazione più ampia, che invita il visitatore a interrogarsi
+                  sul senso dell’esistenza, sul cammino della conoscenza e sul
+                  mistero della fede.<br>
+                  Visitare la Cappella Sansevero significa immergersi in un
+                  mondo in cui l’arte diventa rivelazione e il silenzio delle
+                  statue parla all’anima di chi guarda.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              
+            </div>
+          </section>
+        </section><section class="quire-page quire-splash" data-footer-page-title="MAPPA DEL COMPLESSO" id="page-mappa">
+          <section class="quire-page__header hero hero-image" style="background-image: url(_assets/images/Mappa-mcss-quire.png);">
+            <!-- This ensures background image asset gets copied into epub package -->
+            <img class="visually-hidden" src="_assets/images/Mappa-mcss-quire.png">
+
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="page-header-mappa">
+                MAPPA DEL COMPLESSO
+              </h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="content">
+                <style>
+                  .hero {
+                    min-height: 90vh;
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center center;
+                    background-color: #171717;
+                  }
+
+                  .quire-page__header__title {
+                    display: none;
+                  }
+                </style>
+                <h1 id="navata" tabindex="-1">Navata</h1>
+                <ol>
+                  <li>Compianto sul Cristo morto</li>
+                  <li>Gloria angelica e Pietà</li>
+                  <li>Angeli e putti con i simboli della Passione</li>
+                  <li>
+                    Monumento funebre di Alessandro di Sangro, patriarca di
+                    Alessandria
+                  </li>
+                  <li>Cristo velato</li>
+                  <li>
+                    Pudicizia – Monumento funerario di Cecilia Gaetani
+                    dell’Aquila d’Aragona
+                  </li>
+                  <li>Santa Rosalia; Sant’Oderisio</li>
+                  <li>
+                    Soavità del giogo coniugale – Monumento funerario di Gaetana
+                    Mirelli
+                  </li>
+                  <li>
+                    Monumento funerario di Vincenzo di Sangro, ottavo principe
+                    di Sansevero
+                  </li>
+                  <li>
+                    Zelo della Religione – Monumento funerario di Ippolita del
+                    Carretto e Adriana Carafa
+                  </li>
+                  <li>
+                    Monumento funebre di Giovan Francesco di Sangro, primo
+                    principe di Sansevero
+                  </li>
+                  <li>
+                    Liberalità – Monumento funerario di Giulia Gaetani
+                    dell’Aquila d’Aragona
+                  </li>
+                  <li>
+                    Monumento funerario di Paolo di Sangro, quarto principe di
+                    Sansevero
+                  </li>
+                  <li>
+                    Decoro – Monumento funerario di Isabella della Tolfa e
+                    Laudomia Milano
+                  </li>
+                  <li>
+                    Monumento funerario di Giovan Francesco di Sangro, terzo
+                    principe di Sansevero
+                  </li>
+                  <li>Monumento funerario di Cecco di Sangro</li>
+                  <li>
+                    Monumento funerario di Giovan Francesco di Sangro, quinto
+                    principe di Sansevero
+                  </li>
+                  <li>
+                    Amor divino – Monumento funerario di Giovanna di Sangro
+                  </li>
+                  <li>
+                    Monumento funerario di Paolo di Sangro, secondo principe di
+                    Sansevero
+                  </li>
+                  <li>
+                    Educazione – Monumento funerario di Girolama Caracciolo e
+                    Clarice Carafa
+                  </li>
+                  <li>
+                    Monumento di Paolo di Sangro, sesto principe di Sansevero
+                  </li>
+                  <li>
+                    Dominio di sé stessi – Monumento funerario di Geronima
+                    Loffredo
+                  </li>
+                  <li>Pavimento labirintico</li>
+                  <li>
+                    Monumento funerario di Raimondo di Sangro, settimo principe
+                    di Sansevero
+                  </li>
+                  <li>Sincerità – Monumento funerario di Carlotta Gaetani</li>
+                  <li>Disinganno – Monumento funerario di Antonio di Sangro</li>
+                  <li>
+                    Sei medaglioni con ritratti di cardinali di casa Di Sangro
+                  </li>
+                  <li>Gloria del Paradiso (Paradiso dei Di Sangro)</li>
+                </ol>
+                <h1 id="cavea" tabindex="-1">Cavea</h1>
+                <ol start="29">
+                  <li>Macchine anatomiche</li>
+                </ol>
+                <h1 id="sagrestia" tabindex="-1">Sagrestia</h1>
+                <ol start="30">
+                  <li>
+                    Ritratto di Raimondo di Sangro, settimo principe di
+                    Sansevero
+                  </li>
+                  <li>Madonna col Bambino</li>
+                </ol>
+              </div>
+              
+            </div>
+          </section>
+        </section><section class="quire-page quire-contents" data-footer-page-title="CATALOGO" id="page-catalogue">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="catalogo">CATALOGO</h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container is-fullhd">
+              <div class="quire-contents-list grid">
+                
+                
+                <nav class="table-of-contents menu-list" data-outputs-include="pdf">
+                  <ol class="table-of-contents-list">
+                    <li class="level-1 page-item">
+                      <a href="#page-catalogue-1">
+                        <div class="card image">
+                          <div class="card-image">
+                            <figure class="image">
+                              <img src="_assets/images/figures/1.jpg" alt="">
+                            </figure>
+                          </div>
+
+                          <div class="card-content">
+                            Cat. 1. Compianto sul Cristo morto
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="level-1 page-item">
+                      <a href="#page-catalogue-2">
+                        <div class="card image">
+                          <div class="card-content">
+                            Cat. 2. Gloria angelica e Pietà
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                    <li class="level-1 page-item">
+                      <a href="#page-catalogue-13">
+                        <div class="card image">
+                          <div class="card-image">
+                            <figure class="image">
+                              <img src="_assets/images/figures/13.jpg" alt="">
+                            </figure>
+                          </div>
+
+                          <div class="card-content">
+                            Cat. 13. Monumento funerario di Paolo di Sangro,
+                            quarto principe di Sansevero
+                          </div>
+                        </div>
+                      </a>
+                    </li>
+                  </ol>
+                </nav>
+                <div class="content"></div>
+              </div>
+              
+            </div>
+          </section>
+        </section><section class="quire-page quire-entry" data-footer-page-title="Cat. 1. Compianto" data-footer-section-title="CATALOGO" id="page-catalogue-1">
+          <div class="side-by-side">
+            
+
+            <div class="quire-entry__image-wrap" data-outputs-include="epub,pdf">
+              <figure id="cat-1" class="q-figure q-figure--image">
+                
+                
+                <img alt="" class="q-figure__image" src="" data-outputs-include="epub,pdf">
+                <figcaption class="q-figure__caption" data-outputs-include="epub,pdf">
+                  <span class="q-figure__caption-content">Compianto sul Cristo morto,
+                    <em>Francesco Celebrano</em></span>
+                  <span class="q-figure__credit"></span>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="quire-entry__content">
+              <header class="quire-entry__header">
+                <div class="container">
+                  <h1 class="quire-page__header__title" id="page-header-catalogue-1">
+                    Cat. 1. Compianto sul Cristo morto
+                  </h1>
+                  <div class="quire-page__header__contributor"></div>
+                </div>
+              </header>
+
+              <section class="quire-entry__tombstone">
+                <div class="container">
+                  <table class="table is-fullwidth">
+                    <tbody>
+                      <tr>
+                        <td>Artista</td>
+                        <td>Francesco Celebrano (Napoli, 1729 – ivi, 1814)</td>
+                      </tr>
+                      <tr>
+                        <td>Titolo dell’opera</td>
+                        <td>Pietà</td>
+                      </tr>
+                      <tr>
+                        <td>Tecnica</td>
+                        <td>rilievo</td>
+                      </tr>
+                      <tr>
+                        <td>Materia</td>
+                        <td>marmo</td>
+                      </tr>
+                      <tr>
+                        <td>Datazione</td>
+                        <td>1766-1767 circa</td>
+                      </tr>
+                      <tr>
+                        <td>Collocazione</td>
+                        <td>Cappella Sansevero, altare maggiore</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  <div class="content">
+                    <p>
+                      <strong>Autore della scheda:</strong> Gianluca Forgione
+                    </p>
+                    <p>
+                      Com’è ricordato nella riedizione della
+                      <em>Breve nota di quel che si vede in casa del principe di
+                        Sansevero don Raimondo di Sangro nella città di
+                        Napoli</em>
+                      (1769, p. 9; cfr. Attanasio 2011, pp. 58-59), il
+                      <em>Compianto</em> rappresenta «l’opera più insigne» di
+                      Francesco Celebrano, la sola che bastò «ad eternare il suo
+                      nome» (Napoli Signorelli 1811, p. 260). Tradizionalmente
+                      identificata nella deposizione di Cristo dalla Croce,
+                      l’iconografia del rilievo raffigura piuttosto il momento
+                      successivo alla schiodatura, quando Giovanni e le pie
+                      donne compiangono il cadavere deposto. Tale precisazione
+                      consente di ricollegare più direttamente il tema
+                      dell’opera all’intitolazione della Cappella, dedicata a
+                      Santa Maria della Pietà, e alla sua precedente pala
+                      d’altare, un dipinto tardo-cinquecentesco di autore ignoto
+                      in cui Cristo è disteso sulle ginocchia della Vergine
+                      secondo il modello del <em>Vesperbild</em> (Forgione 2022,
+                      p. 26).<br>
+                      Non sono ancora emersi documenti di pagamento relativi
+                      all’ancona, che Celebrano intagliò nel momento in cui era
+                      soprintendente della Cappella e collaboratore fidatissimo
+                      di Raimondo. Nel 1766 la prima edizione della
+                      <em>Breve nota</em> attesta che il rilievo era in
+                      lavorazione (p. 10; cfr. Attanasio 2011, p. 59), ed è
+                      assai probabile ch’esso venisse completato entro l’anno
+                      successivo. L’inventario dei beni rimasti nell’eredità del
+                      Principe riferisce che in quel momento la pala non era
+                      ancora del tutto «allustrata» (<em>Inventario</em> 1771,
+                      cc. 65r-66v; cfr. Attanasio 2011, pp. 76, 130), e che a
+                      essa avrebbe dovuto essere aggiunta una cornice in
+                      lapislazzuli, che fu poi realizzata su invenzione del
+                      medesimo Sansevero (Sarnelli 1772, p. 130). Dalle carte
+                      del processo che Francesco Maria Queirolo (1704-1762)
+                      intentò contro Raimondo nel 1759 emerge che lo scultore
+                      doveva restituire al committente finanche «il modello in
+                      cera di basso rilievo dell’altare maggiore» (cfr.
+                      <em>Chartulae desangriane</em> 2006, p. 81). Non è da
+                      escludere ch’esso corrispondesse a uno dei «trentasei
+                      modelli originali di creta cotta» che Antonio Corradini
+                      aveva eseguito per la decorazione del tempio, e che lasciò
+                      alla sua morte nel 1752 (Origlia Paolino 1754, p. 365).<br>
+                      Al ruolo cruciale di Corradini nell’ideazione della
+                      decorazione plastica della Cappella e alla sua cultura di
+                      matrice nordica è stata sinora ricondotta anche la scelta,
+                      unica nel panorama della Napoli barocca, di decorare
+                      l’altare maggiore con un quadro marmoreo (Cioffi 1994, pp.
+                      24-26). Di recente, tuttavia, essa ha trovato
+                      giustificazione specialmente alla luce delle esperienze
+                      figurative che il giovane Raimondo poté maturare nei dieci
+                      anni della sua formazione trascorsi presso i gesuiti al
+                      Seminario Romano a partire dal 1720 (Forgione 2022, pp.
+                      22-25). A Roma Di Sangro ebbe infatti occasione di
+                      confrontarsi con le pale marmoree più significative della
+                      stagione barocca, tra le quali è da segnalare in
+                      particolare il <em>Compianto</em> di Domenico Guidi
+                      (1625-1701) per l’altare maggiore della Cappella del Monte
+                      di Pietà, consegnato nel 1674, alla cui fortuna contribuì
+                      un cospicuo numero di incisioni e di derivazioni
+                      pittoriche (Giometti 2010, in particolare pp. 190-200, n.
+                      25.S). L’interesse del Principe per la scultura romana è
+                      del resto testimoniato in modo inequivocabile dal «libro
+                      in folio delle statue esistenti in Roma» ch’egli aveva
+                      concesso in prestito a Queirolo perché questi
+                      evidentemente lo adoperasse come strumento di lavoro e
+                      fonte figurativa privilegiata per la decorazione della
+                      Cappella (Forgione 2022, pp. 22-23).<br>
+                      A ben guardare, la pala di Celebrano sembra ricalcare lo
+                      schema compositivo degli spettacolari e naturalistici
+                      <em>Calvari</em> effimeri che ancora al tempo del giovane
+                      Raimondo venivano allestiti nelle chiese romane in
+                      occasione delle Quarantore, un’antica pratica liturgica
+                      che allude al breve periodo che Cristo trascorse nel
+                      sepolcro (ivi, pp. 11-18). Il ricorso a tale tradizione
+                      iconografica potrebbe consentire di chiarire pure il
+                      significato del sarcofago scoperchiato dall’angelo al di
+                      sotto della mensa dell’altare maggiore. L’episodio è stato
+                      sinora collegato alla Resurrezione (cfr. ad esempio Nappi
+                      2010, p. 106, e Marco Bussagli, in
+                      <em>Napoli, la Cappella Sansevero</em> 2019, p. 103):
+                      nondimeno, contrariamente alla raffigurazione del
+                      <em>Quem quaeritis</em>, il gesto dell’angelo non indica
+                      il Cielo, né ravvisiamo il contesto narrativo necessario
+                      alla comprensione del soggetto, con le pie donne recatesi
+                      in visita e le guardie addormentate. È dunque più
+                      probabile che la scena sia da leggere in continuità di
+                      spazio e di tempo con il <em>Compianto</em> rappresentato
+                      al di sopra della mensa eucaristica. Pertanto, il
+                      messaggero divino starebbe aprendo la tomba per consentire
+                      la deposizione del cadavere. Tale lettura troverebbe
+                      conferma in un progetto di padre Pozzo per le Quarantore.
+                      Il foglio, appartenuto allo storico dell’arte Luigi
+                      Salerno e in séguito transitato sul mercato romano,
+                      raffigura alcuni angeli che trasportano il Cristo deposto
+                      al sepolcro, mentre altri due angeli sono impegnati, in un
+                      maestoso ciborio sopraelevato, ad aprire il sarcofago che
+                      sta per accogliere il corpo del Salvatore. Le esigenze di
+                      spettacolarizzazione del teatro sacro giustificano il
+                      fatto che l’angelo – nel disegno di Pozzo così come nella
+                      pala di Celebrano – compia un’azione che non gli è propria
+                      nell’iconografia tradizionale, dove sono invece Giuseppe
+                      d’Arimatea e Nicodemo a preparare la tomba del Redentore
+                      (Forgione 2022, p. 37).
+                    </p>
+                    <h1 id="bibliografia-essenziale-sull-e2-80-99opera" tabindex="-1">
+                      Bibliografia essenziale sull’opera
+                    </h1>
+                    <p>
+                      <em>Breve nota di quel che si vede in casa del principe di
+                        Sansevero don Raimondo di Sangro nella città di
+                        Napoli</em>, [Napoli] 1766, p. 10.
+                    </p>
+                    <p>
+                      <em>Breve nota di quel che si vede in casa del principe di
+                        Sansevero don Raimondo di Sangro nella città di
+                        Napoli</em>, [Napoli] 1769, p. 9.
+                    </p>
+                    <p>
+                      <em>Inventario de’ beni rimasti nell’eredità del fu
+                        eccellentissimo don Raimondo di Sangro principe di
+                        Sansevero</em>, Napoli, notaio Francesco de Maggio, 1771, copia del
+                      documento disponibile presso l’Archivio Storico del Pio
+                      Monte della Misericordia di Napoli, fondo d’Aquino di
+                      Caramanico, segnatura provvisoria A.162, cc. 65r-66v.
+                    </p>
+                    <p>
+                      Sarnelli Pompeo, <em>Nuova guida de’ forestieri…</em>,
+                      Napoli, Saverio Rossi, 1772, p. 130.
+                    </p>
+                    <p>
+                      Napoli Signorelli Pietro,
+                      <em>Vicende della coltura nelle due Sicilie…</em>, VII,
+                      Napoli 1811, p. 260.
+                    </p>
+                    <p>
+                      Picone Marina, <em>La Cappella Sansevero</em>, Napoli
+                      1959, pp. 87-90.
+                    </p>
+                    <p>
+                      Catello Elio,
+                      <em>Francesco Celebrano e l’arte nel presepe napoletano del
+                        ’700</em>, Napoli 1969, pp. 61-62.
+                    </p>
+                    <p>
+                      Fittipaldi Teodoro,
+                      <em>Scultura napoletana del Settecento</em>, Napoli 1980,
+                      pp. 213-214.
+                    </p>
+                    <p>
+                      de Sangro Oderisio,
+                      <em>Raimondo de Sangro e la Cappella Sansevero</em>, Roma
+                      1991, pp. 154-156.
+                    </p>
+                    <p>
+                      Wittkower Rudolf,
+                      <em>Arte e architettura in Italia. 1600-1750</em>, prima
+                      edizione: Torino 1958; edizione citata: Torino 1993, p.
+                      395.
+                    </p>
+                    <p>
+                      Cioffi Rosanna, <em>La Cappella Sansevero</em>.
+                      <em>Arte barocca e ideologia massonica</em>, prima
+                      edizione: Salerno 1987; edizione citata: Salerno 1994, pp.
+                      24-26.
+                    </p>
+                    <p>
+                      Nappi Eduardo,
+                      <em>Dai numeri la verità. Nuovi documenti sulla famiglia, i
+                        palazzi e la Cappella dei Sansevero</em>, Napoli 2010, p. 106.
+                    </p>
+                    <p>
+                      Attanasio Sergio,
+                      <em>In casa del Principe di Sansevero. Architettura,
+                        invenzioni, inventari</em>, Napoli 2011, pp. 45, 58-59, 76, 130-131.
+                    </p>
+                    <p>
+                      <em>Napoli, la Cappella Sansevero e il Cristo velato.
+                        Naples, Sansevero Chapel and the Veiled Christ</em>, testi di Marco Bussagli, fotografie di Carlo Vannini,
+                      Bologna 2019, pp. 103, 114-123.
+                    </p>
+                    <p>
+                      Forgione Gianluca,
+                      <em>I simulacri delle cose. La Cappella Sansevero e il
+                        barocco romano</em>, Torino 2022, in particolare pp. 19-37.
+                    </p>
+                    <h1 id="bibliografia-di-confronto" tabindex="-1">
+                      Bibliografia di confronto
+                    </h1>
+                    <p>
+                      Origlia Paolino Giangiuseppe,
+                      <em>Istoria dello Studio di Napoli…</em>, II, Napoli,
+                      Giovanni di Simone, 1754, p. 365.
+                    </p>
+                    <p>
+                      <em>Chartulae desangriane. Il Principe committente</em>,
+                      catalogo della mostra a cura di Bruno Crimaldi (Napoli,
+                      Museo Cappella Sansevero, 28 marzo 2006), Napoli 2006, p.
+                      81.
+                    </p>
+                    <p>
+                      Giometti Cristiano,
+                      <em>Domenico Guidi, 1625-1701. Uno scultore barocco di fama
+                        europea</em>, Roma 2010 pp. 190-200, n. 25.S.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  
+                </div>
+              </section>
+            </div>
+          </div>
+        </section><section class="quire-page quire-entry" data-footer-page-title="Cat. 2. Gloria angelica e Pietà" data-footer-section-title="CATALOGO" id="page-catalogue-2">
+          <div class="side-by-side">
+            
+
+            <div class="quire-entry__image-wrap" data-outputs-include="epub,pdf"></div>
+
+            <div class="quire-entry__content">
+              <header class="quire-entry__header">
+                <div class="container">
+                  <h1 class="quire-page__header__title" id="page-header-catalogue-2">
+                    Cat. 2. Gloria angelica e Pietà
+                  </h1>
+                  <div class="quire-page__header__contributor"></div>
+                </div>
+              </header>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  <div class="content">
+                    <p>
+                      <strong>Autore della scheda:</strong> Gianluca Forgione
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  
+                </div>
+              </section>
+            </div>
+          </div>
+        </section><section class="quire-page quire-entry" data-footer-page-title="Cat. 13. Monumento funerario di Paolo di Sangro" data-footer-section-title="CATALOGO" id="page-catalogue-13">
+          <div class="side-by-side">
+            
+
+            <div class="quire-entry__image-wrap" data-outputs-include="epub,pdf">
+              <figure id="cat-13" class="q-figure q-figure--image">
+                
+                
+                <img alt="" class="q-figure__image" src="" data-outputs-include="epub,pdf">
+                <figcaption class="q-figure__caption" data-outputs-include="epub,pdf">
+                  <span class="q-figure__caption-content">Monumento funerario di Paolo di Sangro,
+                    <em>Giulio Mencaglia (scultore); Berardino Landini
+                      (marmoraio)</em></span>
+                  <span class="q-figure__credit"></span>
+                </figcaption>
+              </figure>
+            </div>
+
+            <div class="quire-entry__content">
+              <header class="quire-entry__header">
+                <div class="container">
+                  <h1 class="quire-page__header__title" id="page-header-catalogue-13">
+                    Cat. 13. Monumento funerario di Paolo di Sangro, quarto
+                    principe di Sansevero
+                  </h1>
+                  <div class="quire-page__header__contributor"></div>
+                </div>
+              </header>
+
+              <section class="quire-entry__tombstone">
+                <div class="container">
+                  <table class="table is-fullwidth">
+                    <tbody>
+                      <tr>
+                        <td>Artista</td>
+                        <td>
+                          Giulio Mencaglia (scultore); Berardino Landini
+                          (marmoraio)
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Titolo dell’opera</td>
+                        <td>
+                          Monumento funerario di Paolo di Sangro, quarto
+                          principe di Sansevero
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Tecnica</td>
+                        <td>rilievo</td>
+                      </tr>
+                      <tr>
+                        <td>Materia</td>
+                        <td>marmo</td>
+                      </tr>
+                      <tr>
+                        <td>Datazione</td>
+                        <td>1642</td>
+                      </tr>
+                      <tr>
+                        <td>Collocazione</td>
+                        <td>Cappella Sansevero, navata</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </section>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  <div class="content">
+                    <p><strong>Autore della scheda:</strong> Luigi Coiro</p>
+                    <p>
+                      La prima menzione indiretta dell’opera si deve a Carlo de
+                      Lellis, che nel 1654 (pp. 140-142) ne trascrisse per
+                      intero l’epitaffio. Tuttavia, la visita pastorale
+                      effettuata da Ascanio Filomarino nel 1649 descrive la
+                      Cappella «cum quatuor ex marmore memoriis eiusdem familie
+                      [<em>sic</em>] defunctorum cum inscriptionibus», e rimanda
+                      a quella effettuata nel 1634 da Francesco Boncompagni
+                      (entrambe rintracciate nell’Archivio Storico Diocesano di
+                      Napoli da Mariano Saggiomo: cfr. Saggiomo 2021-2022, in
+                      particolare p. 506), che però registra la presenza di sole
+                      tre «memorie»: a destra dell’altare maggiore quelle di
+                      Alessandro e di Giovan Francesco, a sinistra quella di
+                      Paolo (cfr. schede relative). A fianco di quest’ultimo,
+                      nel frattempo, doveva quindi essersi aggiunto proprio il
+                      monumento del quarto principe di Sansevero, recante la
+                      data 1642 al termine della lunga epigrafe incisa sulla
+                      lapide.<br>
+                      Diversamente da quanto è stato sostenuto anche in tempi
+                      recenti, con ogni evidenza la tomba non «fu commissionata
+                      per la prima cappella a sinistra della navata» (Ricco
+                      2023, p. 77), sua attuale ubicazione, dove sarebbe stata
+                      spostata solo nel corso dell’ammodernamento settecentesco
+                      progettato dal principe Raimondo (Attanasio 2011, pp. 46,
+                      145-147). Originariamente la scultura andò dunque a
+                      completare la simmetria dei quattro monumenti funerari ai
+                      lati dell’altare e, «pur dedicata formalmente dal figlio
+                      Giovan Francesco, è in realtà un risultato, tanto
+                      artisticamente pregevole quanto politicamente sintomatico,
+                      di Giambattista e di Placido», tutori dell’infante, «i
+                      quali intendono chiudere una volta per sempre il discorso
+                      ‘europeo’ per mantenere aperto, ed anzi spalancando,
+                      quello regionale pugliese in prospettiva intransigente di
+                      ‘rifeudalizzazione’» (Colapietra 1986, p. 67; sul concetto
+                      storiografico di «rifeudalizzazione» cfr. Villari
+                      1963).<br>
+                      Prima di morire appena ventisettenne nel 1636, Paolo –
+                      «degli agi della paterna Reggia così nemico che da
+                      giovanetto applicossi al mestiero delle armi, dicendo che
+                      non poteva mai chiamarsi buon prencipe chi nella scuola
+                      della milizia non apprendeva il modo di regnare col
+                      vincere» (Arminio Monforte 1674, p. 161) – aveva fatto in
+                      tempo a incarnare «l’istinto marziale de’ Sangri»
+                      partecipando nella sua pur breve esistenza, durante la
+                      Guerra dei Trent’anni, ai meriti guerreschi degli avi.
+                      Questi ultimi vengono elogiati «nel ventesimo terzo
+                      medaglione» dell’apparato per le solenni esequie celebrate
+                      a Torremaggiore nel 1674 in onore di Giovanna di Sangro
+                      (ivi, pp. 161-168; cfr. scheda dell’<em>Amor Divino</em>),
+                      ma soprattutto nel <em>Genio bellicoso di Napoli</em> di
+                      Raffaele Filamondo (1694, pp. 117-130, 161 [ma 261]), che
+                      ricorda il quarto principe di Sansevero tra i condottieri
+                      che, col grado di colonnello, «han militato per la fede,
+                      per lo re, per la patria» nella vittoriosa battaglia di
+                      Nördlingen del 1634, distinguendosi al punto da essere
+                      insignito dell’onorificenza del Toson d’oro, il cui
+                      pendente col vello sbuca al di sotto della sciarpa nella
+                      statua a lui dedicata nel tempio disangriano.<br>
+                      Nella «ricca esemplificazione del costume europeo del XVII
+                      secolo» costituita dalla Cappella Sansevero, Adelaide
+                      Cirillo Mastrocinque (1969, p. 142) si è soffermata
+                      specialmente su «questa magnifica evocazione di una così
+                      baldanzosa eleganza, irridente e malinconica insieme»; e,
+                      pur non volendo «accusare Paolo di Sangro di essere stato
+                      uno ‘scatolone di cerimonia’», notava come «le sue vesti e
+                      il suo stesso atteggiamento ce lo propongono come un uomo
+                      ‘à la page’, per un verso tutto rivolto alla moda di
+                      ispirazione franco-olandese, e per l’altro campione di un
+                      certo esibizionismo di tipo militaresco e ‘smargiasso’,
+                      che è proprio degli spagnoli».<br>
+                      Tuttavia la minuziosa resa dei singoli elementi –
+                      «clamorosa» quella dell’«ampio collare orlato di profondi
+                      festoni a punto ad ago, il <em>collet vidé</em> o
+                      <em>col rabat</em> venuto a scalzare le opprimenti
+                      <em>gourgueras</em> e le austere <em>golillas</em> di
+                      Spagna» –, al di là del valore squisitamente ornamentale,
+                      ha la fondamentale funzione di definire ed evidenziare gli
+                      incarichi ufficiali ricoperti dall’effigiato, e di
+                      «eternare la ‘memoria’» di tutti i suoi attributi
+                      (<em>ibidem</em>), facendo del monumento, come recita
+                      l’epitaffio, «VITAE THALAMUM, MORTIS TUMULUM*»* (Lattuada
+                      1984, p. 213).<br>
+                      In quello che considerava «uno dei più suggestivi
+                      esemplari tra le sculture in marmo che hanno reso famoso
+                      questo tempietto», Vincenzo Pacelli (1986, p. 231) leggeva
+                      in particolare il «bellissimo elmo» come «pezzo pregevole
+                      di natura morta». Ma proprio nei particolari del costume,
+                      secondo Marina Picone (1959, pp. 73-74), «il gioco di
+                      chiari e di scuri si potenzia […] in una visione
+                      tendenzialmente più esteriorizzata e sensibile, meno
+                      naturalistica, di quanto ci si sarebbe dovuto attendere in
+                      un’opera del Fanzaga», cui la scultura è generalmente
+                      riferita <em>ab antiquo</em> – e nel secolo scorso, ad
+                      esempio, da Fogaccia (1945, pp. 143-144), Bologna e Doria
+                      (in <em>Mostra del ritratto</em> 1954, p. 27) e Mormone
+                      (1970, p. 183) – in ossequio a «quel fenomeno di
+                      panfanzaghismo che sembra permeare gran parte della
+                      critica relativa alla scultura» napoletana del Seicento. A
+                      una assai brillante intuizione della studiosa si deve,
+                      peraltro, l’attribuzione dell’opera allo scultore
+                      carrarese Giulio Mencaglia (Picone 1959, p. 73), in
+                      seguito confermata pressoché incontrovertibilmente da un
+                      documento reso noto da Eduardo Nappi (1975, pp. 5, 29-30,
+                      doc. 74; Idem 2010, p. 115, doc. 353): il 25 ottobre del
+                      1642 Berardino Landini – in quel giro d’anni assiduo
+                      sodale di Mencaglia – incassava 69 ducati «per prezzo d’un
+                      pezzo di marmo […] dal quale dovrà farsi la statua del
+                      Principe di San Seviero».<br>
+                      Alla magnificenza dell’insieme concorrono ampiamente la
+                      ricca mistione cromatica dei marmi, in sintonia con «la
+                      cultura fantastica di Dionisio Lazzari» (Causa Picone
+                      1992, p. 588); gli ipertrofici mascheroni in marmo bianco
+                      – quello di sinistra scheggiato e grezzamente risarcito
+                      nella parte inferiore – che guarniscono e quasi presidiano
+                      il piedistallo intarsiato con due eleganti trofei su fondo
+                      nero; e la complessa trabeazione e la parete di fondo
+                      scandita da due panoplie con altri sei trofei a
+                      bassorilievo, tre per lato: un’impaginazione che, pur
+                      rientrando in un’aulica e consolidata tradizione (cfr.
+                      Steinke 2022; Ricco 2023, pp. 77-81, 121-122), è davvero
+                      singolare, anche per il suo «accentuato sviluppo
+                      orizzontale» (Lattuada 1984, p. 213), e contribuisce a
+                      fare di questo deposito il «più pittoricizzato e
+                      fantasioso» tra quelli seicenteschi della Cappella (Causa
+                      Picone 1992, p. 588). In considerazione della qualità
+                      delle decorazioni, Mencaglia, più che per i «paramenti
+                      intarsiati e quella sapienza di accostamenti dei marmi
+                      mischi», risultò probabilmente decisivo per i finimenti
+                      plastici coadiuvando Landini, il quale, secondo Causa
+                      Picone (<em>ibidem</em>), fu autore finanche dei due
+                      leoncini che reggono la cassa sepolcrale, la cui non
+                      felicissima resa si deve forse alla difficoltà nel
+                      misurarsi col marmo rosso (non si può però escludere si
+                      tratti di pezzi di spoglio o di recupero).<br>
+                      La stretta relazione con la pressoché contemporanea
+                      Cappella Firrao nella basilica napoletana di San Paolo
+                      Maggiore (Iorio 2012, p. 348) si deve certo al
+                      coinvolgimento degli stessi artefici – Mencaglia, oltre
+                      alla <em>Madonna col Bambino</em>, realizzò il ritratto di
+                      Antonino Firrao genuflesso (ivi, pp. 299-300) –, e si
+                      estende a un’altra ‘magnifica’ impresa patrocinata in
+                      quegli stessi anni dal principe di Sant’Agata Cesare
+                      Firrao, ovvero l’ammodernamento della facciata del palazzo
+                      di famiglia su Via Costantinopoli – oltre ai sette
+                      busti-ritratto si considerino le sei lesene in marmo
+                      bianco cariche di trofei a bassorilievo (cfr. Steinke
+                      2022, pp. 22-23) –, che vide ancora una volta all’opera
+                      l’accoppiata Landini-Mencaglia.<br>
+                      Mentre da un punto di vista tecnico e stilistico il
+                      <em>Paolo di Sangro</em> si raccorda perfettamente ai
+                      ritratti Firrao (compresi i busti, perduti, già nella
+                      chiesa di Santa Maria di Costantinopoli a Cosenza; cfr.
+                      Ricco 2023, pp. 124-125, n. 13, pp. 131-132, n. 21), il
+                      modulo compositivo – che tra i vari precedenti può
+                      annoverare anche il <em>Giovan Francesco di Sangro</em> in
+                      Cappella (cfr. scheda relativa) – si lega alla coeva
+                      statua-ritratto di Carlo Maria Caracciolo, scolpita entro
+                      il 1643 dal lombardo Ercole Ferrata, che però «possiede un
+                      tipico elemento berniniano nella capacità di apparire in
+                      movimento»: effetto esaltato anche dal «rapporto
+                      probabilmente ‘casuale’ con l’ambiente in cui è ora», la
+                      Cappella Caracciolo di Vico in San Giovanni a Carbonara,
+                      essendo la statua in origine quasi certamente destinata
+                      alla nicchia di un monumento chiesastico a parete in quel
+                      di Torrecuso; laddove il <em>Paolo di Sangro</em> sarebbe
+                      «invece rinchiuso in un contesto
+                      architettonico-decorativo» che crea un «effetto di
+                      fagocitazione della scultura» (Lattuada 1984, p. 213).<br>
+                      Ad amplificare questa percezione contribuisce, tra gli
+                      altri dettagli, un lieve scarto nella posizione del
+                      guerriero, che ancora in pieno Ottocento, come si vede in
+                      una litografia di Franz Wenzel curiosamente intitolata «Il
+                      Decoro» – virtù di norma associata al
+                      <em>Monumento funerario di Isabella della Tolfa e di
+                        Laudomia Milano</em>
+                      (cfr. scheda relativa) –, pare fosse orientato, per quanto
+                      di poco, più verso la sua sinistra. L’ipotesi è suffragata
+                      anche dalla «figura di uno de’ preziosi sepolcri de’
+                      mede[si]mi [avi]», incisione pubblicata da Pompeo Sarnelli
+                      (1685, tra le pp. 196-197; cfr. Saggiomo 2021-2022, p.
+                      516, nota 23; Ricco 2023, p. 78) con dedica di Antonio
+                      Bulifon a Paolo di Sangro quarto principe di Sansevero, la
+                      quale, per quanto compendiosa, mostra – come pure quella
+                      di Wenzel – il bastone del comando intero, serrato dalla
+                      mano destra del principe, mentre attualmente la porzione
+                      posteriore dell’attributo iconografico è assente e il
+                      pugno aderisce alla mezza parasta dell’edicola. Nella
+                      stampa sono inoltre ben visibili due coppie di colonne
+                      catalogate ancora nella meticolosa descrizione del
+                      monumento stilata per l’<em>Inventario</em> del 1771 (cc.
+                      107v-114r; cfr. Attanasio 2011, pp. 145-147) – una delle
+                      più estese tra quelle dedicate ai monumenti della Cappella
+                      –, che appunto registra «quattro colonne, due di negro e
+                      due di brecciolina […]. Sopra detto pezzo di piedistallo
+                      vi è la base, e vi è un regoletto&nbsp;di bardiglio colla base
+                      corintia, e una colonna di sopra già descritta, ch’è di
+                      brecciolina in masso col suo capitello corintio. Accanto a
+                      dette colonne vi sono altre due colonne di negro, di sopra
+                      notate, in masso con base di marmo bianco e con capitello
+                      ionico».<br>
+                      Le due coppie di colonne (nell’edizione del 1772 la guida
+                      di Sarnelli, p. 126, credo per errore, ne conta solo una)
+                      non sono più presenti, e non è improbabile fossero state
+                      danneggiate – stessa sorte toccata forse anche alle
+                      colonne che ornavano il monumento di Giovan Francesco di
+                      Sangro (cfr. scheda relativa) – in séguito al crollo di
+                      parte della controfacciata della chiesa nel 1889 (cfr.
+                      Colonna di Stigliano 1895, pp. 33-34). Pertanto, la lieve
+                      rotazione verso sinistra della statua rispetto all’assetto
+                      sei e settecentesco potrebbe dipendere proprio dagli
+                      adattamenti resi necessari dall’eliminazione delle
+                      colonne, tant’è che la possente figura sembra ambientarsi
+                      a fatica nella nicchia, ridotta in termini di profondità
+                      più che di ampiezza, sebbene non sia da escludere
+                      l’ipotesi che la scultura sia stata incassata al possibile
+                      in una non semplice operazione di arretramento delle
+                      porzioni più prominenti del monumento.<br>
+                      Sempre secondo l’<em>Inventario</em> (1771, c. 108r; cfr.
+                      Attanasio 2011, p. 145), «nel mezzo di detto deposito» era
+                      «una lapida di negro con lettere scolpite, e colorite
+                      gialle», probabilmente anch’essa andata distrutta nel
+                      crollo del 1889 e rimpiazzata solo nel secolo scorso con
+                      una nuova lapide di marmo bianco, che riporta il testo
+                      originario dell’elogio (de Sangro 1991, p. 208), dedicato
+                      al protagonista di «una delle sculture più affascinanti
+                      del Seicento» (Nava Cellini 1982, p. 129).
+                    </p>
+                    <h1 id="bibliografia-essenziale-sull-e2-80-99opera" tabindex="-1">
+                      Bibliografia essenziale sull’opera
+                    </h1>
+                    <p>
+                      de Lellis Carlo,
+                      <em>Parte seconda, overo supplimento a “Napoli sacra” di
+                        don Cesare d’Engenio Caracciolo</em>, Napoli, per Roberto Mollo, 1654, edizione citata: a
+                      cura di Luciana Mocciola ed Elisabetta Scirocco,
+                      Napoli-Firenze 2007, pp. 140-142, solo in rete:
+                      <a href="#page-http-www-memofonte-it" target="_blank">www.memofonte.it</a>.
+                    </p>
+                    <p>
+                      Sarnelli Pompeo, <em>Guida de’ forestieri…</em>, Napoli,
+                      Giuseppe Roselli, a spese di Antonio Bulifon, 1685, p.
+                      197, tav. 197.
+                    </p>
+                    <p>
+                      Sarnelli Pompeo, <em>Guida de’ forestieri…</em>, Napoli,
+                      Antonio Bulifon, 1688, pp. 239-240, tav. 239.
+                    </p>
+                    <p>
+                      Sarnelli Pompeo, <em>Guida de’ forestieri…</em>, Napoli,
+                      Giuseppe Roselli, 1697, pp. 195-196, tav. 196.
+                    </p>
+                    <p>
+                      <em>Inventario de’ beni rimasti nell’eredità del fu
+                        eccellentissimo don Raimondo di Sangro principe di
+                        Sansevero</em>, Napoli, notaio Francesco de Maggio, 1771, copia del
+                      documento disponibile presso l’Archivio Storico del Pio
+                      Monte della Misericordia di Napoli, fondo d’Aquino di
+                      Caramanico, segnatura provvisoria A.162, cc. 107v-114r.
+                    </p>
+                    <p>
+                      Sarnelli Pompeo, <em>Nuova guida de’ forestieri…</em>,
+                      Napoli, Saverio Rossi, 1772, p. 126.
+                    </p>
+                    <p>
+                      Sigismondo Giuseppe,
+                      <em>Descrizione della città di Napoli e suoi borghi</em>,
+                      II, [Napoli,] presso i fratelli Terres, 1788, p. 35.
+                    </p>
+                    <p>
+                      Wenzel Franz, tav. XVIII raffigurante «Il Decoro» e
+                      appartenente a un gruppo di 32 litografie con le sculture
+                      della Cappella Sansevero di Napoli disegnate da autori
+                      vari e incise da Wenzel nel 1839 circa: la copia
+                      rintracciata (mancante di sei litografie) si trova presso
+                      la Biblioteca Nazionale di Napoli, collocazione PALATINA
+                      Banc. 03.
+                    </p>
+                    <p>
+                      Catalani Luigi,
+                      <em>Le chiese di Napoli. Descrizione storica ed
+                        artistica</em>, I, Napoli 1845-1853, pp. 129-130.
+                    </p>
+                    <p>
+                      Galante Gennaro Aspreno,
+                      <em>Guida sacra della città di Napoli</em>, Napoli 1872,
+                      p. 160.
+                    </p>
+                    <p>
+                      Fogaccia Piero, <em>Cosimo Fanzago</em>, Bergamo 1945, pp.
+                      143-144.
+                    </p>
+                    <p>
+                      <em>Mostra del ritratto storico napoletano</em>, catalogo
+                      della mostra a cura di Gino Doria e Ferdinando Bologna
+                      (Napoli, Palazzo Reale, ottobre – novembre 1954), Napoli
+                      1954, in particolare p. 27.
+                    </p>
+                    <p>
+                      Picone Marina, <em>La Cappella Sansevero</em>, Napoli
+                      1959, pp. 73-75.
+                    </p>
+                    <p>
+                      Nava Cellini Antonia,
+                      <em>Un tracciato per l’attività ritrattistica di Giuliano
+                        Finelli</em>, in «Paragone. Arte», XI, 1960, 131, pp. 9-30, in
+                      particolare p. 25.
+                    </p>
+                    <p>
+                      Cirillo Mastrocinque Adelaide,&nbsp;<em>Ritratto e costume nella scultura tombale del Seicento
+                        a Napoli</em>, in «Napoli nobilissima», s. III, VIII, 1969, pp.
+                      139-146, in particolare pp. 140-141, figg. 25, 27, e p.
+                      142.
+                    </p>
+                    <p>
+                      Mormone Raffaele, <em>Sculture di Cosimo Fanzago</em>, in
+                      «Napoli nobilissima», s. III, IX, 1970, pp. 174-185, in
+                      particolare p. 183.
+                    </p>
+                    <p>
+                      Nava Cellini Antonia,
+                      <em>Tracce per lo svolgimento di Cosimo Fanzago
+                        scultore</em>, in «Paragone. Arte», XXII, 1971, 251, pp. 38-66, in
+                      particolare p. 65.
+                    </p>
+                    <p>
+                      Nava Cellini Antonia,
+                      <em>La scultura dal 1610 al 1656</em>, in
+                      <em>Storia di Napoli</em>, V.2, <em>Il Viceregno</em>,
+                      Napoli 1972, pp. 783-825, in particolare pp. 808-809.
+                    </p>
+                    <p>
+                      Nappi Eduardo,
+                      <em>La famiglia, il palazzo e la cappella dei Principi di
+                        Sansevero</em>, in «Revue internationale d’histoire de la banque»,
+                      1975, n. 11, pp. 1-61, in particolare pp. 5, 29-30, doc.
+                      74.
+                    </p>
+                    <p>
+                      Santucci Paola,
+                      <em>La scultura e la decorazione plastica nell’età
+                        barocca</em>, in «La voce della Campania», VII, 1979, 20, pp.
+                      407-422, in particolare p. 420.
+                    </p>
+                    <p>
+                      Nava Cellini Antonia, <em>La scultura del Seicento</em>,
+                      Torino 1982, pp. 128-129.
+                    </p>
+                    <p>
+                      Lattuada Riccardo, in
+                      <em>Civiltà del Seicento a Napoli</em>, catalogo della
+                      mostra (Napoli, sedi varie, 24 ottobre 1984 – 14 aprile
+                      1985), II, Napoli 1984, pp. 212-213.
+                    </p>
+                    <p>
+                      Colapietra Raffaele,
+                      <em>Raimondo di Sangro e il Templum sepulcrale della
+                        Cappella Sansevero (I)</em>, in «Napoli nobilissima», s. III, XXV, 1986, pp. 62-79,
+                      in particolare p 67.
+                    </p>
+                    <p>
+                      Pacelli Vincenzo,
+                      <em>L’ideologia del potere nella ritrattistica napoletana
+                        del Seicento</em>, in «Bollettino del Centro di studi vichiani», XVI,
+                      1986, pp. 197-241, in particolare pp. 230-241, figg.
+                      22-23.
+                    </p>
+                    <p>
+                      de Sangro Oderisio,
+                      <em>Raimondo de Sangro e la Cappella Sansevero</em>, Roma
+                      1991, pp. 204-208, n. 21.
+                    </p>
+                    <p>
+                      Causa Picone Marina,
+                      <em>La cappella Sansevero dal 1590 al 1652: un “point de
+                        repère” per la scultura barocca a Napoli</em>, in <em>Barocco napoletano</em>, a cura di Gaetana
+                      Cantone, II, Napoli 1992, pp. 581-598, in particolare pp.
+                      588-589, fig. 3.
+                    </p>
+                    <p>
+                      Cioffi Rosanna, <em>La Cappella Sansevero</em>.
+                      <em>Arte barocca e ideologia massonica</em>, prima
+                      edizione: Salerno 1987; edizione citata: Salerno 1994, p.
+                      194.
+                    </p>
+                    <p>
+                      Nappi Eduardo,
+                      <em>Dai numeri la verità. Nuovi documenti sulla famiglia, i
+                        palazzi e la Cappella dei Sansevero</em>, Napoli 2010, pp. 96, 115, doc. 353.
+                    </p>
+                    <p>
+                      Attanasio Sergio,
+                      <em>In casa del Principe di Sansevero. Architettura,
+                        invenzioni, inventari</em>, Napoli 2011, pp. 46, 145-147.
+                    </p>
+                    <p>
+                      Iorio Sabrina,
+                      <em>La cappella Firrao nella chiesa di San Paolo Maggiore
+                        di Napoli: la committenza, gli artisti e le opere</em>, in
+                      <em>Sant’Andrea Avellino e i teatini nella Napoli del
+                        viceregno spagnolo. Arte religione società</em>, a cura di Domenico Antonio D’Alessandro, II, Napoli
+                      2012, pp. 289-426, in particolare pp. 348, 355, tav. 45.
+                    </p>
+                    <p>
+                      Saggiomo Mariano,
+                      <em>Le chiese gentilizie napoletane di Età Moderna: per la
+                        ricostruzione storica di un fenomeno dimenticato</em>, tesi di dottorato in Scienze storiche, archeologiche e
+                      storico-artistiche, Università degli Studi di Napoli
+                      Federico II, XXXIV ciclo, tutors proff. Francesco Caglioti
+                      e Bianca de Divitiis, a.a. 2021-2022, pp. 535-552, in
+                      particolare pp. 506, 516, nota 23.
+                    </p>
+                    <p>
+                      Ricco Antonello,
+                      <em>Giulio Mencaglia, uno scultore del Seicento tra
+                        Firenze, Roma e Napoli</em>, Pisa 2023, pp. 77-81, 121-122, n. 10.
+                    </p>
+                    <h1 id="bibliografia-di-confronto" tabindex="-1">
+                      Bibliografia di confronto
+                    </h1>
+                    <p>
+                      Arminio Monforte Fulgenzio,
+                      <em>Il trionfo del dolore. Funerali per la illustrissima ed
+                        eccellentissima signora… donna Giovanna di Sangro dei
+                        Marchesi di San Lucido, prencipessa di San Severo,
+                        celebrati in Torremaggiore nella chiesa di Santa Maria
+                        del Carmine… l’anno 1674</em>, Napoli, per Girolamo Fasulo, 1674, pp. 161-168.
+                    </p>
+                    <p>
+                      Filamondo Raffaele,
+                      <em>Il Genio bellicoso di Napoli…</em>, I, in Napoli,
+                      nella nuova stampa di Domenico Antonio Parrino e di
+                      Michele Luigi Mutii, 1694, pp. 117-130, 161 [ma 261].
+                    </p>
+                    <p>
+                      Colonna di Stigliano Fabio,
+                      <em>La cappella Sansevero e D. Raimondo di Sangro</em>, in
+                      «Napoli nobilissima», IV, 1895, 3, pp. 33-36, in
+                      particolare pp. 33-34.
+                    </p>
+                    <p>
+                      Villari Rosario,
+                      <em>Note sulla rifeudalizzazione del Regno di Napoli alla
+                        vigilia della rivoluzione di Masaniello</em>, in «Studi storici», IV, 1963, 4, pp. 638-668.
+                    </p>
+                    <p>
+                      Coiro Luigi,
+                      <em>Ercole Ferrata da «marmoraro» a «scultore» nella Napoli
+                        di Cosimo Fanzago</em>, in
+                      <em>Ercole Ferrata (1610-1686) da Pellio all’Europa</em>,
+                      atti del convegno internazionale di studi (Como, 3-4
+                      febbraio 2011), a cura di Andrea Spiriti e Laura Facchin,
+                      Laino 2019, pp. 36-65, in particolare p. 44.
+                    </p>
+                    <p>
+                      Steinke Horst,
+                      <em>The Façade of Palazzo Firrao: Towards a New
+                        Interpretation</em>, in «Napoli nobilissima», s. VII, VIII, 2022, 1, pp.
+                      19-35.
+                    </p>
+                    <p>
+                      Ricco Antonello,
+                      <em>Giulio Mencaglia, uno scultore del Seicento tra
+                        Firenze, Roma e Napoli</em>, Pisa 2023, pp. 124-125, n. 13, pp. 131-132, n. 21.
+                    </p>
+                  </div>
+                </div>
+              </section>
+
+              <section class="section quire-page__content">
+                <div class="container">
+                  
+                </div>
+              </section>
+            </div>
+          </div>
+        </section><section class="quire-page" data-footer-page-title="Bibliografia" id="page-hidden-bibliografia">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="bibliografia">
+                Bibliografia
+              </h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="content">
+                <div class="quire-page__content__references">
+                  <dl>
+                    <dt><span id="1">Fischetti, Zaccariotto 2018 </span></dt>
+                    <dd>
+                      Federico Fischetti, Giulia Zaccariotto (a cura di),
+                      Galleria Metallica. Ritratti e imprese dal Medagliere
+                      Estense, Modena, Franco Cosimo Panini, 2018.
+                    </dd>
+                  </dl>
+
+                  <dl>
+                    <dt><span id="2">Plebani 2023</span></dt>
+                    <dd>
+                      Paolo Plebani (a cura di), Accademia Carrara. Guida alla
+                      visita, Milano, Skira, 2023.
+                    </dd>
+                  </dl>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              
+            </div>
+          </section>
+        </section><section class="quire-page" data-footer-page-title="Autori" id="page-hidden-autori">
+          <section class="quire-page__header hero">
+            <div class="hero-body">
+              <h1 class="quire-page__header__title" id="autori">Autori</h1>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              <div class="content">
+                <ul class="quire-contributors-list bio align-left">
+                  <li class="quire-contributor" id="maria-rossi">
+                    <div class="title is-5">
+                      <span class="quire-contributor__name">Maria Rossi</span>
+                    </div>
+                    <div class="media">
+                      <div class="quire-contributor__details media-content">
+                        <div class="media-left">
+                          <img class="image quire-contributor__pic" src="_assets/images/contributors/paoloplebani.jpg" alt="Picture of Maria Rossi">
+                        </div>
+                        <div class="quire-contributor__bio">
+                          Storico dell’arte, specializzato in pittura veneta tra
+                          XVI e XVIII secolo, conservatore all’Accademia Carrara
+                          di Bergamo. Tra i suoi lavori, molte collaborazioni
+                          con saggi e schede di catalogo a mostre: si ricordi il
+                          recente contributo a
+                          <em>La peinture en Lombardie au XVII siècle. De la
+                            violence des passions à l’idéal de beauté</em>
+                          (Palais Fesch, Ajaccio, 2014). Tra le sue
+                          pubblicazioni, la monografia
+                          <em>Verona e gli artisti veronesi nelle «Vite» di
+                            Giorgio Vasari</em>
+                          (LED Edizioni Universitarie, Milano 2012).
+                        </div>
+                        <ul></ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="quire-contributor" id="mario-rossi">
+                    <div class="title is-5">
+                      <span class="quire-contributor__name">Mario Rossi</span>
+                    </div>
+                    <div class="media">
+                      <div class="quire-contributor__details media-content">
+                        <div class="media-left">
+                          <img class="image quire-contributor__pic" src="_assets/images/contributors/martinabagnoli.jpg" alt="Picture of Mario Rossi">
+                        </div>
+                        <div class="quire-contributor__bio">
+                          Direttore di museo con vasta esperienza internazionale
+                          e comprovata capacità di sviluppare e attuare una
+                          visione strategica per grandi istituzioni museali.
+                          Forte competenza nella progettazione, negoziazione e
+                          attuazione di cambiamenti aziendali al fine di
+                          sviluppare approcci innovativi al patrimonio museale e
+                          artistico per una sua efficace conservazione,
+                          valorizzazione e fruizione. Storica dell’arte di fama
+                          e curatrice di importanti esposizioni internazionali
+                          con all’attivo più di 130 tra mostre, pubblicazioni,
+                          docenze accademiche e conferenze. Esperta
+                          comunicatrice con una solida esperienza nella raccolta
+                          fondi e nella costruzione di partnership, Martina
+                          Bagnoli è una appassionata sostenitrice del ruolo
+                          dell’arte nella società. Dal 2015 a gennaio 2024 è
+                          stata direttrice delle Gallerie Estensi, un museo
+                          autonomo del Ministero della Cultura italiano che
+                          comprende la Galleria Estense di Modena, la Biblioteca
+                          Estense universitaria, il Museo lapidario, il Palazzo
+                          ducale di Sassuolo e la Pinacoteca nazionale di
+                          Ferrara. In precedenza, dal 2002 al 2015, Bagnoli è
+                          stata curatrice di arte medievale per il Walters Art
+                          Museum. Da febbraio 2024 dirige l’Accademia Carrara di
+                          Bergamo.
+                        </div>
+                        <ul></ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+          <section class="section quire-page__content">
+            <div class="container">
+              
+            </div>
+          </section>
+        </section></body></html>

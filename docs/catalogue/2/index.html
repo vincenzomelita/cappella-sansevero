@@ -82,7 +82,7 @@
       }
     </script>
 
-    <link rel="icon" href="/_assets/images/icons/favicon.ico">
+    <link rel="icon" href="data:image/x-icon;base64,AAABAAEADxAAAAEAIAAoBAAAFgAAACgAAAAPAAAAIAAAAAEAIAAAAAAAwAMAABILAAASCwAAAAAAAAAAAAACAgIAAAAAAAAAAB8AAADDAAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAAqAAAAAIDAwMAAAAAAAAAACwAAABvAAAAcAAAAHAAAABwAAAAcAAAAHAAAABwAAAAcQAAAHQAAADSAAAAqgAAAAIAAAABAAAAMgAAAE0AAABJAAAASQAAAEkAAABJAAAASQAAAEkAAABJAAAAPQAAAAkAAACmAAAAnwAAAAEAAAACAAAApQAAAPsAAADvAAAA7wAAAO8AAADvAAAA7wAAAO8AAAD1AAAA3AAAACIAAAByAAAAMwAAAAAAAAACAAAAqwAAAL4AAAA9AAAAPAAAADwAAAA8AAAAPAAAADkAAACGAAAA4QAAACEBAQEJAAAAAQAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAzgAAABcAAAAAAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFAAAASAAAACYAAAAwAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAEAAAALQAAABhAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABhAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABiAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABjAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABjAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABjAAAAAAAAAAAAAAACAAAArAAAAKkAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHgAAAN8AAABjAAAAAAAAAAAAAAACAAAApwAAANIAAAB1AAAAdAAAAHQAAAB0AAAAdAAAAHQAAABzAAAAhQAAAO0AAABfAAAAAAAAAAAAAAAAAAAAawAAAPkAAAD/AAAA/wAAAP8AAAD/AAAA/wAAAP8AAAD/AAAA/wAAAOAAAAAyAAAAAAAAAADAAAAAwAAAAAAAAAAAAgAAAAIAAA+OAAAPhgAAD4YAAA/GAAAPxgAAD8YAAA/GAAAPxgAAD8YAAAAGAACABgAA">
     <!--
             styles are already imported in _assets/javascript/application/index.js
             and rendered as inline minified <style type="text/css">...</style> blocks,
@@ -92,7 +92,9 @@
     <!-- <link rel="stylesheet" href="/_assets/styles/custom.css" /> -->
 
     <!-- {% render 'polyfills/template.html' %} -->
-  <script type="module" src="/_assets/javascript/lightbox/index.js"></script><script type="module" src="/_assets/javascript/modal/index.js"></script></head>
+    <script type="module" crossorigin src="/_assets/index-e89f4f5a.js"></script>
+    <link rel="stylesheet" href="/_assets/index.css">
+  </head>
 
   <body>
     <svg style="display: none">
@@ -207,11 +209,11 @@
                     <a href="/catalogue/1/" class="">Cat. 1. Compianto sul Cristo morto</a>
                   </li>
                   <li class="page-item">
-                    <a href="/catalogue/13/" class="">Cat. 13. Monumento funerario di Paolo di Sangro, quarto
-                      principe di Sansevero</a>
+                    <a href="/catalogue/2/" class="active">Cat. 2. Gloria angelica e Pietà</a>
                   </li>
                   <li class="page-item">
-                    <a href="/catalogue/2/" class="active">Cat. 2. Gloria angelica e Pietà</a>
+                    <a href="/catalogue/13/" class="">Cat. 13. Monumento funerario di Paolo di Sangro, quarto
+                      principe di Sansevero</a>
                   </li>
                 </ol>
               </li>
@@ -262,7 +264,7 @@
 
           <footer class="quire-menu__footer" role="contentinfo">
             <div class="quire-copyright">
-              <img src="/_assets/images/logo-cappella-san-severo.png" class="copyright__publisher-logo" alt="Haltadefinizione">
+              <img src="/_assets/logo-cappella-san-severo.png" class="copyright__publisher-logo" alt="Haltadefinizione">
               <p>© 2025 Museo Cappella San Severo - Ministero della Cultura</p>
               <a class="quire-copyright__icon__link" href="https://creativecommons.org/licenses/by/4.0/" rel="license" target="_blank">
                 <svg class="quire-copyright__icon">
@@ -330,14 +332,14 @@
             <div class="quire-navbar-controls__center">
               <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
                 <li class="quire-navbar-page-controls__item quire-previous-page">
-                  <a href="/catalogue/13/" rel="previous">
+                  <a href="/catalogue/1/" rel="previous">
                     <span class="visually-hidden">Previous Page: </span>
                     <svg class="left-icon" data-outputs-exclude="epub,pdf">
                       <switch>
                         <use xlink:href="#left-arrow-icon"></use>
                       </switch>
                     </svg>
-                    Cat. 13. Monumento funerario di Paolo di Sangro
+                    Cat. 1. Compianto
                   </a>
                 </li>
 
@@ -355,9 +357,9 @@
                 </li>
 
                 <li class="quire-navbar-page-controls__item quire-next-page">
-                  <a href="/_hidden/bibliografia/" rel="next">
+                  <a href="/catalogue/13/" rel="next">
                     <span class="visually-hidden">Next Page: </span>
-                    Bibliografia
+                    Cat. 13. Monumento funerario di Paolo di Sangro
                     <svg data-outputs-exclude="epub,pdf">
                       <switch>
                         <use xlink:href="#right-arrow-icon"></use>
@@ -379,8 +381,8 @@
             </div>
           </nav>
           <div class="quire-progress-bar">
-            <div style="width: 72.72727272727273%">
-              <span>8/11</span>
+            <div style="width: 63.63636363636363%">
+              <span>7/11</span>
             </div>
           </div>
         </div>
@@ -388,31 +390,7 @@
         <main class="quire-page quire-entry" data-output-path="_site/catalogue/2/index.html" data-page-id="page-catalogue-2">
           <div class="side-by-side">
             <div class="quire-entry__image-wrap" data-outputs-include="html">
-              <div class="quire-entry__lightbox">
-                <q-lightbox>
-                  <div class="q-lightbox-slides">
-                    <div class="q-lightbox-slides__slide" data-lightbox-slide="" data-lightbox-slide-id="cat-2">
-                      <div class="q-lightbox-slides__element q-lightbox-slides__element--image">
-                        <canvas-panel canvas-id="https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908" choice-id="" height="" iiif-content="" manifest-id="https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest" preset="zoom" region="0,0,undefined,undefined" virtual-sizes="" width="">
-                      </canvas-panel></div>
-                      <div class="q-figure-slides__slide-ui">
-                        <div class="q-lightbox-slides__caption">
-                          <span class="q-lightbox-slides__caption-content">Il Disinganno,
-                            <em>Francesco Maria Queirolo, Giuseppe Sanmartino</em>
-                          </span>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-                  <div class="q-lightbox-ui">
-                    <div class="q-lightbox-ui__zoom-and-fullscreen">
-                      <button data-lightbox-fullscreen="false" class="q-lightbox-ui__fullscreen-button" title="View Fullscreen" aria-label="View Fullscreen"></button>
-                    </div>
-                    <div class="q-lightbox-ui__download-and-counter"></div>
-                  </div>
-                </q-lightbox>
-              </div>
+              <div class="quire-entry__lightbox"></div>
             </div>
 
             
@@ -426,46 +404,6 @@
                   <div class="quire-page__header__contributor"></div>
                 </div>
               </header>
-
-              <section class="quire-entry__tombstone">
-                <div class="container">
-                  <table class="table is-fullwidth">
-                    <tbody>
-                      <tr>
-                        <td>Artista</td>
-                        <td>
-                          Paolo Persico, Ignoto pittore meridionale della
-                          seconda metà del XVI secolo
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Titolo dell’opera</td>
-                        <td>Gloria angelica, Pietà</td>
-                      </tr>
-                      <tr>
-                        <td>Tecnica</td>
-                        <td>rilievo, dipinto murale (affresco?)</td>
-                      </tr>
-                      <tr>
-                        <td>Materia</td>
-                        <td>stucco, marmo</td>
-                      </tr>
-                      <tr>
-                        <td>Datazione</td>
-                        <td>1769; fine XVI secolo</td>
-                      </tr>
-                      <tr>
-                        <td>Dimensioni</td>
-                        <td>cm 169 x 121</td>
-                      </tr>
-                      <tr>
-                        <td>Collocazione</td>
-                        <td>Cappella Sansevero, altare maggiore</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                </div>
-              </section>
 
               <section class="section quire-page__content">
                 <div class="container">
@@ -482,7 +420,7 @@
                   <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
                     <ul>
                       <li class="quire-nav-button prev">
-                        <a href="/catalogue/13/"><svg data-outputs-exclude="epub,pdf">
+                        <a href="/catalogue/1/"><svg data-outputs-exclude="epub,pdf">
                             <switch>
                               <use xlink:href="#left-arrow-icon"></use>
                             </switch>
@@ -493,7 +431,7 @@
                       </li>
 
                       <li class="quire-nav-button next">
-                        <a href="/_hidden/bibliografia/"><span class="nav-title">Avanti</span>
+                        <a href="/catalogue/13/"><span class="nav-title">Avanti</span>
                           <svg data-outputs-exclude="epub,pdf">
                             <switch>
                               <use xlink:href="#right-arrow-icon"></use>
@@ -556,34 +494,8 @@
         </div>
       </div>
     </div>
-    <q-modal>
-      <q-lightbox>
-        <div class="q-lightbox-slides">
-          <div class="q-lightbox-slides__slide" data-lightbox-slide="" data-lightbox-slide-id="cat-2">
-            <div class="q-lightbox-slides__element q-lightbox-slides__element--image">
-              <canvas-panel canvas-id="https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908" choice-id="" height="" iiif-content="" manifest-id="https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest" preset="zoom" region="0,0,undefined,undefined" virtual-sizes="" width="">
-            </canvas-panel></div>
-            <div class="q-figure-slides__slide-ui">
-              <div class="q-lightbox-slides__caption">
-                <span class="q-lightbox-slides__caption-content">Il Disinganno,
-                  <em>Francesco Maria Queirolo, Giuseppe Sanmartino</em>
-                </span>
-              </div>
-            </div>
-          </div>
-        </div>
 
-        <div class="q-lightbox-ui">
-          <div class="q-lightbox-ui__zoom-and-fullscreen">
-            <button data-lightbox-fullscreen="false" class="q-lightbox-ui__fullscreen-button" title="View Fullscreen" aria-label="View Fullscreen"></button>
-          </div>
-          <div class="q-lightbox-ui__download-and-counter"></div>
-        </div>
-      </q-lightbox>
-      <button data-modal-close="" class="q-modal__close-button" id="close-modal"></button>
-    </q-modal>
-
-    <script type="module" src="/_assets/javascript/application/index.js"></script>
+    
   
 
 </body></html>
