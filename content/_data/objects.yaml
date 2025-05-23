@@ -10,34 +10,23 @@ object_display_order:
 object_list:
 
   - id: 1
-    Artista: "Francesco Celebrano (Napoli, 1729 – ivi, 1814)"
-    Titolo dell’opera: "Compianto sul Cristo morto"
-    Tecnica: "rilievo"
-    Materia: "marmo"
-    Datazione: "1766–1767 circa"
-    Dimensioni: "-"
-    Collocazione: "Cappella Sansevero, altare maggiore"
+    Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814)
+    Titolo dell’opera: Pietà
+    Tecnica: rilievo
+    Materia: marmo
+    Datazione: 1766-1767 circa
+    Dimensioni: 
+    Collocazione: Cappella Sansevero, altare maggiore
     figure:
       - id: "cat-1"
 
-  - id: 2
-    Artista: "Paolo Persico, Ignoto pittore meridionale della seconda metà del XVI secolo"
-    Titolo dell’opera: "Gloria angelica, Pietà"
-    Tecnica: "rilievo, dipinto murale (affresco?)"
-    Materia: "stucco, marmo"
-    Datazione: "1769; fine XVI secolo"
-    Dimensioni: "cm 169 x 121"
-    Collocazione: "Cappella Sansevero, altare maggiore"
-    figure:
-      - id: "cat-2"
-
   - id: 13
-    Artista: "Giulio Mencaglia (scultore); Berardino Landini (marmoraio)"
-    Titolo dell’opera: "Monumento funerario di Paolo di Sangro, quarto principe di Sansevero"
-    Tecnica: "rilievo"
-    Materia: "marmo"
-    Datazione: "1642"
-    Dimensioni: "-"
-    Collocazione: "Cappella Sansevero, navata"
+    Artista: Giulio Mencaglia (scultore); Berardino Landini (marmoraio)
+    Titolo dell’opera: Monumento funerario di Paolo di Sangro, quarto principe di Sansevero
+    Tecnica: rilievo
+    Materia: marmo
+    Datazione: 1642
+    Dimensioni: 
+    Collocazione: Cappella Sansevero, navata
     figure:
       - id: "cat-13"
