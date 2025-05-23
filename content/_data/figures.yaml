@@ -15,7 +15,7 @@ figure_list:
     zoom: true
   
   - id: "cat-1"
-    src: figures/1.jpg
+    src: figures/1_1.jpg
     caption: "Compianto sul Cristo morto, *Francesco Celebrano*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a3c13b3e-6bc4-4c47-b634-392039babab2/canvas/df16ebcd-6457-4cc8-8b76-b7338b6b2ba5
