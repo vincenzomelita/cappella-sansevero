@@ -15,7 +15,7 @@ object_list:
     Tecnica: rilievo
     Materia: marmo
     Datazione: 1766-1767 circa
-    Dimensioni: nd
+    Dimensioni: 6,30 m x 3 m
     Collocazione: Cappella Sansevero, altare maggiore
     figure:
       - id: "cat-1"
