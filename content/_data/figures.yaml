@@ -116,7 +116,105 @@ figure_list:
 
   - id: "cat-17"
     src: figures/1_1.jpg
-    caption: "Monumento funerario di Cecco di Sangro, *Francesco Celebrano*"
+    caption: "Monumento funerario di Giovan Francesco di Sangro, quinto principe di Sansevero, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-18"
+    src: figures/1_1.jpg
+    caption: "Amor divino – Monumento funerario di Giovanna di Sangro dei Marchesi di San Lucido, moglie di Giovan Francesco di Sangro, quinto principe di Sansevero (già statua per il monumento di Paolo e Ferdinando di Sangro), *Michelangelo Naccherino; con interventi di Francesco Maria Queirolo (?)*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-19"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Paolo di Sangro, secondo principe di Sansevero, *Michelangelo Naccherino*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-20"
+    src: figures/1_1.jpg
+    caption: "Educazione – Monumento funerario di Girolama Caracciolo e di Clarice Carafa di Stigliano, prima e seconda moglie di Paolo di Sangro, secondo principe di Sansevero, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-21"
+    src: figures/1_1.jpg
+    caption: "Monumento di Paolo di Sangro, sesto principe di Sansevero, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-22"
+    src: figures/1_1.jpg
+    caption: "Dominio di sé stessi – Monumento funerario di Geronima Loffredo, moglie di Paolo di Sangro, sesto principe di Sansevero, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-23"
+    src: figures/1_1.jpg
+    caption: "Pavimento labirintico, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-24"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-25"
+    src: figures/1_1.jpg
+    caption: "Sincerità – Monumento funerario di Carlotta Gaetani dell’Aquila d’Aragona, moglie di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Queirolo; Paolo Persico: putto con colombe*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-26"
+    src: figures/1_1.jpg
+    caption: "Il Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore, *Francesco Maria Queirolo; Giuseppe Sanmartino: rilievo con il Noli me tangere del basamento*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-27"
+    src: figures/1_1.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-28"
+    src: figures/1_1.jpg
+    caption: "Gloria del Paradiso (Paradiso dei Di Sangro), *Francesco Maria Russo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-29"
+    src: figures/1_1.jpg
+    caption: "Macchine anatomiche, *Giuseppe Salerno*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-30"
+    src: figures/1_1.jpg
+    caption: "Ritratto di Raimondo di Sangro, settimo principe di Sansevero, *Francesco De Mura*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-31"
+    src: figures/1_1.jpg
+    caption: "Madonna col Bambino, settimo principe di Sansevero, *Giuseppe Pesce (o Pesci)*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
