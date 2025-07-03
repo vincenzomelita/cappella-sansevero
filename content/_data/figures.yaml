@@ -39,20 +39,87 @@ figure_list:
 
   - id: "cat-6"
     src: figures/6.jpg
-    caption: "La Pudicizia, *Antonio Corradini*"
+    caption: "La Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona, *Antonio Corradini*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
     zoom: true
   
+  - id: "cat-7"
+    src: figures/1_1.jpg
+    caption: "Sant’Oderisio; Santa Rosalia, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
 
+  - id: "cat-8"
+    src: figures/1_1.jpg
+    caption: "Soavità del giogo coniugale – Monumento funerario di Gaetana Mirelli, moglie di Vincenzo di Sangro, ottavo principe di Sansevero, *Paolo Persico *"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
+
+  - id: "cat-9"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero, *Francesco Celebrano, Fortunato Onelli, Carlo Amalfi*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
+
+  - id: "cat-10"
+    src: figures/1_1.jpg
+    caption: "Zelo della Religione – Monumento funerario di Ippolita del Carretto e di Adriana Carafa della Spina, prima e seconda moglie di Giovan Francesco di Sangro, primo principe di Sansevero, *Fortunato Onelli e altri; Francesco Celebrano: direzione dei lavori*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
+
+  - id: "cat-11"
+    src: figures/1_1.jpg
+    caption: "Monumento funebre di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
+
+  - id: "cat-12"
+    src: figures/1_1.jpg
+    caption: "Liberalità – Monumento funerario di Giulia Gaetani dell’Aquila d’Aragona, moglie di Paolo di Sangro, quarto principe di Sansevero, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    zoom: true
 
   - id: "cat-13"
-    src: figures/13.jpg
-    caption: "Monumento funerario di Paolo di Sangro, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Paolo di Sangro, quarto principe di Sansevero, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
 
+  - id: "cat-14"
+    src: figures/1_1.jpg
+    caption: "Decoro – Monumento funerario di Isabella della Tolfa e Laudomia Milano, prima e seconda moglie di Giovan Francesco di Sangro, terzo principe di Sansevero, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-15"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Giovan Francesco di Sangro, terzo principe di Sansevero (Mestizia?), *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-16"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Cecco di Sangro, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-17"
+    src: figures/1_1.jpg
+    caption: "Monumento funerario di Cecco di Sangro, *Francesco Celebrano*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
 
   - id: "cat-35"
     src: figures/35.jpg
