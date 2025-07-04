@@ -21,7 +21,7 @@ object_list:
   - id: cat-1
 
 - id: 2
-  Artista: Paolo Persico: rilievo; Ignoto pittore meridionale della seconda metà del XVI secolo: dipinto murale
+  Artista: "Paolo Persico: rilievo; Ignoto pittore meridionale della seconda metà del XVI secolo: dipinto murale"
   Titolo dell’opera: Gloria angelica; Pietà
   Tecnica: rilievo; dipinto murale (affresco?)
   Materia: stucco
@@ -43,7 +43,7 @@ object_list:
   - id: cat-3
 
 - id: 4
-  Artista: Giovan Domenico Monterosso: busto e angeli; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640) e Giovanni Antonio Galluccio: progetto del sepolcro e paramento marmoreo
+  Artista: "Giovan Domenico Monterosso: busto e angeli; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640) e Giovanni Antonio Galluccio: progetto del sepolcro e paramento marmoreo"
   Titolo dell’opera: Monumento funebre di Alessandro di Sangro, patriarca di Alessandria
   Tecnica: rilievo
   Materia: marmo
@@ -98,7 +98,7 @@ object_list:
   - id: cat-8
 
 - id: 9
-  Artista: Francesco Celebrano (Napoli, 1729 – ivi, 1814) e Fortunato Onelli (?); Carlo Amalfi: ritratto pittorico
+  Artista: "Francesco Celebrano (Napoli, 1729 – ivi, 1814) e Fortunato Onelli (?); Carlo Amalfi: ritratto pittorico"
   Titolo dell’opera: Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero
   Tecnica: rilievo, olio
   Materia: marmi vari, rame
@@ -109,7 +109,7 @@ object_list:
   - id: cat-9
 
 - id: 10
-  Artista: Fortunato Onelli e altri; Francesco Celebrano (Napoli, 1729 – ivi, 1814): direzione dei lavori
+  Artista: "Fortunato Onelli e altri; Francesco Celebrano (Napoli, 1729 – ivi, 1814): direzione dei lavori"
   Titolo dell’opera: Zelo della Religione – Monumento funerario di Ippolita del Carretto e di Adriana Carafa della Spina, prima e seconda moglie di Giovan Francesco di Sangro, primo principe di Sansevero
   Tecnica: rilievo
   Materia: marmo
@@ -120,7 +120,7 @@ object_list:
   - id: cat-10
 
 - id: 11
-  Artista: Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640): progetto del sepolcro e paramento marmoreo'
+  Artista: "Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari (Firenze, 1574 – Napoli, 1640): progetto del sepolcro e paramento marmoreo"
   Titolo dell’opera: Monumento funebre di Giovan Francesco di Sangro, primo principe di Sansevero
   Tecnica: rilievo
   Materia: marmo
@@ -263,7 +263,7 @@ object_list:
   - id: cat-23
 
 - id: 24
-  Artista: Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico
+  Artista: "Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico"
   Titolo dell’opera: Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero
   Tecnica: rilievo, olio
   Materia: marmi vari, rame
@@ -285,7 +285,7 @@ object_list:
   - id: cat-25
 
 - id: 26
-  Artista: Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762); Giuseppe Sanmartino (Napoli, 1720 – ivi, 1793): rilievo con il Noli me tangere del basamento
+  Artista: "Francesco Maria Queirolo (Genova, 1704 – Napoli, 1762); Giuseppe Sanmartino (Napoli, 1720 – ivi, 1793): rilievo con il Noli me tangere del basamento"
   Titolo dell’opera: Il Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore
   Tecnica: rilievo
   Materia: marmo
