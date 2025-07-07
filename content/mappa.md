@@ -24,7 +24,7 @@ hide-title: true
 
 # Navata
 
-1.	[Compianto sul Cristo morto](catalogue/1.html)
+1.	[Compianto sul Cristo morto](/catalogue/1.html)
 2.	Gloria angelica e Pietà
 3.	Angeli e putti con i simboli della Passione
 4.	Monumento funebre di Alessandro di Sangro, patriarca di Alessandria
