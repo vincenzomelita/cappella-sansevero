@@ -390,9 +390,9 @@ figure_list:
     caption: "Walker Evans, * [William Edward (Bud) Fields, A Cotton Sharecropper, Hale County, Alabama]/[Bud Woods, Tenant Farmer]*, 1936."
     credit: The J. Paul Getty Museum, Los Angeles
 
-  - id: scheda-3-mappa
+  - id: "scheda-3-mappa"
     image: /assets/images/mappe-schede/Mappa_posizione_scheda3.png
-    caption: Posizione scheda 3
-    alt: Posizione scheda 3
+    caption: "Posizione scheda 3"
+    alt: "Posizione scheda 3"
 
     
