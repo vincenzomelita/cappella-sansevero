@@ -214,7 +214,7 @@ figure_list:
 
   - id: "cat-31"
     src: figures/1_1.jpg
-    caption: "Madonna col Bambino, settimo principe di Sansevero, *Giuseppe Pesce (o Pesci)*"
+    caption: "Madonna col Bambino, *Giuseppe Pesce (o Pesci)*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
