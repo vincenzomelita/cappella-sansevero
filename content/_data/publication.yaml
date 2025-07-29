@@ -46,23 +46,32 @@ publisher:
 contributor_as_it_appears:
 
 contributor:
-  - id: jkeller
+  - id: lcoiro
     type: primary
-    first_name: Mario
-    last_name: Rossi
-    title: Direttrice
+    first_name: Luigi
+    last_name: Coiro
+    title: Assegnista di ricerca
     affiliation: Museo Cappella San Severo
-    bio: "Direttore di museo con vasta esperienza internazionale e comprovata capacità di sviluppare e attuare una visione strategica per grandi istituzioni museali. Forte competenza nella progettazione, negoziazione e attuazione di cambiamenti aziendali al fine di sviluppare approcci innovativi al patrimonio museale e artistico per una sua efficace conservazione, valorizzazione e fruizione. Storica dell’arte di fama e curatrice di importanti esposizioni internazionali con all’attivo più di 130 tra mostre, pubblicazioni, docenze accademiche e conferenze. Esperta comunicatrice con una solida esperienza nella raccolta fondi e nella costruzione di partnership, Martina Bagnoli è una appassionata sostenitrice del ruolo dell'arte nella società. Dal 2015 a gennaio 2024 è stata direttrice delle Gallerie Estensi, un museo autonomo del Ministero della Cultura italiano che comprende la Galleria Estense di Modena, la Biblioteca Estense universitaria, il Museo lapidario, il Palazzo ducale di Sassuolo e la Pinacoteca nazionale di Ferrara. In precedenza, dal 2002 al 2015, Bagnoli è stata curatrice di arte medievale per il Walters Art Museum. Da febbraio 2024 dirige l'Accademia Carrara di Bergamo."
-    image: contributors/martinabagnoli.jpg
+    bio: "Luigi Coiro è assegnista di ricerca presso il Dipartimento di Scienze umane e sociali dell’Università Orientale di Napoli. Ha conseguito la specializzazione all’Università degli Studi di Napoli Federico II e il dottorato di ricerca al Suor Orsola Benincasa. Studioso del Sei e Settecento meridionale, con particolare riguardo alla scultura e alla vicenda di Cosimo Fanzago, è stato collaboratore scientifico della Bibliotheca Hertziana – Istituto Max-Planck per la storia dell’arte e del CIRICE – Centro Interdipartimentale di Ricerca sull’Iconografia della Città Europea della Federico II per il progetto Naples Digital Archive."
+    image: contributors/luigicoiro.jpg
 
-  - id: pplebani
+  - id: gforgione
     type: secondary
-    first_name: Maria
-    last_name: Rossi
-    title: Responsabile Dipinti, Disegni, Stampe, Archivi Storici, Biblioteca Storica
+    first_name: Gianluca
+    last_name: Forgione
+    title: Professore associato
     affiliation: Museo Cappella San Severo
-    bio: "Storico dell’arte, specializzato in pittura veneta tra XVI e XVIII secolo, conservatore all’Accademia Carrara di Bergamo. Tra i suoi lavori, molte collaborazioni con saggi e schede di catalogo a mostre: si ricordi il recente contributo a *La peinture en Lombardie au XVII siècle. De la violence des passions à l’idéal de beauté* (Palais Fesch, Ajaccio, 2014). Tra le sue pubblicazioni, la monografia *Verona e gli artisti veronesi nelle «Vite» di Giorgio Vasari* (LED Edizioni Universitarie, Milano 2012)."
-    image: contributors/paoloplebani.jpg
+    bio: "Gianluca Forgione è professore associato di Museologia e critica artistica e del restauro all’Università degli Studi di Ferrara. Si è addottorato all’Università degli Studi di Napoli Federico II con una tesi sui Girolamini, pubblicata in volume nel 2020, e ha svolto attività di ricerca, tra gli altri, per la Bibliotheca Hertziana – Istituto Max Planck per la storia dell’arte, per la Fondazione Longhi e per la Fondazione 1563 per l’Arte e la Cultura della Compagnia di San Paolo. I suoi interessi scientifici riguardano in particolare le relazioni artistiche tra Napoli, Roma e l’Emilia in Età barocca. Nel 2022 ha pubblicato uno studio sulla committenza artistica di Raimondo di Sangro (I simulacri delle cose. La Cappella Sansevero e il barocco romano)."
+    image: contributors/gianlucaforgione.jpg
+
+  - id: siorio
+    type: secondary
+    first_name: Sabrina
+    last_name: Iorio
+    title: Consulente
+    affiliation: Museo Cappella San Severo
+    bio: "Sabrina Iorio è consulente presso la Fondazione Banco di Napoli come archivista e umanista digitale, e collabora a progetti di ricerca, databasing e digitalizzazione con le Università degli Studi di Napoli Federico II e Suor Orsola Benincasa. Ha conseguìto il suo dottorato di ricerca alla Federico II con una tesi su Giacomo Lazzari e l’arte marmoraria del primo Seicento a Napoli, concentrandosi in particolare sugli aspetti socio-economici legati al funzionamento delle botteghe e alle dinamiche proprie di alcuni dei maggiori cantieri barocchi della città."
+    image: contributors/gianlucaforgione.jpg
 
 # ------------------------------------------------------------------------------
 # Copright & License
