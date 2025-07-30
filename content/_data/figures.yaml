@@ -87,94 +87,94 @@ figure_list:
     zoom: true
 
   - id: "cat-11"
-    src: figures/1_1.jpg
+    src: figures/11.jpg
     caption: "Monumento funerario di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/c257cfa1-1926-4dc9-93c6-53f023b3feb7/canvas/b7331695-1412-4e2b-aba2-75fdc2d93a28
     zoom: true
 
   - id: "cat-12"
-    src: figures/1_1.jpg
+    src: figures/12.jpg
     caption: "Liberalità – Monumento funerario di Giulia Gaetani dell’Aquila d’Aragona, moglie di Paolo di Sangro, quarto principe di Sansevero, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502
     zoom: true
 
   - id: "cat-13"
-    src: figures/1_1.jpg
+    src: figures/13.jpg
     caption: "Monumento funerario di Paolo di Sangro, quarto principe di Sansevero, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/canvas/37fcdc40-ec9c-4323-9386-4a1a64175876
     zoom: true
 
   - id: "cat-14"
-    src: figures/1_1.jpg
+    src: figures/14.jpg
     caption: "Decoro – Monumento funerario di Isabella della Tolfa e Laudomia Milano, prima e seconda moglie di Giovan Francesco di Sangro, terzo principe di Sansevero, *Antonio Corradini*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8a999b64-e651-4315-a283-cb7267ef32a3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8a999b64-e651-4315-a283-cb7267ef32a3/canvas/a326bcda-7584-47a4-b7ec-042a5a01e6de
     zoom: true
 
   - id: "cat-15"
-    src: figures/1_1.jpg
+    src: figures/15.jpg
     caption: "Monumento funerario di Giovan Francesco di Sangro, terzo principe di Sansevero (Mestizia?), *Antonio Corradini*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a8faadb2-d916-4923-86f6-a64412b5e82a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a8faadb2-d916-4923-86f6-a64412b5e82a/canvas/7a136dcb-d563-4bc0-863c-dfc9165dab00
     zoom: true
 
   - id: "cat-16"
-    src: figures/1_1.jpg
+    src: figures/16.jpg
     caption: "Monumento funerario di Cecco di Sangro, *Francesco Celebrano*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/456982f6-e99c-42aa-ac18-7a81844142be/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/456982f6-e99c-42aa-ac18-7a81844142be/canvas/ae5f7a3e-4019-4f3f-80c5-04e714947afc
     zoom: true
 
   - id: "cat-17"
-    src: figures/1_1.jpg
+    src: figures/17.jpg
     caption: "Monumento funerario di Giovan Francesco di Sangro, quinto principe di Sansevero, *Francesco Celebrano*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/36f0523d-8d83-4fcb-9355-935564cad1ea/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/36f0523d-8d83-4fcb-9355-935564cad1ea/canvas/720a57d1-5f9c-4b17-b427-41d544805d6b
     zoom: true
 
   - id: "cat-18"
-    src: figures/1_1.jpg
+    src: figures/18.jpg
     caption: "Amor divino – Monumento funerario di Giovanna di Sangro dei Marchesi di San Lucido, moglie di Giovan Francesco di Sangro, quinto principe di Sansevero (già statua per il monumento di Paolo e Ferdinando di Sangro), *Michelangelo Naccherino; con interventi di Francesco Maria Queirolo (?)*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8f270399-4bb5-4c0a-8562-45416d6a548f/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8f270399-4bb5-4c0a-8562-45416d6a548f/canvas/7578a2de-b07c-43a5-b4c4-bfd9acf8d4e9
     zoom: true
 
   - id: "cat-19"
-    src: figures/1_1.jpg
+    src: figures/19.jpg
     caption: "Monumento funerario di Paolo di Sangro, secondo principe di Sansevero, *Michelangelo Naccherino*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/8cef2d7e-ebb7-4e3b-a441-a4d5199507bc/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/8cef2d7e-ebb7-4e3b-a441-a4d5199507bc/canvas/2d88f18d-bb1b-4bf0-ab35-4856fedb848d
     zoom: true
 
   - id: "cat-20"
-    src: figures/1_1.jpg
+    src: figures/20.jpg
     caption: "Educazione – Monumento funerario di Girolama Caracciolo e di Clarice Carafa di Stigliano, prima e seconda moglie di Paolo di Sangro, secondo principe di Sansevero, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/59a48593-38bf-4e8a-a2a7-d33089eed38f/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/59a48593-38bf-4e8a-a2a7-d33089eed38f/canvas/54d76b37-b2dc-443a-8e71-b6913cdc51c3
     zoom: true
 
   - id: "cat-21"
-    src: figures/1_1.jpg
+    src: figures/21.jpg
     caption: "Monumento funerario di Paolo di Sangro, sesto principe di Sansevero, *Antonio Corradini*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/canvas/37fcdc40-ec9c-4323-9386-4a1a64175876
     zoom: true
 
   - id: "cat-22"
-    src: figures/1_1.jpg
+    src: figures/22.jpg
     caption: "Dominio di sé stessi – Monumento funerario di Geronima Loffredo, moglie di Paolo di Sangro, sesto principe di Sansevero, *Francesco Celebrano*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/d1c4b2ec-031f-4764-88f3-8d8aa4f19cb6/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/d1c4b2ec-031f-4764-88f3-8d8aa4f19cb6/canvas/a9cdb951-95f6-4993-bbc1-ff6934f0a824
     zoom: true
 
   - id: "cat-23"
-    src: figures/1_1.jpg
+    src: figures/23.jpg
     caption: "Pavimento labirintico, *Francesco Celebrano*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/25a741d6-acde-40cb-971e-f31ec53261f6/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/25a741d6-acde-40cb-971e-f31ec53261f6/canvas/5f52b62c-8fd0-4602-9f4d-163898235622
     zoom: true
 
   - id: "cat-24"
