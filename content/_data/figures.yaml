@@ -241,31 +241,38 @@ figure_list:
     zoom: true
 
   - id: "cat-28"
-    src: figures/1_1.jpg
+    src: figures/28.jpg
     caption: "Gloria del Paradiso (Paradiso dei Di Sangro), *Francesco Maria Russo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/24481ca1-bb65-44f4-8784-d6de8c6ff2ba/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/24481ca1-bb65-44f4-8784-d6de8c6ff2ba/canvas/0c810224-d379-4e90-8ed4-82ce6424cb2f
     zoom: true
 
-  - id: "cat-29"
-    src: figures/1_1.jpg
-    caption: "Macchine anatomiche, *Giuseppe Salerno*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+  - id: "cat-29_1"
+    src: figures/29_1.jpg
+    caption: "Macchina anatomica uomo, *Giuseppe Salerno*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/cd7ed9cd-d10d-4184-88bd-6376df69ec83/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/cd7ed9cd-d10d-4184-88bd-6376df69ec83/canvas/b60d9818-22a1-43fd-b1c9-3df02f35dd99
+    zoom: true
+
+  - id: "cat-29_2"
+    src: figures/29_2.jpg
+    caption: "Macchina anatomica donna, *Giuseppe Salerno*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/91dc7afd-6ceb-49d8-8d69-9b60b743a632/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/91dc7afd-6ceb-49d8-8d69-9b60b743a632/canvas/63fd50bd-535b-4dd3-b48b-ed0f5ef0bd52
     zoom: true
 
   - id: "cat-30"
-    src: figures/1_1.jpg
+    src: figures/30.jpg
     caption: "Ritratto di Raimondo di Sangro, settimo principe di Sansevero, *Francesco De Mura*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/af60c291-29bc-4f64-b43a-0fe08dd30348/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/af60c291-29bc-4f64-b43a-0fe08dd30348/canvas/a3d80bea-5180-420e-af30-009210b6493a
     zoom: true
 
   - id: "cat-31"
-    src: figures/1_1.jpg
+    src: figures/31.jpg
     caption: "Madonna col Bambino, *Giuseppe Pesce (o Pesci)*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/e6372f32-4b0d-4b43-89ae-ea0fa65b6fac/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/e6372f32-4b0d-4b43-89ae-ea0fa65b6fac/canvas/8b165ab1-e460-4ff5-b69c-602967246acb
     zoom: true
 
   - id: "cat-35"
