@@ -10,71 +10,85 @@ figure_list:
     zoom: true
 
   - id: "cat-2"
-    src: figures/1_1.jpg
+    src: figures/2.jpg
     caption: "Gloria angelica, *Paolo Persico*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/b7cadad3-1b98-421f-a695-3082f1a52b9a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/b7cadad3-1b98-421f-a695-3082f1a52b9a/canvas/6ec0dbb4-fb35-45a0-bf03-baabb0ab557f
     zoom: true
 
-  - id: "cat-3"
-    src: figures/1_1.jpg
+  - id: "cat-3_1"
+    src: figures/3_1.jpg
     caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
+    zoom: true
+
+  - id: "cat-3_2"
+    src: figures/3_2.jpg
+    caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/cbacd8e7-705f-4201-b2c5-dc8d9d6473be/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/cbacd8e7-705f-4201-b2c5-dc8d9d6473be/canvas/f6d6b73f-cc6b-4315-b538-4596ba48724a
     zoom: true
 
   - id: "cat-4"
-    src: figures/1_1.jpg
-    caption: "Monumento funebre di Alessandro di Sangro, patriarca di Alessandria, *Giovan Domenico Monterosso, Giacomo Lazzari, Giovanni Antonio Galluccio*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908
+    src: figures/4.jpg
+    caption: "Monumento funerario di Alessandro di Sangro, patriarca di Alessandria, *Giovan Domenico Monterosso, Giacomo Lazzari, Giovanni Antonio Galluccio*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/canvas/87f0d79e-0a1f-49d9-bb2f-6b301b7b8602
     zoom: true
 
   - id: "cat-5"
-    src: figures/1_1.jpg
+    src: figures/5.jpg
     caption: "Cristo velato, *Giuseppe Sanmartino*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/7924f65a-933f-4802-807b-37f42c52dc97/canvas/0fb98c7f-f246-4865-8347-6fd934757908
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/canvas/6620ee76-c670-457e-90a5-8131f25bdd7e
     zoom: true
 
   - id: "cat-6"
     src: figures/6.jpg
-    caption: "La Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona, *Antonio Corradini*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    caption: "Pudicizia – Monumento funerario di Cecilia Gaetani dell’Aquila d’Aragona, *Antonio Corradini*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fa115785-64e2-42b7-ab9b-34a0f9141f1e/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fa115785-64e2-42b7-ab9b-34a0f9141f1e/canvas/88959179-6949-4b9a-8926-836ededfb59a
     zoom: true
   
-  - id: "cat-7"
-    src: figures/1_1.jpg
-    caption: "Sant’Oderisio; Santa Rosalia, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+  - id: "cat-7_1"
+    src: figures/7_1.jpg
+    caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/98a5f406-32c1-4aed-8d60-a5b3d912f8e3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/98a5f406-32c1-4aed-8d60-a5b3d912f8e3/canvas/cc22c81f-a913-4a50-8915-6c5e9adba59f
+    zoom: true
+
+  - id: "cat-7_2"
+    src: figures/7_2.jpg
+    caption: "Santa Rosalia, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/canvas/821fa2dc-2072-4a2f-bcf6-21ddec430215
     zoom: true
 
   - id: "cat-8"
-    src: figures/1_1.jpg
+    src: figures/8.jpg
     caption: "Soavità del giogo coniugale – Monumento funerario di Gaetana Mirelli, moglie di Vincenzo di Sangro, ottavo principe di Sansevero, *Paolo Persico *"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/2f7aa5d6-909a-428e-8f5a-9e3fc2314cc5/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/2f7aa5d6-909a-428e-8f5a-9e3fc2314cc5/canvas/f8412b6d-165d-4b39-b911-5b5c94188d4d
     zoom: true
 
   - id: "cat-9"
-    src: figures/1_1.jpg
-    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero, *Francesco Celebrano, Fortunato Onelli, Carlo Amalfi*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    src: figures/9.jpg
+    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero, *Autore ignoto, Carlo Amalfi*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/canvas/7392e223-781f-4b37-88ee-31dbc2e8e319
     zoom: true
 
   - id: "cat-10"
-    src: figures/1_1.jpg
+    src: figures/10.jpg
     caption: "Zelo della Religione – Monumento funerario di Ippolita del Carretto e di Adriana Carafa della Spina, prima e seconda moglie di Giovan Francesco di Sangro, primo principe di Sansevero, *Fortunato Onelli e altri; Francesco Celebrano: direzione dei lavori*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a80046df-1c54-4952-a78c-0daa582fecad/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a80046df-1c54-4952-a78c-0daa582fecad/canvas/59160bd7-16a8-4e42-9438-1291901abc64
     zoom: true
 
   - id: "cat-11"
     src: figures/1_1.jpg
-    caption: "Monumento funebre di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
+    caption: "Monumento funerario di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/canvas/132b1a80-69a8-40d7-b68a-bc7a03ea9289
     zoom: true
@@ -144,7 +158,7 @@ figure_list:
 
   - id: "cat-21"
     src: figures/1_1.jpg
-    caption: "Monumento di Paolo di Sangro, sesto principe di Sansevero, *Antonio Corradini*"
+    caption: "Monumento funerario di Paolo di Sangro, sesto principe di Sansevero, *Antonio Corradini*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
@@ -179,7 +193,7 @@ figure_list:
 
   - id: "cat-26"
     src: figures/1_1.jpg
-    caption: "Il Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore, *Francesco Maria Queirolo; Giuseppe Sanmartino: rilievo con il Noli me tangere del basamento*"
+    caption: "Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore, *Francesco Maria Queirolo; Giuseppe Sanmartino: rilievo con il Noli me tangere del basamento*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
