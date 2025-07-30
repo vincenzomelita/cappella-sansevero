@@ -245,7 +245,7 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/24481ca1-bb65-44f4-8784-d6de8c6ff2ba/canvas/0c810224-d379-4e90-8ed4-82ce6424cb2f
     zoom: true
 
-  - id: "cat-29_1"
+  - id: "cat-29"
     src: figures/29_1.jpg
     caption: "Macchina anatomica uomo, *Giuseppe Salerno*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/cd7ed9cd-d10d-4184-88bd-6376df69ec83/manifest
