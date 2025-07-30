@@ -178,28 +178,63 @@ figure_list:
     zoom: true
 
   - id: "cat-24"
-    src: figures/1_1.jpg
+    src: figures/24.jpg
     caption: "Monumento funerario di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Russo: ideazione del monumento; Carlo Amalfi: ritratto pittorico*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/94f68cc7-8445-4729-8b40-3f30739a33d3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/94f68cc7-8445-4729-8b40-3f30739a33d3/canvas/8608f76d-f756-4796-b3f9-6ab2c4a0ddf1
     zoom: true
 
   - id: "cat-25"
-    src: figures/1_1.jpg
+    src: figures/25.jpg
     caption: "Sincerità – Monumento funerario di Carlotta Gaetani dell’Aquila d’Aragona, moglie di Raimondo di Sangro, settimo principe di Sansevero, *Francesco Maria Queirolo; Paolo Persico: putto con colombe*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/3cf2a050-bc67-46f7-98bf-6fa9089bc31a/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/3cf2a050-bc67-46f7-98bf-6fa9089bc31a/canvas/bc69115d-1041-40f0-99a3-150fa250bcc2
     zoom: true
 
   - id: "cat-26"
-    src: figures/1_1.jpg
+    src: figures/26.jpg
     caption: "Disinganno – Monumento funerario di Antonio di Sangro, duca di Torremaggiore, *Francesco Maria Queirolo; Giuseppe Sanmartino: rilievo con il Noli me tangere del basamento*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/2726e7f9-b3e6-4520-b9a5-511e7f3fa078/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/2726e7f9-b3e6-4520-b9a5-511e7f3fa078/canvas/ccdede87-8dd3-4334-b7d9-e9e6260bb688
+    zoom: true
+
+  - id: "cat-27_1"
+    src: figures/27_1.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
     zoom: true
 
-  - id: "cat-27"
-    src: figures/1_1.jpg
+  - id: "cat-27_2"
+    src: figures/27_2.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-27_3"
+    src: figures/27_3.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-27_4"
+    src: figures/27_4.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-27_5"
+    src: figures/27_5.jpg
+    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    zoom: true
+
+  - id: "cat-27_6"
+    src: figures/27_6.jpg
     caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
