@@ -198,44 +198,44 @@ figure_list:
 
   - id: "cat-27_1"
     src: figures/27_1.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Teodino I, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/3f67a9fa-873a-4bfe-8666-0b848f6d3411/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/3f67a9fa-873a-4bfe-8666-0b848f6d3411/canvas/d9dda432-9fdf-4b64-a2bb-653a51afaadf
     zoom: true
 
   - id: "cat-27_2"
     src: figures/27_2.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Teodino II, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/ad4d1aa8-5b5c-440e-a80c-83715ee41da1/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/ad4d1aa8-5b5c-440e-a80c-83715ee41da1/canvas/db0d0bc9-b639-41aa-837b-7bc31b908b88
     zoom: true
 
   - id: "cat-27_3"
     src: figures/27_3.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Leone, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16fdba43-5548-4d9a-ba09-e07e343e968c/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16fdba43-5548-4d9a-ba09-e07e343e968c/canvas/cfd0966e-7da1-4562-96f7-3cd0ff3350bb
     zoom: true
 
   - id: "cat-27_4"
     src: figures/27_4.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Oderisio, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/6a92b0cc-8fae-4052-8ba2-74abce5d8af4/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/6a92b0cc-8fae-4052-8ba2-74abce5d8af4/canvas/fb61b2c7-3b5d-4680-a049-371cb1a56e60
     zoom: true
 
   - id: "cat-27_5"
     src: figures/27_5.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Rinaldo, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/ec605fbf-929b-4ac5-a0e0-4c53a2c43e1b/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/ec605fbf-929b-4ac5-a0e0-4c53a2c43e1b/canvas/4e2432b2-24aa-4cc4-bc94-31fb3932245a
     zoom: true
 
   - id: "cat-27_6"
     src: figures/27_6.jpg
-    caption: "Sei medaglioni con ritratti di cardinali di casa Di Sangro, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/16cdc98e-b520-4247-b5ea-aa9ab08afca0/canvas/cd6ce3d4-457f-4309-92d1-ca9af8d6e5a5
+    caption: "Medaglione Cardinale Gentile, *Francesco Maria Queirolo*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/a6d75aa9-435c-495f-9590-82cf6a9c27af/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/a6d75aa9-435c-495f-9590-82cf6a9c27af/canvas/2b9aed23-e138-406e-9166-e943a55b12bd
     zoom: true
 
   - id: "cat-28"
