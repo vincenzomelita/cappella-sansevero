@@ -14,7 +14,7 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/b7cadad3-1b98-421f-a695-3082f1a52b9a/canvas/6ec0dbb4-fb35-45a0-bf03-baabb0ab557f
     zoom: true
 
-  - id: "cat-3_1"
+  - id: "cat-3"
     src: figures/3_1.jpg
     caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
@@ -49,7 +49,7 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fa115785-64e2-42b7-ab9b-34a0f9141f1e/canvas/88959179-6949-4b9a-8926-836ededfb59a
     zoom: true
   
-  - id: "cat-7_1"
+  - id: "cat-7"
     src: figures/7_1.jpg
     caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/98a5f406-32c1-4aed-8d60-a5b3d912f8e3/manifest
@@ -196,7 +196,7 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/2726e7f9-b3e6-4520-b9a5-511e7f3fa078/canvas/ccdede87-8dd3-4334-b7d9-e9e6260bb688
     zoom: true
 
-  - id: "cat-27_1"
+  - id: "cat-27"
     src: figures/27_1.jpg
     caption: "Medaglione Cardinale Teodino I, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/3f67a9fa-873a-4bfe-8666-0b848f6d3411/manifest
