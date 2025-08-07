@@ -18,7 +18,6 @@ figure_list:
     src: figures/3_1.jpg
     caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
     zoom: true
 
   - id: "cat-3_2"
