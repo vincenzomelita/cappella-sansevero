@@ -101,8 +101,8 @@ figure_list:
   - id: "cat-13"
     src: figures/13.jpg
     caption: "Monumento funerario di Paolo di Sangro, quarto principe di Sansevero, *Giulio Mencaglia (scultore); Berardino Landini (marmoraio)*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/979c1d5b-c7c2-471c-af26-c532201b9989/canvas/37fcdc40-ec9c-4323-9386-4a1a64175876
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/32f54c30-294e-4f43-839e-305bcb596b18/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/32f54c30-294e-4f43-839e-305bcb596b18/canvas/ab67f3ab-ff88-4009-9192-f8525526302c
     zoom: true
 
   - id: "cat-14"
