@@ -5,4 +5,4 @@ order: 501
 search: false
 ---
 
-{% contributors context='publicationContributors' format='bio' %}
+{% contributors context='contributor' format='bio' %}
