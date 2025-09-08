@@ -11,7 +11,7 @@ search: true
 
 **a cura di** Gianluca Forgione
 
-**contributi di** Luigi Coiro, Gianluca Forgione, Sabrina Iorio, Eleonora Loiodice Mariano Saggiomo, Augusto Russo
+**contributi di** Luigi Coiro, Gianluca Forgione, Sabrina Iorio, Eleonora Loiodice, Augusto Russo, Mariano Saggiomo
 
 **Crediti fotografici:** Haltadefinizione S.r.l.
 
