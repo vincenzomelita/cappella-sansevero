@@ -51,7 +51,7 @@ contributor:
     first_name: Luigi
     last_name: Coiro
     title: Assegnista di ricerca
-    affiliation: Museo Cappella San Severo
+    role: other-role
     bio: "**Luigi Coiro** è assegnista di ricerca presso il Dipartimento di Scienze umane e sociali dell’Università Orientale di Napoli. Ha conseguito la specializzazione all’Università degli Studi di Napoli Federico II e il dottorato di ricerca al Suor Orsola Benincasa. Studioso del Sei e Settecento meridionale, con particolare riguardo alla scultura e alla vicenda di Cosimo Fanzago, è stato collaboratore scientifico della Bibliotheca Hertziana – Istituto Max-Planck per la storia dell’arte e del CIRICE – Centro Interdipartimentale di Ricerca sull’Iconografia della Città Europea della Federico II per il progetto _Naples Digital Archive_."
 
   - id: gforgione
@@ -59,7 +59,6 @@ contributor:
     first_name: Gianluca
     last_name: Forgione
     title: Professore associato
-    role: publication-contributor
     affiliation: Museo Cappella San Severo
     bio: "**Gianluca Forgione** è professore associato di Museologia e critica artistica e del restauro all’Università degli Studi di Ferrara. Si è addottorato all’Università degli Studi di Napoli Federico II con una tesi sui Girolamini, pubblicata in volume nel 2020, e ha svolto attività di ricerca, tra gli altri, per la Bibliotheca Hertziana – Istituto Max Planck per la storia dell’arte, per la Fondazione Longhi e per la Fondazione 1563 per l’Arte e la Cultura della Compagnia di San Paolo. I suoi interessi scientifici riguardano in particolare le relazioni artistiche tra Napoli, Roma e l’Emilia in Età barocca. Nel 2022 ha pubblicato uno studio sulla committenza artistica di Raimondo di Sangro (_I simulacri delle cose. La Cappella Sansevero e il barocco romano_)."
 
