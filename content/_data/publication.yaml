@@ -26,7 +26,7 @@ description:
 # Publication Details
 # ------------------------------------------------------------------------------
 
-pub_date: 2025-15-09 # YYYY-MM-DD
+pub_date: 2025-09-15 # YYYY-MM-DD
 language: it
 pub_type: book # book | journal-periodical | other
 
@@ -35,7 +35,7 @@ identifier:
 
 publisher:
   - name: Museo Cappella Sansevero e Haltadefinizione
-    location: Modena
+    location:
     url: https://www.haltadefinizione.com/
     logo: logo-cappella-san-severo_nav.png
 
@@ -59,6 +59,7 @@ contributor:
     first_name: Gianluca
     last_name: Forgione
     title: Professore associato
+    role: publication-contributor
     affiliation: Museo Cappella San Severo
     bio: "**Gianluca Forgione** è professore associato di Museologia e critica artistica e del restauro all’Università degli Studi di Ferrara. Si è addottorato all’Università degli Studi di Napoli Federico II con una tesi sui Girolamini, pubblicata in volume nel 2020, e ha svolto attività di ricerca, tra gli altri, per la Bibliotheca Hertziana – Istituto Max Planck per la storia dell’arte, per la Fondazione Longhi e per la Fondazione 1563 per l’Arte e la Cultura della Compagnia di San Paolo. I suoi interessi scientifici riguardano in particolare le relazioni artistiche tra Napoli, Roma e l’Emilia in Età barocca. Nel 2022 ha pubblicato uno studio sulla committenza artistica di Raimondo di Sangro (_I simulacri delle cose. La Cappella Sansevero e il barocco romano_)."
 
