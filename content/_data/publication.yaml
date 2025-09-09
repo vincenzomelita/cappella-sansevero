@@ -47,7 +47,7 @@ contributor_as_it_appears:
 
 contributor:
   - id: lcoiro
-    type: primary
+    type: secondary
     first_name: Luigi
     last_name: Coiro
     title: Assegnista di ricerca
@@ -98,7 +98,7 @@ contributor:
 # Copright & License
 # ------------------------------------------------------------------------------
 
-copyright: © 2025 Museo Cappella San Severo - Ministero della Cultura
+copyright: © 2025 Museo Cappella San Severo
 
 license:
   name: Creative Commons Attribution 4.0 International License
