@@ -51,7 +51,7 @@ figure_list:
   
   - id: "cat-7"
     src: figures/7_1.jpg
-    caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
+    caption: "Santa Rosalia, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/canvas/821fa2dc-2072-4a2f-bcf6-21ddec430215
     zoom: true
