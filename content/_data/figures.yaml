@@ -72,7 +72,7 @@ figure_list:
 
   - id: "cat-9"
     src: figures/9.jpg
-    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero, *Autore ignoto, Carlo Amalfi*"
+    caption: "Monumento funerario di Vincenzo di Sangro, ottavo principe di Sansevero,  *Autore ignoto: Monumento; Carlo Amalfi: Ritratto pittorico in tondo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fdbd49a7-b43d-4f92-9931-da1c78ff757c/canvas/7392e223-781f-4b37-88ee-31dbc2e8e319
     zoom: true
