@@ -5,13 +5,13 @@ order: 510
 search: true
 ---
 
-## Museo Cappella Sansevero. Catalogo scientifico digitale
-© Museo Cappella Sansevero e Haltadefinizione 2025
+# MUSEO CAPPELLA SANSEVERO - Catalogo scientifico digitale
+© 2025 Museo Cappella Sansevero
 
 
-**a cura di** Gianluca Forgione
+**a cura di:** Gianluca Forgione
 
-**contributi di** Luigi Coiro, Gianluca Forgione, Sabrina Iorio, Eleonora Loiodice, Augusto Russo, Mariano Saggiomo
+**contributi di:** Luigi Coiro, Gianluca Forgione, Sabrina Iorio, Eleonora Loiodice, Augusto Russo, Mariano Saggiomo
 
 **Crediti fotografici:** Haltadefinizione S.r.l.
 
