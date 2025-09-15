@@ -24,9 +24,9 @@ figure_list:
 
   - id: "cat-3_2"
     src: figures/3_2.jpg
-    caption: "cristo velato"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/canvas/6620ee76-c670-457e-90a5-8131f25bdd7e
+    caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
     zoom: true
 
   - id: "cat-4"
@@ -59,7 +59,7 @@ figure_list:
 
   - id: "cat-7_2"
     src: figures/7_2.jpg
-    caption: "Santa Rosalia, *Francesco Maria Queirolo*"
+    caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
     manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/canvas/821fa2dc-2072-4a2f-bcf6-21ddec430215
     zoom: true
@@ -88,7 +88,7 @@ figure_list:
   - id: "cat-11"
     src: figures/11.jpg
     caption: "Monumento funerario di Giovan Francesco di Sangro, primo principe di Sansevero, *Francesco Cassano: statua di Giovan Francesco di Sangro; Giacomo Lazzari: progetto del sepolcro e paramento marmoreo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/bf414d75-2d18-4618-ad8c-1daa2f10b4c5/manifest
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/c257cfa1-1926-4dc9-93c6-53f023b3feb7/manifest
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/c257cfa1-1926-4dc9-93c6-53f023b3feb7/canvas/b7331695-1412-4e2b-aba2-75fdc2d93a28
     zoom: true
 
