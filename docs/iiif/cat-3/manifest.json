@@ -1,0 +1,52 @@
+{
+  "@context": "http://iiif.io/api/presentation/3/context.json",
+  "id": "https://sanseverov.dev-box.it/iiif/cat-3/manifest.json",
+  "type": "Manifest",
+  "label": {
+    "en": [
+      null
+    ]
+  },
+  "items": [
+    {
+      "id": "https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502",
+      "type": "Canvas",
+      "height": 1200,
+      "width": 600,
+      "items": [
+        {
+          "id": "https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502/annotation-page",
+          "type": "AnnotationPage",
+          "items": [
+            {
+              "id": "https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502/3_1",
+              "motivation": "painting",
+              "target": "https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502",
+              "type": "Annotation",
+              "body": {
+                "id": "https://sanseverov.dev-box.it/iiif/cat-3/3_1/tiles/info.json",
+                "type": "Image",
+                "format": "image/jpeg",
+                "height": 1200,
+                "width": 600,
+                "label": {
+                  "en": [
+                    "3_1"
+                  ]
+                },
+                "service": [
+                  {
+                    "@context": "http://iiif.io/api/image/2/context.json",
+                    "@id": "https://sanseverov.dev-box.it/iiif/cat-3/3_1/tiles/info.json",
+                    "profile": "level0",
+                    "protocol": "http://iiif.io/api/image"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
