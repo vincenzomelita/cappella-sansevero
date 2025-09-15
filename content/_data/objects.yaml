@@ -86,6 +86,7 @@ object_list:
   Collocazione: Cappella Sansevero, navata
   figure:
   - id: cat-7
+  - id: cat-7_2
 
 - id: 8
   Artista: Paolo Persico
@@ -306,6 +307,11 @@ object_list:
   Collocazione: Cappella Sansevero, navata
   figure:
   - id: cat-27
+  - id: cat-27_2
+  - id: cat-27_3
+  - id: cat-27_4
+  - id: cat-27_5
+  - id: cat-27_6
 
 - id: 28
   Artista: Francesco Maria Russo
@@ -328,6 +334,8 @@ object_list:
   Collocazione: Cappella Sansevero, cavea sotterranea
   figure:
   - id: cat-29
+  - id: cat-29_2
+
 
 - id: 30
   Artista: Francesco De Mura (Napoli, 1696 – ivi, 1782)
