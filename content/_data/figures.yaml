@@ -18,8 +18,8 @@ figure_list:
     src: figures/3_1.jpg
     printImage: figures/3_1.jpg
     caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/37def84b-a655-4665-bb27-82185aa40104/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/37def84b-a655-4665-bb27-82185aa40104/canvas/f6d6b73f-cc6b-4315-b538-4596ba48724a
     zoom: true
 
   - id: "cat-3_2"
@@ -60,8 +60,8 @@ figure_list:
   - id: "cat-7_2"
     src: figures/7_2.jpg
     caption: "Sant’Oderisio, *Francesco Maria Queirolo*"
-    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/manifest
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/367870f3-5b7a-4d76-876d-18a9d368cbc1/canvas/821fa2dc-2072-4a2f-bcf6-21ddec430215
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/db9c4e22-8c04-427c-a0ca-9d529bf67cf3/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/db9c4e22-8c04-427c-a0ca-9d529bf67cf3/canvas/cc22c81f-a913-4a50-8915-6c5e9adba59f
     zoom: true
 
   - id: "cat-8"
