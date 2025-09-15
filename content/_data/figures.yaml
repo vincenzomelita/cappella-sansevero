@@ -16,14 +16,17 @@ figure_list:
 
   - id: "cat-3"
     src: figures/3_1.jpg
+    printImage: figures/3_1.jpg
     caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/fcf6ceee-c65f-4e54-b50f-cce1f027671b/canvas/64b8daf8-efb4-4402-8fbb-54db4448e502
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/01936f32-ee24-44e6-8339-b13fefec1acd/canvas/7511853b-0375-4a5d-b2ba-766e8fc68bcf
     zoom: true
 
   - id: "cat-3_2"
     src: figures/3_2.jpg
-    caption: "Angeli e putti con i simboli della Passione, *Paolo Persico*"
-    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/cbacd8e7-705f-4201-b2c5-dc8d9d6473be/canvas/f6d6b73f-cc6b-4315-b538-4596ba48724a
+    caption: "cristo velato"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/4ec93677-5f12-41c1-8dfe-98f991cc48bd/canvas/6620ee76-c670-457e-90a5-8131f25bdd7e
     zoom: true
 
   - id: "cat-4"
