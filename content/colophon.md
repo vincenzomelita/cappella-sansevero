@@ -14,7 +14,7 @@ search: true
 
 **contributi di:** Luigi Coiro, Gianluca Forgione, Sabrina Iorio, Eleonora Loiodice, Augusto Russo, Mariano Saggiomo
 
-**Crediti fotografici:** Haltadefinizione S.r.l.
+**progettazione, sviluppo e crediti fotografici:** Haltadefinizione S.r.l.
 
 
 **ISBN:** DADEFINIRE
