@@ -34,9 +34,9 @@ identifier:
   isbn:
 
 publisher:
-  - name: Museo Cappella Sansevero e Haltadefinizione
+  - name: Museo Cappella Sansevero
     location:
-    url: https://www.haltadefinizione.com/
+    url: https://www.museosansevero.it
     logo: logo-cappella-san-severo_nav.png
 
 # ------------------------------------------------------------------------------
