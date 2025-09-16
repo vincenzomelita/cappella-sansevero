@@ -5,7 +5,8 @@ order: 510
 search: true
 ---
 
-# MUSEO CAPPELLA SANSEVERO - Catalogo scientifico digitale
+# MUSEO CAPPELLA SANSEVERO
+# Catalogo scientifico digitale
 © 2025 Museo Cappella Sansevero
 
 
