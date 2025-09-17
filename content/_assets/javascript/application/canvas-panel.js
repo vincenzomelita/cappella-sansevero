@@ -3,9 +3,6 @@ import Accordion from './accordion'
 import poll from './poll'
 import scrollToHash from './scroll-to-hash'
 
-/**
- * WORKAROUND: Fix for incorrect zoom behavior on subsequent images in a sequence.
- */
 const recalibrateViewer = () => {
   const canvasPanel = document.querySelector('canvas-panel');
   if (canvasPanel && typeof canvasPanel.transition === 'function') {
@@ -243,6 +240,22 @@ const selectChoice = (canvasPanel, annotation) => {
  * Add event handlers to Annotations UI links and inputs
  */
 const setUpUIEventHandlers = () => {
+  const lightbox = document.querySelector('q-lightbox');
+  if (lightbox) {
+    const observer = new MutationObserver((mutationsList) => {
+      for (const mutation of mutationsList) {
+        if (mutation.type === 'attributes' && (mutation.attributeName === 'data-lightbox-current' || mutation.attributeName === 'currentid')) {
+          recalibrateViewer();
+          return;
+        }
+      }
+    });
+    observer.observe(lightbox, { 
+      attributes: true, 
+      subtree: true 
+    });
+  }
+
   /**
    * Add click handlers to ref shortcodes
    */
@@ -349,7 +362,6 @@ const updateSequenceIndex = (element, { sequence={} }) => {
     if (transition) {
       element.setAttribute('transition', transition)
       element.setAttribute('rotate-to-index', endIndex)
-      recalibrateViewer()
       return
     }
     /**
@@ -357,7 +369,6 @@ const updateSequenceIndex = (element, { sequence={} }) => {
      */
     element.setAttribute('rotate-to-index', false)
     element.setAttribute('index', endIndex)
-    recalibrateViewer()
   }
 }
 
