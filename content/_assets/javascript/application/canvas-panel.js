@@ -4,6 +4,22 @@ import poll from './poll'
 import scrollToHash from './scroll-to-hash'
 
 /**
+ * WORKAROUND: Fix for incorrect zoom behavior on subsequent images in a sequence.
+ */
+const recalibrateViewer = () => {
+  const canvasPanel = document.querySelector('canvas-panel');
+  if (canvasPanel && typeof canvasPanel.transition === 'function') {
+    canvasPanel.transition(tm => setTimeout(() => {
+      window.dispatchEvent(new Event('resize'));
+      if (tm && tm.runtime) {
+        tm.runtime.goHome();
+        tm.runtime.pendingUpdate = true;
+      }
+    }, 0));
+  }
+}
+
+/**
  * Get annotation data from annotaitons UI input element
  * @param  {HTML Element} input
  * @return {Object}
@@ -333,6 +349,7 @@ const updateSequenceIndex = (element, { sequence={} }) => {
     if (transition) {
       element.setAttribute('transition', transition)
       element.setAttribute('rotate-to-index', endIndex)
+      recalibrateViewer()
       return
     }
     /**
@@ -340,6 +357,7 @@ const updateSequenceIndex = (element, { sequence={} }) => {
      */
     element.setAttribute('rotate-to-index', false)
     element.setAttribute('index', endIndex)
+    recalibrateViewer()
   }
 }
 
