@@ -35,7 +35,10 @@ module.exports = {
     },
     key: (data) => data.key,
     order: (data) => data.order,
-    parent: (data) => data.parent,
+    parent: (data) => {
+      if (data.lang === 'en' && data.parent === 'en') return undefined
+      return data.parent
+    },
     title: (data) => data.title,
     url: (data) => data.page.url
   },
@@ -119,15 +122,19 @@ module.exports = {
   },
   pagination: ({ collections, page }) => {
     if (!page || !collections.navigation.length) return {}
-    const currentPageIndex = collections.navigation
-      .findIndex(({ url }) => url === page.url)
+    const currentLang = page.url.startsWith('/en/') ? 'en' : 'it'
+    const navigation = collections.navigation.filter(({ data, url }) => {
+      const pageLang = data.lang || (url.startsWith('/en/') ? 'en' : 'it')
+      return pageLang === currentLang
+    })
+    const currentPageIndex = navigation.findIndex(({ url }) => url === page.url)
     if (currentPageIndex === -1) return {}
     return {
-      currentPage: collections.navigation[currentPageIndex],
+      currentPage: navigation[currentPageIndex],
       currentPageIndex,
-      percentProgress: 100 * (currentPageIndex + 1) / collections.navigation.length,
-      nextPage: collections.navigation[currentPageIndex + 1],
-      previousPage: collections.navigation[currentPageIndex - 1]
+      percentProgress: 100 * (currentPageIndex + 1) / navigation.length,
+      nextPage: navigation[currentPageIndex + 1],
+      previousPage: navigation[currentPageIndex - 1]
     }
   },
   /**
