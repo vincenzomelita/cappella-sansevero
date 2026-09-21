@@ -9,6 +9,7 @@ const { html } = require('~lib/common-tags')
  */
 module.exports = async function(data) {
   const { classes, collections, content, pageData, publication } = data
+  const pageLanguage = data.lang || publication.language
   const { inputPath, outputPath, url } = pageData || {}
   const id = this.slugify(url) || path.parse(inputPath).name
   const pageId = `page-${id}`
@@ -16,7 +17,7 @@ module.exports = async function(data) {
 
   return html`
     <!doctype html>
-<html lang="${publication.language}">
+<html lang="${pageLanguage}">
   ${this.head(data)}
 
   <!-- Google tag (gtag.js) -->
