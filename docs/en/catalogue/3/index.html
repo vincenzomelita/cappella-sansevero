@@ -199,17 +199,23 @@
           <nav id="nav" class="quire-menu__list menu-list" role="navigation" aria-label="full">
             <h3 class="visually-hidden">Table of Contents</h3>
             <ol>
+              <li class="page-item">
+                <a href="/en/introduction/" class="">INTRODUCTION</a>
+              </li>
               <li class="section-item">
                 <a href="/en/catalogue/" class="">CATALOGUE</a>
                 <ol>
-                  <li class="page-item">
-                    <a href="/en/catalogue/butta/" class=""></a>
-                  </li>
                   <li class="page-item">
                     <a href="/en/catalogue/3/" class="active">Cat. 3. Angels and Putti with the Symbols of the
                       Passion</a>
                   </li>
                 </ol>
+              </li>
+              <li class="page-item">
+                <a href="/en/authors/" class="">Authors</a>
+              </li>
+              <li class="page-item">
+                <a href="/en/colophon/" class="">Colophon</a>
               </li>
             </ol>
           </nav>
@@ -311,13 +317,14 @@
             <div class="quire-navbar-controls__center">
               <ul class="quire-navbar-page-controls" role="navigation" aria-label="quick">
                 <li class="quire-navbar-page-controls__item quire-previous-page">
-                  <a href="/en/catalogue/butta/" rel="previous">
+                  <a href="/en/catalogue/" rel="previous">
                     <span class="visually-hidden">Previous Page: </span>
                     <svg class="left-icon" data-outputs-exclude="epub,pdf">
                       <switch>
                         <use xlink:href="#left-arrow-icon"></use>
                       </switch>
                     </svg>
+                    CATALOGUE
                   </a>
                 </li>
 
@@ -331,6 +338,18 @@
                         </switch>
                       </svg>
                     </span>
+                  </a>
+                </li>
+
+                <li class="quire-navbar-page-controls__item quire-next-page">
+                  <a href="/en/authors/" rel="next">
+                    <span class="visually-hidden">Next Page: </span>
+                    Authors
+                    <svg data-outputs-exclude="epub,pdf">
+                      <switch>
+                        <use xlink:href="#right-arrow-icon"></use>
+                      </switch>
+                    </svg>
                   </a>
                 </li>
               </ul>
@@ -353,8 +372,8 @@
             </div>
           </nav>
           <div class="quire-progress-bar">
-            <div style="width: 100%">
-              <span>4/4</span>
+            <div style="width: 71.42857142857143%">
+              <span>5/7</span>
             </div>
           </div>
         </div>
@@ -484,7 +503,7 @@
                   <div class="quire-contents-buttons" data-outputs-exclude="epub,pdf">
                     <ul>
                       <li class="quire-nav-button prev">
-                        <a href="/en/catalogue/butta/"><svg data-outputs-exclude="epub,pdf">
+                        <a href="/en/catalogue/"><svg data-outputs-exclude="epub,pdf">
                             <switch>
                               <use xlink:href="#left-arrow-icon"></use>
                             </switch>
@@ -492,6 +511,18 @@
                           <span class="visually-hidden" data-outputs-exclude="epub,pdf">Go back a page</span>
                           <span class="nav-title">Indietro</span></a>
                         <span class="visually-hidden">Previous Page (left keyboard arrow or swipe)</span>
+                      </li>
+
+                      <li class="quire-nav-button next">
+                        <a href="/en/authors/"><span class="nav-title">Avanti</span>
+                          <svg data-outputs-exclude="epub,pdf">
+                            <switch>
+                              <use xlink:href="#right-arrow-icon"></use>
+                            </switch>
+                          </svg>
+                          <span class="visually-hidden" data-outputs-exclude="epub,pdf">Go back next page</span>
+                        </a>
+                        <span class="visually-hidden">Next Page (right keyboard arrow or swipe)</span>
                       </li>
                     </ul>
                   </div>
