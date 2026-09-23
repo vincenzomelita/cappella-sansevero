@@ -4,7 +4,7 @@ layout: page
 order: 501
 search: false
 lang: it
-translation: /percorso-inglese/
+translation: /en/authors/
 ---
 
 {% contributors context=publicationContributors format='bio' %}
