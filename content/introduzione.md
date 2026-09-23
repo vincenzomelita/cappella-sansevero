@@ -4,7 +4,7 @@ layout: page
 order: 6
 image: 
 lang: it
-translation: /percorso-inglese/
+translation: /en/introduction/
 ---
 
 
