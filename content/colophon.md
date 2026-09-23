@@ -3,6 +3,8 @@ title: Colophon
 layout: splash
 order: 510
 search: true
+lang: it
+translation: /percorso-inglese/
 ---
 
 # MUSEO CAPPELLA SANSEVERO
