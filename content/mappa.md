@@ -5,6 +5,8 @@ order: 7
 search: true
 image: Mappa-mcss-quire.png
 hide-title: true
+lang: it
+translation: /en/map/
 ---
 
 <style>
