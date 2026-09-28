@@ -5,7 +5,7 @@ const path = require('path')
  * A shortcode for tombstone display of object data on an entry page
  */
 module.exports = function(eleventyConfig, { page }) {
-  const { config, objects } = eleventyConfig.globalData
+  const { config, objects, objects_en } = eleventyConfig.globalData
   const { objectLinkText } = config.entryPage
 
   return function (pageObjects = []) {
@@ -14,12 +14,26 @@ module.exports = function(eleventyConfig, { page }) {
     const markdownify = eleventyConfig.getFilter('markdownify')
     const properties = objects.object_display_order
 
+const isEnglish =
+  page &&
+  (
+    (page.data && page.data.lang === 'en') ||
+    (page.url && page.url.startsWith('/en/'))
+  )
+
+const displayLabels =
+  isEnglish &&
+  objects_en &&
+  objects_en.object_display_labels
+    ? objects_en.object_display_labels
+    : {}
+
     const tableRow = (object, property) => {
       if (!object || !property || !object[property]) return ''
 
       return html`
         <tr>
-          <td>${titleCase(property)}</td>
+          <td>${displayLabels[property] || titleCase(property)}</td>
           <td>${markdownify(object[property].toString())}</td>
         </tr>
       `
