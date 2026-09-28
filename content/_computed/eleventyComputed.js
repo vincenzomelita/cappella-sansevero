@@ -94,28 +94,52 @@ module.exports = {
   /**
    * Objects data referenced by id in page frontmatter including figures data
    */
-  pageObjects: function ({ figures, object, objects }) {
-    if (!object || !object.length) return
-    return object
-      .reduce((validObjects, item) => {
-        const objectData = objects.object_list && objects.object_list.length
-          ? objects.object_list.find(({ id }) => id === item.id)
-          : item
-        if (!objectData) {
-          warn(`pageObjects: no object found with id ${item.id}`)
-          return validObjects
-        }
+pageObjects: function ({ figures, lang, object, objects, objects_en }) {
+  if (!object || !object.length) return
 
-        if (objectData.figure) {
-          objectData.figures = objectData.figure.map((figure) => {
-            if (figure.id) {
-              return this.getFigure(figure.id)
-            } else {
-              return figure
-            }
-          })
-          validObjects.push(objectData)
-        }
+  const selectedObjects =
+    lang === 'en' && objects_en
+      ? objects_en
+      : objects
+
+  return object
+    .reduce((validObjects, item) => {
+
+      const objectData =
+        selectedObjects.object_list &&
+        selectedObjects.object_list.length
+          ? selectedObjects.object_list.find(({ id }) => id === item.id)
+          : undefined
+
+      const fallbackObjectData =
+        objects.object_list &&
+        objects.object_list.length
+          ? objects.object_list.find(({ id }) => id === item.id)
+          : undefined
+
+      const resolvedObject =
+        objectData || fallbackObjectData || item
+
+      if (!resolvedObject) {
+        warn(`pageObjects: no object found with id ${item.id}`)
+        return validObjects
+      }
+
+      if (resolvedObject.figure) {
+        resolvedObject.figures = resolvedObject.figure.map((figure) => {
+          if (figure.id) {
+            return this.getFigure(figure.id)
+          } else {
+            return figure
+          }
+        })
+
+        validObjects.push(resolvedObject)
+      }
+
+      return validObjects
+    }, [])
+},
 
         return validObjects
       }, [])
