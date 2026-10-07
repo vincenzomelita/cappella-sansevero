@@ -362,15 +362,14 @@ object_list:
 
 
   - id: en-1
-  Artista: Francesco Celebrano (Naples, 1729 – ibid., 1814)
-  Titolo dell’opera: Compianto sul Cristo morto
-  Tecnica: relief
-  Materia: marble
-  Datazione: c. 1766–1767
-  Dimensioni: "630 (h) × 300 (w) × 60 (d) cm"
-  Collocazione: Sansevero Chapel, high altar
-  doi: 10.82049/CATALOGO01
-  figure:
+    Artista: Francesco Celebrano (Naples, 1729 – ibid., 1814)
+    Titolo dell’opera: Compianto sul Cristo morto
+    Tecnica: relief
+    Materia: marble
+    Datazione: c. 1766–1767
+    Dimensioni: "630 (h) × 300 (w) × 60 (d) cm"
+    Collocazione: Sansevero Chapel, high altar
+    figure:
     - id: cat-1
 
 
