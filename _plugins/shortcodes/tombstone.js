@@ -13,16 +13,31 @@ module.exports = function(eleventyConfig, { page }) {
     const icon = eleventyConfig.getFilter('icon')
     const markdownify = eleventyConfig.getFilter('markdownify')
     const properties = objects.object_display_order
+    const englishLabels = {
+      'Artista': 'Artist',
+      'Titolo dell’opera': 'Title of the work',
+      'Tecnica': 'Technique',
+      'Materia': 'Material',
+      'Datazione': 'Date',
+      'Dimensioni': 'Dimensions',
+      'Collocazione': 'Location'
+    }
 
     const tableRow = (object, property) => {
       if (!object || !property || !object[property]) return ''
 
+      const isEnglishObject = String(object.id || '').startsWith('en-')
+
+      const label = isEnglishObject
+        ? englishLabels[property] || titleCase(property)
+        : titleCase(property)
+
       return html`
         <tr>
-          <td>${titleCase(property)}</td>
+          <td>${label}</td>
           <td>${markdownify(object[property].toString())}</td>
         </tr>
-      `
+  `
     }
 
     const objectLink = (object) => object.link
