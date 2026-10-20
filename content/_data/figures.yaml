@@ -36,6 +36,13 @@ figure_list:
     canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/canvas/87f0d79e-0a1f-49d9-bb2f-6b301b7b8602
     zoom: true
 
+  - id: "en-cat-4"
+    src: figures/4.jpg
+    caption: "Funerary monument to Alessandro di Sangro, Patriarch of Alexandria, *Giovan Domenico Monterosso; Giacomo Lazzari; Giovanni Antonio Galluccio*"
+    manifestId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/manifest
+    canvasId: https://museosansevero.jarvis.memooria.org/meta/iiif/736d09b9-44b4-46c1-9762-d0177b219a70/canvas/87f0d79e-0a1f-49d9-bb2f-6b301b7b8602
+    zoom: true
+
   - id: "cat-5"
     src: figures/5.jpg
     caption: "Cristo velato, *Giuseppe Sanmartino*"
