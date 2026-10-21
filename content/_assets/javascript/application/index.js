@@ -193,8 +193,22 @@ function loadSearchData() {
       console.warn(`Search data ${statusText.toLowerCase()} at ${url}`)
       return
     }
-    const data = await response.json()
-    window['QUIRE_SEARCH'] = new Search(data)
+const data = await response.json()
+
+const currentLang = window.location.pathname.startsWith('/en/')
+  ? 'en'
+  : 'it'
+
+const localizedData = data.filter(({ url }) => {
+  if (!url) return false
+
+  const pathname = new URL(url, window.location.origin).pathname
+  const pageLang = pathname.startsWith('/en/') ? 'en' : 'it'
+
+  return pageLang === currentLang
+})
+
+window['QUIRE_SEARCH'] = new Search(localizedData)
   })
 }
 
