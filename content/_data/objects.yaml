@@ -372,7 +372,7 @@ object_list:
   Dimensioni: '630 (h) × 300 (w) × 60 (d) cm'
   Collocazione: 'Sansevero Chapel, high altar'
   figure:
-  - id: cat-1
+  - id: en-cat-1
 
 - id: en-2
   Artista: 'Paolo Persico: relief; unknown southern painter of the second half of the 16th century: mural painting'
@@ -383,7 +383,7 @@ object_list:
   Dimensioni: 'Radiant halo: 369.86 (h) × 393.52 (w) cm; Painting: 176.8 (h) × 140 (w) cm'
   Collocazione: 'Sansevero Chapel, high altar'
   figure:
-  - id: cat-2
+  - id: en-cat-2
 
 - id: en-3
   Artista: 'Paolo Persico'
@@ -394,8 +394,8 @@ object_list:
   Dimensioni: '262 (h) × 160 (w) × 100 (d) cm; 245 (h) × 150 (w) × 83 (d) cm'
   Collocazione: 'Sansevero Chapel, high altar'
   figure:
-  - id: cat-3
-  - id: cat-3_2
+  - id: en-cat-3
+  - id: en-cat-3_2
 
 - id: en-4
   Artista: 'Giovan Domenico Monterosso: bust and angels; Giacomo Lazzari (Florence, 1574 – Naples, 1640) and Giovanni Antonio Galluccio: design of the tomb and marble facing'
@@ -417,7 +417,7 @@ object_list:
   Dimensioni: '100 (h) × 188 (w) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-5
+  - id: en-cat-5
 
 - id: en-6
   Artista: 'Antonio Corradini (Este, 1688 – Naples, 1752)'
@@ -428,7 +428,7 @@ object_list:
   Dimensioni: '590 (h) × 160 (w) × 100 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-6
+  - id: en-cat-6
 
 - id: en-7
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762)'
@@ -439,8 +439,8 @@ object_list:
   Dimensioni: '397 (h) × 300 (w) × 75 (d) cm; 435 (h) × 300 (w) × 122 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-7
-  - id: cat-7_2
+  - id: en-cat-7
+  - id: en-cat-7_2
 
 - id: en-8
   Artista: 'Paolo Persico'
@@ -451,7 +451,7 @@ object_list:
   Dimensioni: '500 (h) × 150 (w) × 65 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-8
+  - id: en-cat-8
 
 - id: en-9
   Artista: 'Artist unknown: design and execution of the monument; Carlo Amalfi: painted portrait'
@@ -462,7 +462,7 @@ object_list:
   Dimensioni: '240 (h) × 230 (w) × 50 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-9
+  - id: en-cat-9
 
 - id: en-10
   Artista: 'Fortunato Onelli and others; Francesco Celebrano (Naples, 1729 – ibid., 1814): supervision of works'
@@ -473,7 +473,7 @@ object_list:
   Dimensioni: '320 (h) × 130 (w) × 66 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-10
+  - id: en-cat-10
 
 - id: en-11
   Artista: 'Francesco Cassano: statue of Giovan Francesco di Sangro; Giacomo Lazzari (Florence, 1574 – Naples, 1640): design of the tomb and marble facing'
@@ -484,7 +484,7 @@ object_list:
   Dimensioni: '580 (h) × 300 (w) × 55 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-11
+  - id: en-cat-11
 
 - id: en-12
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762)'
@@ -495,7 +495,7 @@ object_list:
   Dimensioni: '500 (h) × 150 (w) × 80 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-12
+  - id: en-cat-12
 
 - id: en-13
   Artista: 'Giulio Mencaglia (sculptor); Berardino Landini (marble worker)'
@@ -506,7 +506,7 @@ object_list:
   Dimensioni: '570 (h) × 300 (w) × 88 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-13
+  - id: en-cat-13
 
 - id: en-14
   Artista: 'Antonio Corradini (Este, 1688 – Naples, 1752)'
@@ -517,7 +517,7 @@ object_list:
   Dimensioni: '450 (h) × 117 (w) × 65 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-14
+  - id: en-cat-14
 
 - id: en-15
   Artista: 'Antonio Corradini (Este, 1688 – Naples, 1752) (?)'
@@ -528,7 +528,7 @@ object_list:
   Dimensioni: '396 (h) × 105 (w) × 78 (d) cm'
   Collocazione: 'Sansevero Chapel, counter-façade'
   figure:
-  - id: cat-15
+  - id: en-cat-15
 
 - id: en-16
   Artista: 'Francesco Celebrano (Naples, 1729 – ibid., 1814)'
@@ -539,7 +539,7 @@ object_list:
   Dimensioni: '340 (h) × 280 (w) × 120 (d) cm'
   Collocazione: 'Sansevero Chapel, counter-façade'
   figure:
-  - id: cat-16
+  - id: en-cat-16
 
 - id: en-17
   Artista: 'Francesco Celebrano (Naples, 1729 – ibid., 1814) (?)'
@@ -550,7 +550,7 @@ object_list:
   Dimensioni: '396 (h) × 105 (w) × 92 (d) cm'
   Collocazione: 'Sansevero Chapel, counter-façade'
   figure:
-  - id: cat-17
+  - id: en-cat-17
 
 - id: en-18
   Artista: 'Michelangelo Naccherino (Florence, 1550 – Naples, 1622); with interventions by Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762) (?)'
@@ -561,7 +561,7 @@ object_list:
   Dimensioni: '450 (h) × 117 (w) × 52 (d) cm'
   Collocazione: 'Sansevero Chapel, counter-façade'
   figure:
-  - id: cat-18
+  - id: en-cat-18
 
 - id: en-19
   Artista: 'Michelangelo Naccherino (Florence, 1550 – Naples, 1622)'
@@ -572,7 +572,7 @@ object_list:
   Dimensioni: '550 (h) × 315 (w) × 88 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-19
+  - id: en-cat-19
 
 - id: en-20
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762)'
@@ -583,7 +583,7 @@ object_list:
   Dimensioni: '500 (h) × 150 (w) × 60 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-20
+  - id: en-cat-20
 
 - id: en-21
   Artista: 'Antonio Corradini (Este, 1688 – Naples, 1752)'
@@ -594,7 +594,7 @@ object_list:
   Dimensioni: '580 (h) × 300 (w) × 44 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-21
+  - id: en-cat-21
 
 - id: en-22
   Artista: 'Francesco Celebrano (Naples, 1729 – ibid., 1814)'
@@ -605,7 +605,7 @@ object_list:
   Dimensioni: '450 (h) × 181 (w) × 60 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-22
+  - id: en-cat-22
 
 - id: en-23
   Artista: 'Francesco Celebrano (Naples, 1729 – ibid., 1814)'
@@ -616,7 +616,7 @@ object_list:
   Dimensioni: 'slab: 90 (h) × 90 (w) cm'
   Collocazione: 'Sansevero Chapel'
   figure:
-  - id: cat-23
+  - id: en-cat-23
 
 - id: en-24
   Artista: 'Francesco Maria Russo: conception of the monument; Carlo Amalfi: painted portrait'
@@ -627,7 +627,7 @@ object_list:
   Dimensioni: '500 (h) × 400 (w) × 70 (d) cm'
   Collocazione: 'Sansevero Chapel, small passage in front of the sacristy'
   figure:
-  - id: cat-24
+  - id: en-cat-24
 
 - id: en-25
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762); Paolo Persico: putto with doves'
@@ -638,7 +638,7 @@ object_list:
   Dimensioni: '500 (h) × 150 (w) × 65 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-25
+  - id: en-cat-25
 
 - id: en-26
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762); Giuseppe Sanmartino (Naples, 1720 – ibid., 1793): relief with Cristo che guarisce il cieco nato on the base'
@@ -649,7 +649,7 @@ object_list:
   Dimensioni: '632 (h) × 170 (w) × 100 (d) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-26
+  - id: en-cat-26
 
 - id: en-27
   Artista: 'Francesco Maria Queirolo (Genoa, 1704 – Naples, 1762)'
@@ -660,12 +660,12 @@ object_list:
   Dimensioni: '98 (h) × 78 (w) cm'
   Collocazione: 'Sansevero Chapel, nave'
   figure:
-  - id: cat-27
-  - id: cat-27_2
-  - id: cat-27_3
-  - id: cat-27_4
-  - id: cat-27_5
-  - id: cat-27_6
+  - id: en-cat-27
+  - id: en-cat-27_2
+  - id: en-cat-27_3
+  - id: en-cat-27_4
+  - id: en-cat-27_5
+  - id: en-cat-27_6
 
 - id: en-28
   Artista: 'Francesco Maria Russo'
@@ -676,7 +676,7 @@ object_list:
   Dimensioni: '500 (h) × 1000 (w) cm'
   Collocazione: 'Sansevero Chapel, vault'
   figure:
-  - id: cat-28
+  - id: en-cat-28
 
 - id: en-29
   Artista: 'Giuseppe Salerno (Palermo, 1728 – ibid., 1792)'
@@ -687,8 +687,8 @@ object_list:
   Dimensioni: '140 (h) × 70 (w) cm; 180 (h) × 41 (w) cm'
   Collocazione: 'Sansevero Chapel, underground cavea'
   figure:
-  - id: cat-29
-  - id: cat-29_2
+  - id: en-cat-29
+  - id: en-cat-29_2
 
 - id: en-30
   Artista: 'Francesco De Mura (Naples, 1696 – ibid., 1782)'
@@ -699,7 +699,7 @@ object_list:
   Dimensioni: '91 (h) × 73 (w) cm'
   Collocazione: 'Sansevero Chapel, sacristy'
   figure:
-  - id: cat-30
+  - id: en-cat-30
 
 - id: en-31
   Artista: 'Giuseppe Pesce (or Pesci)'
@@ -710,5 +710,5 @@ object_list:
   Dimensioni: '75 (h) × 61 (w) cm'
   Collocazione: 'Sansevero Chapel, sacristy'
   figure:
-  - id: cat-31
+  - id: en-cat-31
 
