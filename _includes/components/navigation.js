@@ -39,8 +39,15 @@ module.exports = function(eleventyConfig) {
     })
 
     const navBarLabel = ({ label, short_title, title }) => {
-      return pageTitle({ label, title: short_title || truncate(title, 34)})
-    }
+  const displayTitle = currentLang === 'en'
+    ? truncate(title, 34)
+    : short_title || truncate(title, 34)
+
+  return pageTitle({
+    label,
+    title: displayTitle
+  })
+}
 
     const navBarStartButton = () => {
       if (!isHomePage) return ''
