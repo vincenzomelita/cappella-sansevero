@@ -10,7 +10,7 @@ const { html } = require('~lib/common-tags')
  *
  * @return {String} "previous" and "next" buttons
  */
-module.exports = function(eleventyConfig) {
+module.exports = function(eleventyConfig, { page }) {
   const icon = eleventyConfig.getFilter('icon')
   const {
     nextButtonText,
@@ -18,21 +18,18 @@ module.exports = function(eleventyConfig) {
   } = eleventyConfig.globalData.config.navigation
 
 return function(params, options={}) {
-  const { pagination } = params
-  const { currentPage, nextPage, previousPage } = pagination
+const { pagination } = params
+const { nextPage, previousPage } = pagination
 
-  const currentLang = currentPage && (
-    currentPage.data.lang ||
-    (currentPage.url.startsWith('/en/') ? 'en' : 'it')
-  )
+const isEnglish = page && page.url && page.url.startsWith('/en/')
 
-  const localizedPrevButtonText = currentLang === 'en'
-    ? 'Previous'
-    : prevButtonText
+const localizedPrevButtonText = isEnglish
+  ? 'Previous'
+  : prevButtonText
 
-  const localizedNextButtonText = currentLang === 'en'
-    ? 'Next'
-    : nextButtonText
+const localizedNextButtonText = isEnglish
+  ? 'Next'
+  : nextButtonText
 
     const prevPageButton = () => {
       if (!previousPage) return
